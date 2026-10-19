@@ -33,7 +33,7 @@ npm run preview
 
 Enlaces incorporados:
 
-- Eventos: https://luma.com/user/usr-C04C7zKH7PXxBXM
+- Eventos: https://luma.com/barcelonaperfumeclub
 - Contacto: mailto:barcelonaperfumeclub@proton.me
 
 No hay formularios, analítica ni cookies. Las fuentes Playfair Display y Jost se sirven desde el propio sitio.

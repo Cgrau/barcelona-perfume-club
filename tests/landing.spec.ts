@@ -34,10 +34,10 @@ test("presenta el lanzamiento, el objetivo del club y los contactos reales", asy
   await expect(events).toContainText("Muy pronto");
   await expect(
     events.getByRole("link", { name: "Ver calendario", exact: true }),
-  ).toHaveAttribute("href", "https://luma.com/user/usr-C04C7zKH7PXxBXM");
+  ).toHaveAttribute("href", "https://luma.com/barcelonaperfumeclub");
   await expect(
     page.getByRole("link", { name: "Eventos", exact: true }),
-  ).toHaveAttribute("href", "https://luma.com/user/usr-C04C7zKH7PXxBXM");
+  ).toHaveAttribute("href", "https://luma.com/barcelonaperfumeclub");
   await expect(
     page.getByRole("link", { name: "Contacto", exact: true }),
   ).toHaveAttribute("href", "mailto:barcelonaperfumeclub@proton.me");

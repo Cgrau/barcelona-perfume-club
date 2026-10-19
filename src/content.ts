@@ -3,7 +3,7 @@ export type Photo = { src: string; srcSet: string; alt: string };
 // Completar con los datos reales del club.
 export const club = {
   links: {
-    calendar: "https://luma.com/user/usr-C04C7zKH7PXxBXM",
+    calendar: "https://luma.com/barcelonaperfumeclub",
     instagram: "https://www.instagram.com/barcelonaperfumeclub/" as
       | string
       | null,
