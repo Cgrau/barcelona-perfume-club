@@ -38,6 +38,7 @@ a {
 }
 h1,
 h2,
+h3,
 p {
   margin: 0;
   font-weight: 400;
@@ -83,9 +84,9 @@ p {
 }
 .landing-brand {
   display: block;
-  width: 260px;
+  width: 200px;
   max-width: 100%;
-  height: 126px;
+  height: 97px;
   overflow: hidden;
   flex-shrink: 0;
 }
@@ -151,7 +152,7 @@ p {
   font-size: 11px;
   letter-spacing: 0.15em;
 }
-.hero-eyebrow > span {
+.hero-eyebrow > span[aria-hidden="true"] {
   font:
     23px/1 Georgia,
     serif;
@@ -242,6 +243,75 @@ p {
   line-height: 1.9;
   text-wrap: pretty;
 }
+.club-pillars {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 30px;
+  border-top: 1px solid var(--line);
+  padding-top: 30px;
+}
+.club-pillar + .club-pillar {
+  border-left: 1px solid var(--line);
+  padding-left: 30px;
+}
+.pillar-index {
+  color: var(--muted);
+}
+.club-pillar h3 {
+  font:
+    400 31px/1.3 "Playfair Display",
+    Georgia,
+    serif;
+  letter-spacing: -0.025em;
+  margin: 14px 0 12px;
+}
+.club-pillar p {
+  color: var(--soft);
+  font-size: 17px;
+  line-height: 1.8;
+  text-wrap: pretty;
+}
+.landing-events {
+  border-top: 1px solid var(--line);
+  padding: 40px 0;
+}
+.events-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+  padding: 34px;
+  border: 1px solid var(--line);
+  background: rgb(243 238 224 / 3%);
+}
+.events-copy {
+  flex: 1;
+  min-width: 0;
+  max-width: 640px;
+}
+.events-status {
+  color: var(--muted);
+  margin-bottom: 13px;
+}
+.events-copy h2 {
+  font:
+    400 40px/1.25 "Playfair Display",
+    Georgia,
+    serif;
+  letter-spacing: -0.025em;
+}
+.events-copy > p:last-child {
+  color: var(--soft);
+  font-size: 18px;
+  line-height: 1.8;
+  margin-top: 17px;
+  text-wrap: pretty;
+}
+.landing-events .landing-luma {
+  flex-shrink: 0;
+  margin-top: 0;
+}
 .landing-contact {
   border-top: 1px solid var(--line);
   padding: 35px 0 42px;
@@ -316,8 +386,8 @@ p {
     max-width: 680px;
   }
   .landing-brand {
-    width: 240px;
-    height: 116px;
+    width: 190px;
+    height: 92px;
   }
   .landing-main {
     padding-top: 35px;
@@ -331,6 +401,45 @@ p {
   .landing-about > p {
     font-size: 17px;
   }
+  .club-pillars {
+    gap: 20px;
+  }
+  .club-pillar + .club-pillar {
+    padding-left: 20px;
+  }
+  .club-pillar h3 {
+    font-size: 28px;
+  }
+  .events-panel {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    padding: 28px;
+  }
+}
+@media (max-width: 700px) {
+  .club-pillars {
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding-top: 24px;
+  }
+  .club-pillar {
+    padding: 25px 0;
+  }
+  .club-pillar:first-child {
+    padding-top: 0;
+  }
+  .club-pillar:last-child {
+    padding-bottom: 0;
+  }
+  .club-pillar + .club-pillar {
+    border-left: 0;
+    border-top: 1px solid var(--line);
+    padding-left: 0;
+  }
+  .club-pillar h3 {
+    font-size: 31px;
+  }
 }
 @media (max-width: 600px) {
   .landing {
@@ -340,8 +449,8 @@ p {
     padding: calc(5px + env(safe-area-inset-top)) 0 9px;
   }
   .landing-brand {
-    width: 220px;
-    height: 106px;
+    width: 170px;
+    height: 82px;
   }
   .landing-header nav {
     gap: 26px;
@@ -364,7 +473,7 @@ p {
     gap: 9px;
     margin-bottom: 24px;
   }
-  .hero-eyebrow > span {
+  .hero-eyebrow > span[aria-hidden="true"] {
     font-size: 19px;
   }
   .landing-hero h1 {
@@ -403,6 +512,18 @@ p {
     font-size: 17px;
     line-height: 1.85;
   }
+  .landing-events {
+    padding: 28px 0;
+  }
+  .events-panel {
+    padding: 24px 20px;
+  }
+  .events-copy h2 {
+    font-size: 33px;
+  }
+  .events-copy > p:last-child {
+    font-size: 17px;
+  }
   .landing-contact {
     padding: 28px 0 35px;
   }
@@ -421,8 +542,8 @@ p {
     padding: calc(2px + env(safe-area-inset-top)) 0 2px;
   }
   .landing-brand {
-    width: 150px;
-    height: 72px;
+    width: 140px;
+    height: 68px;
   }
   .landing-header nav a {
     min-height: 40px;

@@ -2,9 +2,9 @@
 
 La versión actual es una landing de lanzamiento estática, sin animaciones. El logo original se presenta sobre su mismo burdeos, #640817.
 
-La portada presenta «El perfume se disfruta más en compañía» con una composición tipográfica y sin fotografías. El logo y el menú quedan fijos arriba y las redes sociales fijas abajo. Solo se desplaza el contenido central, con navegación por ratón, tacto y teclado. El logo, el menú y los textos tienen mayor tamaño para facilitar la lectura.
+La portada presenta «El perfume se disfruta más en compañía» con una composición tipográfica y sin fotografías. El logo, centrado y compacto, y el menú quedan fijos arriba y las redes sociales fijas abajo. Solo se desplaza el contenido central, con navegación por ratón, tacto y teclado. Los textos mantienen un tamaño cómodo de lectura.
 
-El aviso de preparación y del calendario próximo queda como información secundaria. Incluye el objetivo del club, el perfil de Luma y un apartado de contacto para consultas o propuestas de colaboración: «¿Tienes alguna consulta o una idea para colaborar? Nos encantará leerte».
+La frase «Perfume, conversación y comunidad» introduce la portada. El apartado El club desarrolla tres pilares: Descubrir, Compartir y Conectar. El bloque Próximos eventos muestra el estado «Muy pronto» y enlaza al calendario de Luma, sin fechas inventadas. El aviso de preparación queda como información secundaria. El contacto invita a consultas o propuestas de colaboración: «¿Tienes alguna consulta o una idea para colaborar? Nos encantará leerte».
 
 ## Abrir en local
 
@@ -59,13 +59,15 @@ También se puede utilizar Brave instalado en macOS:
 BROWSER_PATH='/Applications/Brave Browser.app/Contents/MacOS/Brave Browser' npm test
 ```
 
-La suite activa comprueba la landing en 375 y 1440 px: titular, objetivo y aviso de lanzamiento, enlaces reales, logo, ausencia de fotografías y animaciones, scroll exclusivo del contenido central, cabecera y redes visibles, navegación por anclas y teclado y accesibilidad con axe.
+La suite activa comprueba la landing en 375 y 1440 px: titular, objetivo, tres pilares y aviso de lanzamiento, bloque de próximos eventos, enlaces reales, logo, ausencia de fotografías y animaciones, scroll exclusivo del contenido central, cabecera y redes visibles, navegación por anclas y teclado y accesibilidad con axe.
 
 Capturas de producción para revisión:
 
 - [Móvil, 375 px](docs/previews/landing-mobile.png).
 - [Escritorio, 1440 px](docs/previews/landing-desktop.png).
 - [Contacto en móvil](docs/previews/landing-mobile-contacto.png).
+- [El club en escritorio](docs/previews/landing-desktop-el-club.png).
+- [Próximos eventos en móvil](docs/previews/landing-mobile-eventos.png).
 
 Los resultados de compilación, pruebas y Lighthouse están en [VALIDATION.md](docs/VALIDATION.md).
 

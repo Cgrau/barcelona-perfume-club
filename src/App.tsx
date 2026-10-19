@@ -42,8 +42,8 @@ export default function App() {
         >
           <div className="landing-hero-copy">
             <p className="landing-eyebrow hero-eyebrow">
-              <span aria-hidden="true">✳</span> Barcelona · Perfumería ·
-              Comunidad
+              <span aria-hidden="true">✳</span>
+              <span>Perfume, conversación y comunidad</span>
             </p>
             <h1 id="landing-title">
               <span>El perfume se </span>
@@ -84,6 +84,60 @@ export default function App() {
             <h2 id="club-heading">El club</h2>
           </div>
           <p>{clubPurpose}</p>
+          <div className="club-pillars">
+            <article className="club-pillar">
+              <span className="landing-eyebrow pillar-index" aria-hidden="true">
+                01
+              </span>
+              <h3>Descubrir</h3>
+              <p>
+                Explorar fragancias y marcas que despierten nuestra curiosidad.
+              </p>
+            </article>
+            <article className="club-pillar">
+              <span className="landing-eyebrow pillar-index" aria-hidden="true">
+                02
+              </span>
+              <h3>Compartir</h3>
+              <p>
+                Traer un perfume, intercambiar impresiones y aprender juntos.
+              </p>
+            </article>
+            <article className="club-pillar">
+              <span className="landing-eyebrow pillar-index" aria-hidden="true">
+                03
+              </span>
+              <h3>Conectar</h3>
+              <p>
+                Conocer a otras personas que disfrutan del perfume tanto como
+                tú.
+              </p>
+            </article>
+          </div>
+        </section>
+        <section
+          className="landing-events"
+          id="eventos"
+          aria-labelledby="events-heading"
+        >
+          <div className="events-panel">
+            <div className="events-copy">
+              <p className="landing-eyebrow events-status">Muy pronto</p>
+              <h2 id="events-heading">Próximos eventos</h2>
+              <p>
+                Estamos preparando los próximos eventos del club. Encontrarás
+                las nuevas fechas en nuestro calendario de Luma.
+              </p>
+            </div>
+            <a
+              className="landing-luma"
+              href={club.links.calendar}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ver calendario
+            </a>
+          </div>
         </section>
         <section
           className="landing-contact"

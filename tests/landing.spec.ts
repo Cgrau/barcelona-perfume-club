@@ -9,6 +9,9 @@ test("presenta el lanzamiento, el objetivo del club y los contactos reales", asy
     "El perfume se disfruta más en compañía.",
   );
   await expect(
+    page.getByText("Perfume, conversación y comunidad", { exact: true }),
+  ).toBeVisible();
+  await expect(
     page.getByText("El calendario de eventos saldrá muy pronto."),
   ).toBeVisible();
   await expect(
@@ -19,6 +22,19 @@ test("presenta el lanzamiento, el objetivo del club y los contactos reales", asy
   await expect(about).toBeVisible();
   await expect(about).toContainText("Nuestro objetivo");
   await expect(about).toContainText("descubrir marcas");
+  for (const title of ["Descubrir", "Compartir", "Conectar"]) {
+    await expect(
+      about.getByRole("heading", { name: title, exact: true }),
+    ).toBeVisible();
+  }
+  const events = page.getByRole("region", {
+    name: "Próximos eventos",
+    exact: true,
+  });
+  await expect(events).toContainText("Muy pronto");
+  await expect(
+    events.getByRole("link", { name: "Ver calendario", exact: true }),
+  ).toHaveAttribute("href", "https://luma.com/user/usr-C04C7zKH7PXxBXM");
   await expect(
     page.getByRole("link", { name: "Eventos", exact: true }),
   ).toHaveAttribute("href", "https://luma.com/user/usr-C04C7zKH7PXxBXM");
