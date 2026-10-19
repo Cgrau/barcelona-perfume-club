@@ -52,7 +52,7 @@ export const photos = {
 export const manifesto =
   "Nuestro objetivo es crear un punto de encuentro en Barcelona para quienes aman el perfume. Queremos descubrir marcas, compartir fragancias y aprender juntos. Estamos preparando encuentros para oler, conversar y conocer a personas que sienten lo mismo.";
 export const clubPurpose =
-  "Nuestro objetivo es reunir en Barcelona a quienes aman el perfume. Queremos descubrir marcas, compartir fragancias y aprender juntos, en encuentros donde lo primero sea oler y disfrutar en compañía.";
+  "Nuestro objetivo es reunir en Barcelona a quienes aman el perfume. Queremos descubrir marcas, compartir fragancias y aprender juntos, en eventos donde lo primero sea oler y disfrutar en compañía.";
 export const experiences = [
   {
     title: "Encuentros",

@@ -5,10 +5,17 @@ import "./landing.css";
 export default function App() {
   return (
     <div className="landing">
-      <a className="skip-link" href="#el-club">
+      <a className="skip-link" href="#contenido">
         Saltar al contenido
       </a>
       <header className="landing-header">
+        <a
+          href="#inicio"
+          className="landing-brand"
+          aria-label="Barcelona Perfume Club, inicio"
+        >
+          <Brand className="landing-logo" />
+        </a>
         <nav aria-label="Principal">
           <a href="#el-club">El club</a>
           <a
@@ -16,48 +23,83 @@ export default function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Encuentros<span aria-hidden="true"> ↗</span>
+            Eventos
           </a>
           <a href={club.links.contact}>Contacto</a>
         </nav>
       </header>
 
-      <main className="landing-main">
-        <div className="landing-brand">
-          <Brand className="landing-logo" />
-        </div>
-        <div className="landing-announcement">
-          <p className="landing-eyebrow">Muy pronto</p>
-          <h1>Estamos preparándolo todo.</h1>
-          <p className="landing-status">
-            El calendario de eventos saldrá muy pronto.
-          </p>
-        </div>
+      <main
+        className="landing-main"
+        id="contenido"
+        tabIndex={0}
+        aria-label="Contenido del club"
+      >
+        <section
+          className="landing-hero"
+          id="inicio"
+          aria-labelledby="landing-title"
+        >
+          <div className="landing-hero-copy">
+            <p className="landing-eyebrow hero-eyebrow">
+              <span aria-hidden="true">✳</span> Barcelona · Perfumería ·
+              Comunidad
+            </p>
+            <h1 id="landing-title">
+              <span>El perfume se </span>
+              <span>disfruta más </span>
+              <em>en compañía.</em>
+            </h1>
+            <p className="landing-intro">
+              Un punto de encuentro en Barcelona para descubrir perfumes,
+              compartir lo que nos mueve y aprender juntos.
+            </p>
+            <a
+              className="landing-luma"
+              href={club.links.calendar}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Eventos en Luma
+            </a>
+            <div className="landing-status">
+              <span className="status-dot" aria-hidden="true" />
+              <div>
+                <p className="landing-status-title">
+                  Estamos preparándolo todo.
+                </p>
+                <p>El calendario de eventos saldrá muy pronto.</p>
+              </div>
+            </div>
+          </div>
+        </section>
 
         <section
           className="landing-about"
           id="el-club"
           aria-labelledby="club-heading"
         >
-          <h2 className="landing-eyebrow" id="club-heading">
-            El club
-          </h2>
+          <div className="landing-about-label">
+            <span className="landing-eyebrow">Lo que nos une</span>
+            <h2 id="club-heading">El club</h2>
+          </div>
           <p>{clubPurpose}</p>
         </section>
-
-        <a
-          className="landing-luma"
-          href={club.links.calendar}
-          target="_blank"
-          rel="noopener noreferrer"
+        <section
+          className="landing-contact"
+          id="contacto"
+          aria-labelledby="contact-heading"
         >
-          Encuentros en Luma<span aria-hidden="true">↗</span>
-        </a>
+          <h2 id="contact-heading">Hablemos de perfume.</h2>
+          <p>
+            ¿Tienes alguna consulta o una idea para colaborar? Nos encantará
+            leerte.
+          </p>
+          <a href={club.links.contact}>barcelonaperfumeclub@proton.me</a>
+        </section>
       </main>
 
-      <footer className="landing-footer" id="contacto">
-        <p>Mientras tanto, puedes escribirnos.</p>
-        <a href={club.links.contact}>barcelonaperfumeclub@proton.me</a>
+      <footer className="landing-footer">
         <nav className="landing-social" aria-label="Redes sociales">
           {club.links.instagram && (
             <a

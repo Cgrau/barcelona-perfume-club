@@ -2,7 +2,9 @@
 
 La versión actual es una landing de lanzamiento estática, sin animaciones. El logo original se presenta sobre su mismo burdeos, #640817.
 
-La página explica que estamos preparándolo todo y que el calendario de eventos saldrá muy pronto. Incluye el objetivo del club, el perfil de Luma y el email de contacto.
+La portada presenta «El perfume se disfruta más en compañía» con una composición tipográfica y sin fotografías. El logo y el menú quedan fijos arriba y las redes sociales fijas abajo. Solo se desplaza el contenido central, con navegación por ratón, tacto y teclado. El logo, el menú y los textos tienen mayor tamaño para facilitar la lectura.
+
+El aviso de preparación y del calendario próximo queda como información secundaria. Incluye el objetivo del club, el perfil de Luma y un apartado de contacto para consultas o propuestas de colaboración: «¿Tienes alguna consulta o una idea para colaborar? Nos encantará leerte».
 
 ## Abrir en local
 
@@ -26,11 +28,12 @@ npm run preview
 - `src/landing.css`: fondo, tipografías locales y diseño responsive, sin animaciones.
 - `src/content.ts`: objetivo del club y enlaces compartidos con la futura web.
 - `public/media/logo.webp`: copia optimizada del logo original.
+- `public/media/mouillettes-*.webp`: recursos conservados para la futura web completa. No se cargan en la landing actual.
 - `index.html`: título y metadatos para buscadores y redes sociales.
 
 Enlaces incorporados:
 
-- Encuentros: https://luma.com/user/usr-C04C7zKH7PXxBXM
+- Eventos: https://luma.com/user/usr-C04C7zKH7PXxBXM
 - Contacto: mailto:barcelonaperfumeclub@proton.me
 
 No hay formularios, analítica ni cookies. Las fuentes Playfair Display y Jost se sirven desde el propio sitio.
@@ -56,17 +59,18 @@ También se puede utilizar Brave instalado en macOS:
 BROWSER_PATH='/Applications/Brave Browser.app/Contents/MacOS/Brave Browser' npm test
 ```
 
-La suite activa comprueba la landing en 375 y 1440 px: objetivo y aviso de lanzamiento, enlaces reales, carga del logo, ausencia de animaciones y desbordamiento horizontal y accesibilidad con axe.
+La suite activa comprueba la landing en 375 y 1440 px: titular, objetivo y aviso de lanzamiento, enlaces reales, logo, ausencia de fotografías y animaciones, scroll exclusivo del contenido central, cabecera y redes visibles, navegación por anclas y teclado y accesibilidad con axe.
 
 Capturas de producción para revisión:
 
 - [Móvil, 375 px](docs/previews/landing-mobile.png).
 - [Escritorio, 1440 px](docs/previews/landing-desktop.png).
+- [Contacto en móvil](docs/previews/landing-mobile-contacto.png).
 
 Los resultados de compilación, pruebas y Lighthouse están en [VALIDATION.md](docs/VALIDATION.md).
 
 ## Publicación
 
-La web sigue en local. Vercel o Netlify pueden construir con `npm run build` y publicar `dist/`.
+La publicación principal está configurada en GitHub Pages: `.github/workflows/deploy.yml` compila y publica `dist/` cuando hay cambios en `main`. El dominio configurado en `public/CNAME` es `barcelonaperfumeclub.com`. Los metadatos usan ese dominio.
 
-Antes de publicar, falta elegir el dominio, usar URLs absolutas reales para `og:image`, añadir canonical y `og:url` y completar los datos del titular para el aviso legal. El perfil de Instagram queda pendiente para la futura web completa.
+Los datos del titular para el aviso legal siguen pendientes. No se ha añadido texto de copyright sin una petición expresa.
