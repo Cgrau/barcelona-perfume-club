@@ -152,10 +152,11 @@ p {
   font-size: 11px;
   letter-spacing: 0.15em;
 }
-.hero-eyebrow > span[aria-hidden="true"] {
-  font:
-    23px/1 Georgia,
-    serif;
+.hero-asterisk {
+  display: block;
+  flex-shrink: 0;
+  width: 23px;
+  height: 23px;
   color: var(--cream);
 }
 .landing-hero h1 {
@@ -473,8 +474,9 @@ p {
     gap: 9px;
     margin-bottom: 24px;
   }
-  .hero-eyebrow > span[aria-hidden="true"] {
-    font-size: 19px;
+  .hero-asterisk {
+    width: 19px;
+    height: 19px;
   }
   .landing-hero h1 {
     font-size: clamp(42px, 13.6vw, 65px);

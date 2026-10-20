@@ -42,7 +42,19 @@ export default function App() {
         >
           <div className="landing-hero-copy">
             <p className="landing-eyebrow hero-eyebrow">
-              <span aria-hidden="true">✳</span>
+              <svg
+                className="hero-asterisk"
+                width="23"
+                height="23"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <path d="M12 2v20M2 12h20M5 5l14 14M5 19 19 5" />
+              </svg>
               <span>Perfume, conversación y comunidad</span>
             </p>
             <h1 id="landing-title">
