@@ -42,25 +42,10 @@ export default function App() {
         >
           <div className="landing-hero-copy">
             <p className="landing-eyebrow hero-eyebrow">
-              <svg
-                className="hero-asterisk"
-                width="23"
-                height="23"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1"
-                aria-hidden="true"
-                focusable="false"
-              >
-                <path d="M12 2v20M2 12h20M5 5l14 14M5 19 19 5" />
-              </svg>
               <span>Perfume, conversación y comunidad</span>
             </p>
             <h1 id="landing-title">
-              <span>El perfume se </span>
-              <span>disfruta más </span>
-              <em>en compañía.</em>
+              El perfume se disfruta más <em>en compañía.</em>
             </h1>
             <p className="landing-intro">
               Un punto de encuentro en Barcelona para descubrir perfumes,
@@ -75,7 +60,6 @@ export default function App() {
               Eventos en Luma
             </a>
             <div className="landing-status">
-              <span className="status-dot" aria-hidden="true" />
               <div>
                 <p className="landing-status-title">
                   Estamos preparándolo todo.

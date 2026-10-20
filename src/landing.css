@@ -143,31 +143,17 @@ p {
   text-transform: uppercase;
 }
 .hero-eyebrow {
-  display: flex;
-  justify-content: center;
-  gap: 14px;
-  align-items: center;
   color: var(--muted);
   margin-bottom: 29px;
   font-size: 11px;
   letter-spacing: 0.15em;
-}
-.hero-asterisk {
-  display: block;
-  flex-shrink: 0;
-  width: 23px;
-  height: 23px;
-  color: var(--cream);
 }
 .landing-hero h1 {
   font-family: "Playfair Display", Georgia, serif;
   font-size: clamp(60px, 6.2vw, 90px);
   line-height: 1.08;
   letter-spacing: -0.045em;
-}
-.landing-hero h1 > span,
-.landing-hero h1 > em {
-  display: block;
+  text-wrap: balance;
 }
 .landing-hero h1 > em {
   font-weight: 400;
@@ -199,21 +185,10 @@ p {
   color: var(--cream);
 }
 .landing-status {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  align-items: baseline;
   margin-top: 24px;
   color: var(--muted);
   font-size: 14px;
   line-height: 1.9;
-}
-.status-dot {
-  width: 5px;
-  height: 5px;
-  flex: 0 0 5px;
-  border-radius: 50%;
-  background: var(--cream);
 }
 .landing-status-title {
   color: var(--cream);
@@ -393,9 +368,6 @@ p {
   .landing-main {
     padding-top: 35px;
   }
-  .landing-hero h1 {
-    font-size: clamp(54px, 9vw, 76px);
-  }
   .landing-about {
     gap: 30px;
   }
@@ -471,12 +443,7 @@ p {
   .hero-eyebrow {
     font-size: 9px;
     letter-spacing: 0.09em;
-    gap: 9px;
     margin-bottom: 24px;
-  }
-  .hero-asterisk {
-    width: 19px;
-    height: 19px;
   }
   .landing-hero h1 {
     font-size: clamp(42px, 13.6vw, 65px);
@@ -496,7 +463,6 @@ p {
   .landing-status {
     font-size: 13px;
     margin-top: 22px;
-    gap: 8px;
   }
   .landing-hero {
     padding-bottom: 38px;
