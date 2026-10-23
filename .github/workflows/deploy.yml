@@ -27,6 +27,8 @@ jobs:
       - run: npm run build
         env:
           UMAMI_WEBSITE_ID: ${{ vars.UMAMI_WEBSITE_ID }}
+      - name: Comprobar los metadatos antes de publicar
+        run: npm run seo:check
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

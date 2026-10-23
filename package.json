@@ -8,7 +8,9 @@
     "build": "tsc -b && vite build && vite build --ssr src/entry-server.tsx --outDir build/prerender && node scripts/prerender.mjs",
     "preview": "vite preview --host 127.0.0.1",
     "test": "playwright test",
-    "test:ui": "playwright test --ui"
+    "test:ui": "playwright test --ui",
+    "seo:check": "node scripts/check-seo.mjs",
+    "seo:audit": "npm run seo:check && lhci autorun"
   },
   "dependencies": {
     "@fontsource/jost": "^5.2.0",
@@ -20,6 +22,7 @@
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.10.0",
+    "@lhci/cli": "0.15.1",
     "@playwright/test": "^1.56.0",
     "@types/node": "^24.0.0",
     "@types/react": "^19.1.0",

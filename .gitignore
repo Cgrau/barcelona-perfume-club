@@ -4,6 +4,7 @@ dist/
 build/
 test-results/
 playwright-report/
+.lighthouseci/
 .DS_Store
 .env*
 !.env.example

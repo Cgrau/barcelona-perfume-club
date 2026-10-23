@@ -75,6 +75,10 @@ Capturas de producción para revisión:
 
 Los resultados de compilación, pruebas y Lighthouse están en [VALIDATION.md](docs/VALIDATION.md).
 
+## SEO y Search Console
+
+Los metadatos describen la comunidad y los eventos de perfumería en Barcelona. GitHub comprueba automáticamente el SEO, la accesibilidad y el rendimiento con Lighthouse CI en móvil y escritorio. La etiqueta de verificación de Google está incorporada; la confirmación de propiedad debe completarse en la cuenta de Search Console. Instrucciones e informes en [SEO.md](docs/SEO.md).
+
 ## Publicación
 
 La publicación principal está configurada en GitHub Pages: `.github/workflows/deploy.yml` compila y publica `dist/` cuando hay cambios en `main`. El dominio configurado en `public/CNAME` es `barcelonaperfumeclub.com`. Los metadatos usan ese dominio.
