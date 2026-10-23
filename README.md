@@ -77,7 +77,7 @@ Los resultados de compilación, pruebas y Lighthouse están en [VALIDATION.md](d
 
 ## SEO y Search Console
 
-Los metadatos describen la comunidad y los eventos de perfumería en Barcelona. GitHub comprueba automáticamente el SEO, la accesibilidad y el rendimiento con Lighthouse CI en móvil y escritorio. La etiqueta de verificación de Google está incorporada; la confirmación de propiedad debe completarse en la cuenta de Search Console. Instrucciones e informes en [SEO.md](docs/SEO.md).
+Los metadatos describen la comunidad y los eventos de perfumería en Barcelona. GitHub comprueba automáticamente el SEO, la accesibilidad y el rendimiento con Lighthouse CI en móvil y escritorio. La propiedad está verificada en Search Console, el sitemap está aceptado y Google confirma que la portada está indexada. La introducción y los datos de la organización explican que somos una comunidad de perfumería en Barcelona; la posición en búsquedas locales debe medirse y trabajarse, no se deduce de la puntuación de Lighthouse. Instrucciones e informes en [SEO.md](docs/SEO.md).
 
 ## Publicación
 

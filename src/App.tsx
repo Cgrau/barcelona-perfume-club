@@ -53,8 +53,9 @@ export default function App() {
             <div className="hero-invitation">
               <div className="hero-message">
                 <p className="landing-intro">
-                  Un punto de encuentro en Barcelona para descubrir perfumes,
-                  compartir lo que nos mueve y aprender juntos.
+                  Barcelona Perfume Club es una comunidad de Barcelona para
+                  amantes de la perfumería. Descubre marcas, comparte tu afición
+                  y conoce gente con tu misma pasión.
                 </p>
                 <div className="hero-action">
                   <a
@@ -85,7 +86,9 @@ export default function App() {
         >
           <div className="landing-about-label">
             <h2 id="club-heading">El club</h2>
-            <p>Barcelona, y el perfume como punto de encuentro.</p>
+            <p>
+              Un club de perfumería en Barcelona para oler, aprender y compartir.
+            </p>
           </div>
           <div className="landing-about-copy">
             <p className="club-statement">
