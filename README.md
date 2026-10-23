@@ -1,8 +1,10 @@
 # Barcelona Perfume Club
 
-La versión actual es una landing de lanzamiento estática, sin animaciones. El logo original se presenta sobre su mismo burdeos, #640817.
+Rediseño aprobado por Carles el 23 de octubre de 2026 para su publicación en https://barcelonaperfumeclub.com/. GitHub Pages publica automáticamente los cambios de `main`.
 
-La portada presenta «El perfume se disfruta más en compañía» con una composición tipográfica y sin fotografías. El logo, centrado y compacto, y el menú quedan fijos arriba y las redes sociales fijas abajo. Solo se desplaza el contenido central, con navegación por ratón, tacto y teclado. Los textos mantienen un tamaño cómodo de lectura.
+La versión actual es una landing de lanzamiento estática, sin animaciones de entrada ni movimiento continuo. El logo original se presenta sin fondo opaco sobre el burdeos #640817. La paleta usa burdeos y marfil en toda la página.
+
+La portada presenta «El perfume se disfruta más en compañía» con una composición tipográfica a todo el ancho y altura natural, sin centrar el contenido verticalmente en una pantalla completa. La fotografía de stock probada se ha retirado a petición de Carles. El logo, centrado y compacto, y el menú quedan fijos arriba y las redes sociales fijas abajo. Solo se desplaza el contenido central, con navegación por ratón, tacto y teclado. Los textos mantienen un tamaño cómodo de lectura.
 
 La frase «Perfume, conversación y comunidad» introduce la portada. El apartado El club desarrolla tres pilares: Descubrir, Compartir y Conectar. El bloque Próximos eventos muestra el estado «Muy pronto» y enlaza al calendario de Luma, sin fechas inventadas. El aviso de preparación queda como información secundaria. El contacto invita a consultas o propuestas de colaboración: «¿Tienes alguna consulta o una idea para colaborar? Nos encantará leerte».
 
@@ -27,9 +29,11 @@ npm run preview
 - `src/App.tsx`: estructura y aviso de lanzamiento.
 - `src/landing.css`: fondo, tipografías locales y diseño responsive, sin animaciones.
 - `src/content.ts`: objetivo del club y enlaces compartidos con la futura web.
-- `public/media/logo.webp`: copia optimizada del logo original.
+- `public/media/logo-mark.svg`: logo original con máscara transparente y tinta marfil, sin reconstruir el lettering. `logo.webp` conserva la copia optimizada original.
 - `public/media/mouillettes-*.webp`: recursos conservados para la futura web completa. No se cargan en la landing actual.
 - `index.html`: título y metadatos para buscadores y redes sociales.
+- `src/entry-server.tsx` y `scripts/prerender.mjs`: incorporan el contenido al HTML durante la compilación para que sea legible antes de ejecutar JavaScript.
+- `DESIGN.md`: criterio de diseño y decisiones de la revisión aprobada.
 
 Enlaces incorporados:
 
@@ -59,7 +63,7 @@ También se puede utilizar Brave instalado en macOS:
 BROWSER_PATH='/Applications/Brave Browser.app/Contents/MacOS/Brave Browser' npm test
 ```
 
-La suite activa comprueba la landing en 375 y 1440 px: titular, objetivo, tres pilares y aviso de lanzamiento, bloque de próximos eventos, enlaces reales, logo, ausencia de fotografías y animaciones, scroll exclusivo del contenido central, cabecera y redes visibles, navegación por anclas y teclado y accesibilidad con axe.
+La suite activa comprueba la landing en 375 y 1440 px: titular, objetivo, tres pilares y aviso de lanzamiento, bloque de próximos eventos, enlaces reales, logo, ausencia de fotografías activas y animaciones continuas, scroll exclusivo del contenido central, cabecera y redes visibles, navegación por anclas y teclado y accesibilidad con axe.
 
 Capturas de producción para revisión:
 

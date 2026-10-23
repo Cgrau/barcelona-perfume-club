@@ -122,6 +122,20 @@ test("el logo carga y la landing es accesible y estática también en móvil", a
   expect(
     await logo.evaluate((image: HTMLImageElement) => image.naturalWidth),
   ).toBeGreaterThan(0);
+  const logoCornerAlpha = await logo.evaluate((image: HTMLImageElement) => {
+    const canvas = document.createElement("canvas");
+    canvas.width = image.naturalWidth;
+    canvas.height = image.naturalHeight;
+    const context = canvas.getContext("2d")!;
+    context.drawImage(image, 0, 0);
+    return [
+      [0, 0],
+      [canvas.width - 1, 0],
+      [0, canvas.height - 1],
+      [canvas.width - 1, canvas.height - 1],
+    ].map(([x, y]) => context.getImageData(x, y, 1, 1).data[3]);
+  });
+  expect(logoCornerAlpha).toEqual([0, 0, 0, 0]);
   await expect(page.getByRole("main").locator("img")).toHaveCount(0);
   expect(
     await page.evaluate(

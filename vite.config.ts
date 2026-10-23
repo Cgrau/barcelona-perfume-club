@@ -8,6 +8,22 @@ export default defineConfig(({ mode }) => {
     plugins: [
       react(),
       {
+        name: "static-landing",
+        apply: "build",
+        transformIndexHtml: {
+          order: "pre",
+          handler(html) {
+            // React renders the complete HTML at build time. All current
+            // interactions use native links and CSS; no hydration is needed.
+            // The development server retains the React entry for hot reload.
+            return html.replace(
+              '<script type="module" src="/src/main.tsx"></script>',
+              "",
+            );
+          },
+        },
+      },
+      {
         name: "umami-cloud",
         apply: "build",
         transformIndexHtml() {

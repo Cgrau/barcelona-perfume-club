@@ -1,6 +1,14 @@
 # Validación de la landing de lanzamiento
 
-Fecha: 19 de octubre de 2026.
+Fecha de la última revisión: 23 de octubre de 2026.
+
+## Rediseño aprobado el 23 de octubre
+
+Portada tipográfica sin fotografías, burdeos y marfil unificados, logo con fondo transparente y portada de altura natural. Cabecera y redes fijas; solo se desplaza el contenido central. Compilación estática con contenido incorporado al HTML y Umami Cloud configurado mediante la variable de GitHub. La revisión completa se registra en `LOCAL-REDESIGN.md`.
+
+Comprobación previa a publicar: compilación con el ID real de Umami correcta, seis pruebas Playwright aprobadas contra el HTML compilado en escritorio y móvil, un único tracker y siete eventos conservados. Las cinco capturas enlazadas desde README se actualizan a esta versión. Ocho tamaños de pantalla comprobados durante la revisión final, sin desbordamiento horizontal.
+
+La validación del 19 de octubre que sigue se conserva como registro de la versión anterior; sus puntuaciones de Lighthouse no se atribuyen al rediseño actual.
 
 ## Alcance actual
 
