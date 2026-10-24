@@ -59,3 +59,13 @@ La introducción identifica el nombre completo y la comunidad en texto visible; 
 Carles confirma que el grupo homónimo de Meetup vinculado a Smell Lab BCN pertenece a otro proyecto. No se relaciona con nuestra identidad mediante sameAs ni se atribuyen al club sus actividades, reseñas o trayectoria. Fuentes de la investigación: https://www.smell-lab.org/perfume-club y https://www.meetup.com/es-es/barcelona-perfume-club/. Son resultados de una investigación general, no una medición certificada de Google desde Barcelona.
 
 Trabajo posterior: mantener nombre y web coherentes en nuestros perfiles, conseguir menciones y enlaces legítimos de colaboradores, publicar eventos con fecha y lugar cuando estén confirmados y revisar consultas, impresiones, clics y posición media en Search Console. Search Console permite observar el país, pero no ofrece un filtro de ciudad para acreditar una primera posición en Barcelona. No se han editado perfiles externos ni contratado anuncios.
+
+## Contenido del club y fotografías de eventos
+
+Carles confirma que, después del primer evento, se publicarán fotografías propias en la web. La publicación irá acompañada de información real del evento: fecha, lugar y una breve crónica. No se han añadido fotografías de stock ni una galería vacía; no hay todavía imágenes de eventos facilitadas en esta sesión.
+
+Mientras se prepara el lanzamiento, El club incorpora cuatro preguntas frecuentes sobre la comunidad, la experiencia necesaria, las actividades previstas y cómo enterarse del primer evento. Las respuestas son HTML nativo presente en la compilación y se despliegan sin JavaScript. No se prometen fechas, precios, membresías ni formatos que aún no se hayan confirmado.
+
+Se mantiene el plan de SEO orgánico con las herramientas existentes. No se ha creado ni activado ninguna campaña SEM ni contratado servicios adicionales.
+
+Validación de este bloque: compilación y control SEO correctos; seis pruebas Playwright aprobadas; cuatro respuestas presentes en el HTML compilado, apertura y cierre por teclado comprobados en móvil y escritorio, sin desbordamiento horizontal ni infracciones axe con las respuestas desplegadas.

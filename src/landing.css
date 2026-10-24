@@ -312,6 +312,58 @@ p {
   max-width: 47ch;
   text-wrap: pretty;
 }
+.club-faq {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 60px;
+  border-top: 1px solid var(--line);
+  padding-top: 32px;
+}
+.club-faq h3 {
+  font: 400 33px/1.2 var(--display);
+  letter-spacing: -0.025em;
+  max-width: 12ch;
+}
+.club-faq details + details {
+  border-top: 1px solid var(--line);
+}
+.club-faq summary {
+  position: relative;
+  min-height: 44px;
+  padding: 19px 34px 19px 0;
+  font-size: 18px;
+  line-height: 1.5;
+  list-style: none;
+  cursor: pointer;
+}
+.club-faq summary::-webkit-details-marker {
+  display: none;
+}
+.club-faq summary::before,
+.club-faq summary::after {
+  content: "";
+  position: absolute;
+  right: 3px;
+  top: 32px;
+  width: 12px;
+  height: 1px;
+  background: currentColor;
+}
+.club-faq summary::after {
+  transform: rotate(90deg);
+}
+.club-faq details[open] summary::after {
+  display: none;
+}
+.club-faq details p {
+  max-width: 60ch;
+  padding: 0 30px 22px 0;
+  color: var(--soft);
+  font-size: 17px;
+  line-height: 1.7;
+  text-wrap: pretty;
+}
 .landing-events {
   padding: 76px 0;
 }
@@ -473,6 +525,9 @@ p {
   .club-pillar {
     gap: 30px;
   }
+  .club-faq {
+    gap: 30px;
+  }
   .events-panel,
   .landing-contact {
     column-gap: 36px;
@@ -581,6 +636,27 @@ p {
   .club-pillar p {
     font-size: 16px;
     line-height: 1.65;
+  }
+  .club-faq {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    padding-top: 26px;
+  }
+  .club-faq h3 {
+    font-size: 29px;
+    max-width: none;
+  }
+  .club-faq summary {
+    font-size: 17px;
+    padding-block: 17px;
+  }
+  .club-faq summary::before,
+  .club-faq summary::after {
+    top: 29px;
+  }
+  .club-faq details p {
+    padding-right: 0;
+    font-size: 16px;
   }
   .landing-events {
     padding: 42px 0;

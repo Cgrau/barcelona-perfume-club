@@ -123,6 +123,47 @@ export default function App() {
               </p>
             </article>
           </div>
+          <div className="club-faq">
+            <h3>Antes de conocernos</h3>
+            <div className="club-faq-list">
+              <details>
+                <summary>¿Qué es Barcelona Perfume Club?</summary>
+                <p>
+                  Una comunidad de Barcelona para personas que disfrutan del
+                  perfume y quieren compartir esa afición. Queremos reunirnos
+                  para descubrir fragancias y marcas, intercambiar impresiones
+                  y conocer gente con la misma curiosidad.
+                </p>
+              </details>
+              <details>
+                <summary>¿Hace falta saber de perfumería para participar?</summary>
+                <p>
+                  No. Puedes estar empezando o llevar años explorando perfumes.
+                  Lo que nos une es la curiosidad y las ganas de escuchar,
+                  aprender y compartir, sin necesidad de dominar un vocabulario
+                  técnico.
+                </p>
+              </details>
+              <details>
+                <summary>¿Qué actividades estáis preparando en Barcelona?</summary>
+                <p>
+                  Catas de perfumes, descubrimientos de marcas y cenas
+                  olfativas. Estamos preparando las primeras propuestas;
+                  anunciaremos el formato, la fecha y el lugar de cada evento
+                  cuando estén confirmados.
+                </p>
+              </details>
+              <details>
+                <summary>¿Cómo puedo enterarme del primer evento?</summary>
+                <p>
+                  Sigue el calendario de Barcelona Perfume Club en Luma.
+                  Publicaremos allí las primeras fechas y la información para
+                  participar. Puedes abrirlo desde «Eventos», en el menú de la
+                  web.
+                </p>
+              </details>
+            </div>
+          </div>
         </section>
         <section
           className="landing-events"

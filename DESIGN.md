@@ -100,3 +100,8 @@ Carles observa demasiado espacio vacío en la primera sección. La portada conse
 ## Corrección del logo de cabecera — 24 de octubre de 2026
 
 Carles observa una diferencia entre el fondo del logo y el de la cabecera. En la captura de producción realizada con Brave, cabecera y cuerpo computan #640817 y no se reproduce el recuadro; no se atribuye el caso a una caché o navegador concreto sin evidencia. Se retira del uso activo la presentación mediante filtro SVG sobre WebP y se sustituyen sus letras por trazos vectoriales obtenidos del PNG original. No se cambia la tipografía ni la composición. El nuevo logo, logo-vector.svg, contiene únicamente paths de tinta marfil y transparencia fuera de las letras. Una dirección nueva evita reutilizar la imagen anterior en caché.
+
+
+## Preguntas frecuentes y futuras fotos de eventos — 24 de octubre de 2026
+
+Tras acordar centrarse en SEO orgánico, Carles confirma que se incorporarán fotografías propias cuando se celebre el primer evento. Hasta entonces la landing sigue sin fotografías ni galerías vacías. Se amplía El club con cuatro preguntas frecuentes, en detalles HTML nativos, manteniendo burdeos, marfil, cabecera y redes fijas. Las respuestas explican hechos ya confirmados y los planes de lanzamiento sin inventar fechas ni condiciones de participación.
