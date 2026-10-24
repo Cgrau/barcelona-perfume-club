@@ -39,4 +39,16 @@ assert.ok(robots.includes(`Sitemap: ${origin}/sitemap.xml`));
 assert.doesNotMatch(robots, /^Disallow:\s*\/\s*$/m);
 assert.ok(sitemap.includes(`<loc>${origin}/</loc>`));
 
-console.log("SEO: metadatos, verificación de Google, canonical, HTML inicial, JSON-LD, robots y sitemap correctos.");
+const socialImage = html.match(/property="og:image"[^>]*content="([^"]+)"/)?.[1];
+assert.ok(socialImage, "Falta la imagen para compartir");
+const socialURL = new URL(socialImage);
+assert.equal(socialURL.origin, origin);
+const image = await readFile(`dist${socialURL.pathname}`);
+assert.equal(image.subarray(1, 4).toString(), "PNG");
+const socialWidth = Number(html.match(/property="og:image:width"[^>]*content="(\d+)"/)?.[1]);
+const socialHeight = Number(html.match(/property="og:image:height"[^>]*content="(\d+)"/)?.[1]);
+assert.equal(image.readUInt32BE(16), socialWidth, "El ancho de la imagen social no coincide");
+assert.equal(image.readUInt32BE(20), socialHeight, "El alto de la imagen social no coincide");
+assert.equal(html.match(/name="twitter:image"[^>]*content="([^"]+)"/)?.[1], socialImage);
+
+console.log("SEO: metadatos, verificación de Google, canonical, HTML inicial, JSON-LD, robots, sitemap e imagen social correctos.");

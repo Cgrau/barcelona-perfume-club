@@ -19,7 +19,7 @@ Para revisar una compilación configurada en local, copiar `.env.example` a `.en
 | Evento | Acción |
 | --- | --- |
 | `luma-menu` | Abrir Luma desde el menú |
-| `luma-hero` | Pulsar Eventos en Luma en la portada |
+| `luma-hero` | Abrir Luma desde «Avísame del primer evento» en la portada |
 | `luma-calendar` | Pulsar Ver calendario en Próximos eventos |
 | `contact-menu` | Abrir el email desde el menú |
 | `contact-email` | Pulsar el email en el apartado de contacto |

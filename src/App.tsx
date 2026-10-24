@@ -65,13 +65,15 @@ export default function App() {
                     rel="noopener noreferrer"
                     data-umami-event="luma-hero"
                   >
-                    <span>Eventos en Luma</span>
+                    <span>Avísame del primer evento</span>
                   </a>
                   <div className="landing-status">
                     <p className="landing-status-title">
                       Estamos preparándolo todo.
                     </p>
-                    <p>El calendario de eventos saldrá muy pronto.</p>
+                    <p>
+                      Sigue nuestro calendario en Luma para recibir las novedades.
+                    </p>
                   </div>
                 </div>
               </div>

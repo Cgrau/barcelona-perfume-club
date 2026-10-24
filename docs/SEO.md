@@ -69,3 +69,11 @@ Mientras se prepara el lanzamiento, El club incorpora cuatro preguntas frecuente
 Se mantiene el plan de SEO orgánico con las herramientas existentes. No se ha creado ni activado ninguna campaña SEM ni contratado servicios adicionales.
 
 Validación de este bloque: compilación y control SEO correctos; seis pruebas Playwright aprobadas; cuatro respuestas presentes en el HTML compilado, apertura y cierre por teclado comprobados en móvil y escritorio, sin desbordamiento horizontal ni infracciones axe con las respuestas desplegadas.
+
+## Aviso del primer evento y tarjeta social
+
+El botón principal «Avísame del primer evento» abre el calendario real en Luma, con el texto de apoyo «Sigue nuestro calendario en Luma para recibir las novedades». La persona debe seguir el calendario en Luma; el clic por sí solo no confirma una suscripción y se sigue midiendo como `luma-hero`.
+
+La nueva imagen social, `share-card-v1.png`, mide 1200 × 630 px y contiene el logo, el lema y el dominio del club. Open Graph y Twitter especifican la misma imagen y su texto alternativo. No se añade una presentación personal ni metadatos de autor. El repositorio y el hosting existentes se mantienen.
+
+La tarjeta está disponible como archivo estático para los servicios que generan vistas previas. Cada plataforma decide el recorte y puede conservar una versión anterior en caché hasta que vuelva a consultar el enlace.

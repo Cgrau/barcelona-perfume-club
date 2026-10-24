@@ -12,8 +12,11 @@ test("presenta el lanzamiento, el objetivo del club y los contactos reales", asy
     page.getByText("Perfume, conversación y comunidad", { exact: true }),
   ).toBeVisible();
   await expect(
-    page.getByText("El calendario de eventos saldrá muy pronto."),
+    page.getByText("Sigue nuestro calendario en Luma para recibir las novedades."),
   ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "Avísame del primer evento", exact: true }),
+  ).toHaveAttribute("href", "https://luma.com/barcelonaperfumeclub");
   await expect(
     page.getByText("Estamos preparándolo todo.", { exact: true }),
   ).toBeVisible();

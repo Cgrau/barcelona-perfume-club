@@ -75,6 +75,16 @@ Capturas de producción para revisión:
 
 Los resultados de compilación, pruebas y Lighthouse están en [VALIDATION.md](docs/VALIDATION.md).
 
+## Imagen al compartir el enlace
+
+`public/media/share-card-v1.png` es la tarjeta de 1200 × 630 px para Open Graph y X/Twitter. Usa el logo y las fuentes del club, sin fotografías ni presentación personal. Su archivo se genera con `scripts/render-social-card.mjs`; la publicación utiliza el PNG ya guardado. Para regenerarlo con Brave en macOS:
+
+```sh
+BROWSER_PATH='/Applications/Brave Browser.app/Contents/MacOS/Brave Browser' npm run social:render
+```
+
+El control `seo:check` comprueba que la imagen existe, que sus dimensiones coinciden con los metadatos y que Open Graph y Twitter apuntan al mismo recurso.
+
 ## SEO y Search Console
 
 Los metadatos describen la comunidad y los eventos de perfumería en Barcelona. GitHub comprueba automáticamente el SEO, la accesibilidad y el rendimiento con Lighthouse CI en móvil y escritorio. La propiedad está verificada en Search Console, el sitemap está aceptado y Google confirma que la portada está indexada. La introducción y los datos de la organización explican que somos una comunidad de perfumería en Barcelona; la posición en búsquedas locales debe medirse y trabajarse, no se deduce de la puntuación de Lighthouse. Instrucciones e informes en [SEO.md](docs/SEO.md).
