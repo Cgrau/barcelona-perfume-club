@@ -95,3 +95,8 @@ Carles descarta la fotografía de esencias. Se retira de la propuesta local y se
 ## Ajuste de espacio en la portada
 
 Carles observa demasiado espacio vacío en la primera sección. La portada conserva todo el ancho y pasa a tener altura natural, con 48 px de margen interior superior y 64 px inferior en escritorio y 28/40 px en móvil. Se elimina el centrado vertical a pantalla completa para acercar el titular al menú y permitir que El club empiece antes.
+
+
+## Corrección del logo de cabecera — 24 de octubre de 2026
+
+Carles observa una diferencia entre el fondo del logo y el de la cabecera. En la captura de producción realizada con Brave, cabecera y cuerpo computan #640817 y no se reproduce el recuadro; no se atribuye el caso a una caché o navegador concreto sin evidencia. Se retira del uso activo la presentación mediante filtro SVG sobre WebP y se sustituyen sus letras por trazos vectoriales obtenidos del PNG original. No se cambia la tipografía ni la composición. El nuevo logo, logo-vector.svg, contiene únicamente paths de tinta marfil y transparencia fuera de las letras. Una dirección nueva evita reutilizar la imagen anterior en caché.

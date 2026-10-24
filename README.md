@@ -29,7 +29,7 @@ npm run preview
 - `src/App.tsx`: estructura y aviso de lanzamiento.
 - `src/landing.css`: fondo, tipografías locales y diseño responsive, sin animaciones.
 - `src/content.ts`: objetivo del club y enlaces compartidos con la futura web.
-- `public/media/logo-mark.svg`: logo original con máscara transparente y tinta marfil, sin reconstruir el lettering. `logo.webp` conserva la copia optimizada original.
+- `public/media/logo-vector.svg`: contornos vectoriales trazados desde el logo original, con tinta marfil y fondo transparente, sin filtros ni imágenes incrustadas. `logo.webp` conserva la copia optimizada original. Detalles en [LOGO.md](docs/LOGO.md).
 - `public/media/mouillettes-*.webp`: recursos conservados para la futura web completa. No se cargan en la landing actual.
 - `index.html`: título y metadatos para buscadores y redes sociales.
 - `src/entry-server.tsx` y `scripts/prerender.mjs`: incorporan el contenido al HTML durante la compilación para que sea legible antes de ejecutar JavaScript.
