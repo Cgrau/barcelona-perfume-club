@@ -53,6 +53,32 @@ export const manifesto =
   "Nuestro objetivo es crear un punto de encuentro en Barcelona para quienes aman el perfume. Queremos descubrir marcas, compartir fragancias y aprender juntos. Estamos preparando encuentros para oler, conversar y conocer a personas que sienten lo mismo.";
 export const clubPurpose =
   "Nuestro objetivo es reunir en Barcelona a quienes aman el perfume. Queremos descubrir marcas, compartir fragancias y aprender juntos, en eventos donde lo primero sea oler y disfrutar en compañía.";
+// Añadir aquí cada nuevo encuentro publicado en Luma, con su cartel local.
+export const events = [
+  {
+    id: "tdhs6lr0",
+    title: "Descubriendo perfumes nicho",
+    dateTime: "2026-11-08T12:00:00+01:00",
+    dateLabel: "8 de noviembre de 2026",
+    timeLabel: "12:00",
+    venue: "Volta Restaurant & Bar",
+    address: "Passeig de Picasso, 26, Barcelona",
+    description: [
+      "Descubriremos los 6 perfumes de ",
+      { text: "Sasva", url: "https://www.instagram.com/sasvaparfums/" },
+      " y los 10 de ",
+      { text: "Gparfums", url: "https://www.instagram.com/gparfums/" },
+      " junto a Carles Grau. Una sesión para oler, compartir impresiones y explorar la perfumería nicho en compañía. No necesitas conocimientos previos: solo curiosidad.",
+    ],
+    image: {
+      src: "/media/descubriendo-perfumes-nicho-960.webp",
+      srcSet:
+        "/media/descubriendo-perfumes-nicho-480.webp 480w, /media/descubriendo-perfumes-nicho-960.webp 960w",
+      alt: "Cartel de Descubriendo perfumes nicho, primer encuentro de Barcelona Perfume Club",
+    },
+    url: "https://luma.com/tdhs6lr0",
+  },
+];
 export const experiences = [
   {
     title: "Encuentros",

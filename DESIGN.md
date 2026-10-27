@@ -1,5 +1,7 @@
 # Barcelona Perfume Club: una invitación a compartir
 
+Estado actual, 27 de octubre de 2026: la portada anuncia el primer evento real y la sección de eventos aparece inmediatamente después, con el cartel proporcionado por Carles, los datos comprobados en Luma y acceso a la inscripción. Las notas siguientes documentan también las revisiones anteriores al lanzamiento del primer encuentro.
+
 Propuesta local, 23 de octubre de 2026. No publicar hasta que Carles valore la vista previa. Conserva React, Vite, TypeScript y GitHub Pages, las dos fuentes locales, el logo y la analítica configurada.
 
 ## Brief y límites
@@ -105,3 +107,11 @@ Carles observa una diferencia entre el fondo del logo y el de la cabecera. En la
 ## Preguntas frecuentes y futuras fotos de eventos — 24 de octubre de 2026
 
 Tras acordar centrarse en SEO orgánico, Carles confirma que se incorporarán fotografías propias cuando se celebre el primer evento. Hasta entonces la landing sigue sin fotografías ni galerías vacías. Se amplía El club con cuatro preguntas frecuentes, en detalles HTML nativos, manteniendo burdeos, marfil, cabecera y redes fijas. Las respuestas explican hechos ya confirmados y los planes de lanzamiento sin inventar fechas ni condiciones de participación.
+
+## Primer evento anunciado — 27 de octubre de 2026
+
+Carles pide sustituir «próximamente» por el anuncio del primer encuentro y listar los eventos con imagen y acceso a Luma. Proporciona el cartel original en PNG. Se mantiene la portada tipográfica y el sistema visual existente; el cartel se incorpora sin recorte a una ficha de evento inmediatamente después de la portada, con imagen a la izquierda y datos a la derecha en escritorio, y una sola columna en móvil.
+
+«Eventos» en el menú navega al listado de la propia web. La portada y cada ficha enlazan a la página concreta de inscripción; el calendario completo de Luma sigue accesible después del listado. Las fichas se mantienen en `events` de `src/content.ts`, sin dependencias nuevas ni llamadas externas al visitar la web. El cartel se sirve en WebP de 480 y 960 px, con carga diferida y dimensiones declaradas. Las preguntas frecuentes y los metadatos dejan de describir una comunidad sin eventos anunciados.
+
+Datos comprobados en https://luma.com/tdhs6lr0: «Descubriendo perfumes nicho», 8 de noviembre de 2026, 12:00 (Europe/Madrid), Volta Restaurant & Bar, Passeig de Picasso, 26, Barcelona. La disponibilidad y la inscripción se gestionan en Luma.

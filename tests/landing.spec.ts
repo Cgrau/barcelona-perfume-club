@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 
-test("presenta el lanzamiento, el objetivo del club y los contactos reales", async ({
+test("anuncia el primer evento, el objetivo del club y los contactos reales", async ({
   page,
 }) => {
   await page.goto("/");
@@ -12,13 +12,10 @@ test("presenta el lanzamiento, el objetivo del club y los contactos reales", asy
     page.getByText("Perfume, conversación y comunidad", { exact: true }),
   ).toBeVisible();
   await expect(
-    page.getByText("Sigue nuestro calendario en Luma para recibir las novedades."),
-  ).toBeVisible();
+    page.getByRole("link", { name: "Apúntate al primer evento", exact: true }),
+  ).toHaveAttribute("href", "https://luma.com/tdhs6lr0");
   await expect(
-    page.getByRole("link", { name: "Avísame del primer evento", exact: true }),
-  ).toHaveAttribute("href", "https://luma.com/barcelonaperfumeclub");
-  await expect(
-    page.getByText("Estamos preparándolo todo.", { exact: true }),
+    page.getByText("Nuestro primer evento ya tiene fecha.", { exact: true }),
   ).toBeVisible();
   await page.getByRole("link", { name: "El club", exact: true }).click();
   const about = page.getByRole("region", { name: "El club" });
@@ -34,13 +31,25 @@ test("presenta el lanzamiento, el objetivo del club y los contactos reales", asy
     name: "Próximos eventos",
     exact: true,
   });
-  await expect(events).toContainText("Muy pronto");
+  await page.getByRole("link", { name: "Eventos", exact: true }).click();
+  await expect(events.getByRole("heading", { level: 2 })).toBeInViewport();
+  const event = events.getByRole("article", { name: "Descubriendo perfumes nicho" });
+  await expect(event).toContainText("8 de noviembre de 2026");
+  await expect(event).toContainText("12:00");
+  await expect(event).toContainText("Volta Restaurant & Bar");
+  await expect(event).toContainText("Passeig de Picasso, 26, Barcelona");
+  const poster = event.getByRole("img");
+  await poster.scrollIntoViewIfNeeded();
+  await expect(poster).toHaveJSProperty("complete", true);
+  expect(await poster.evaluate((img: HTMLImageElement) => img.naturalWidth)).toBeGreaterThan(0);
+  await expect(event.getByRole("link", { name: "Ver evento en Luma", exact: true }))
+    .toHaveAttribute("href", "https://luma.com/tdhs6lr0");
   await expect(
     events.getByRole("link", { name: "Ver calendario", exact: true }),
   ).toHaveAttribute("href", "https://luma.com/barcelonaperfumeclub");
   await expect(
     page.getByRole("link", { name: "Eventos", exact: true }),
-  ).toHaveAttribute("href", "https://luma.com/barcelonaperfumeclub");
+  ).toHaveAttribute("href", "#eventos");
   await expect(
     page.getByRole("link", { name: "Contacto", exact: true }),
   ).toHaveAttribute("href", "mailto:barcelonaperfumeclub@proton.me");
@@ -119,7 +128,7 @@ test("el logo carga y la landing es accesible y estática también en móvil", a
 }) => {
   await page.emulateMedia({ reducedMotion: "reduce" });
   await page.goto("/");
-  const logo = page.getByRole("img", { name: "Barcelona Perfume Club" });
+  const logo = page.getByRole("img", { name: "Barcelona Perfume Club", exact: true });
   await expect(logo).toBeVisible();
   await expect(logo).toHaveJSProperty("complete", true);
   expect(
@@ -139,7 +148,7 @@ test("el logo carga y la landing es accesible y estática también en móvil", a
     ].map(([x, y]) => context.getImageData(x, y, 1, 1).data[3]);
   });
   expect(logoCornerAlpha).toEqual([0, 0, 0, 0]);
-  await expect(page.getByRole("main").locator("img")).toHaveCount(0);
+  await expect(page.getByRole("main").locator("img")).toHaveCount(1);
   expect(
     await page.evaluate(
       () => document.documentElement.scrollWidth <= innerWidth,

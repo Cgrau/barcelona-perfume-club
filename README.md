@@ -6,7 +6,7 @@ La versión actual es una landing de lanzamiento estática, sin animaciones de e
 
 La portada presenta «El perfume se disfruta más en compañía» con una composición tipográfica a todo el ancho y altura natural, sin centrar el contenido verticalmente en una pantalla completa. La fotografía de stock probada se ha retirado a petición de Carles. El logo, centrado y compacto, y el menú quedan fijos arriba y las redes sociales fijas abajo. Solo se desplaza el contenido central, con navegación por ratón, tacto y teclado. Los textos mantienen un tamaño cómodo de lectura.
 
-La frase «Perfume, conversación y comunidad» introduce la portada. El apartado El club desarrolla tres pilares: Descubrir, Compartir y Conectar. El bloque Próximos eventos muestra el estado «Muy pronto» y enlaza al calendario de Luma, sin fechas inventadas. El aviso de preparación queda como información secundaria. El contacto invita a consultas o propuestas de colaboración: «¿Tienes alguna consulta o una idea para colaborar? Nos encantará leerte».
+La frase «Perfume, conversación y comunidad» introduce la portada, que anuncia el primer evento con acceso directo a su inscripción. Justo después, Próximos eventos lista los encuentros con su cartel, fecha, lugar, descripción y enlace a Luma. El primer encuentro es «Descubriendo perfumes nicho», el 8 de noviembre de 2026 a las 12:00 en Volta Restaurant & Bar. El apartado El club desarrolla tres pilares: Descubrir, Compartir y Conectar. El contacto invita a consultas o propuestas de colaboración: «¿Tienes alguna consulta o una idea para colaborar? Nos encantará leerte».
 
 ## Abrir en local
 
@@ -26,9 +26,10 @@ npm run preview
 
 ## Editar la landing
 
-- `src/App.tsx`: estructura y aviso de lanzamiento.
+- `src/App.tsx`: estructura, anuncio del primer encuentro y listado de eventos.
 - `src/landing.css`: fondo, tipografías locales y diseño responsive, sin animaciones.
-- `src/content.ts`: objetivo del club y enlaces compartidos con la futura web.
+- `src/content.ts`: lista `events`, objetivo del club y enlaces compartidos con la futura web.
+- `public/media/descubriendo-perfumes-nicho-*.webp`: cartel proporcionado por Carles en dos tamaños, sin recortar.
 - `public/media/logo-vector.svg`: contornos vectoriales trazados desde el logo original, con tinta marfil y fondo transparente, sin filtros ni imágenes incrustadas. `logo.webp` conserva la copia optimizada original. Detalles en [LOGO.md](docs/LOGO.md).
 - `public/media/mouillettes-*.webp`: recursos conservados para la futura web completa. No se cargan en la landing actual.
 - `index.html`: título y metadatos para buscadores y redes sociales.
@@ -38,9 +39,12 @@ npm run preview
 Enlaces incorporados:
 
 - Eventos: https://luma.com/barcelonaperfumeclub
+- Primer evento: https://luma.com/tdhs6lr0
 - Contacto: mailto:barcelonaperfumeclub@proton.me
 
 No hay formularios. La analítica opcional de Umami Cloud permanece desactivada mientras no se configure `UMAMI_WEBSITE_ID`: mide visitas y clics en los enlaces, sin añadir cookies desde la aplicación. La configuración y activación se explican en [UMAMI.md](docs/UMAMI.md). Las fuentes Playfair Display y Jost se sirven desde el propio sitio.
+
+Para incorporar otro evento, añade su ficha a `events` en `src/content.ts`, con su URL de Luma y las imágenes optimizadas en `public/media/`. La lista se genera al compilar; no se sincroniza automáticamente con Luma. La portada referencia la primera ficha, que actualmente corresponde al primer evento del club; revisa también ese anuncio cuando cambie la programación. Los datos del primer encuentro se comprobaron en Luma el 27 de octubre de 2026. La disponibilidad de plazas y la inscripción se consultan en Luma.
 
 ## Web completa para más adelante
 
@@ -63,17 +67,17 @@ También se puede utilizar Brave instalado en macOS:
 BROWSER_PATH='/Applications/Brave Browser.app/Contents/MacOS/Brave Browser' npm test
 ```
 
-La suite activa comprueba la landing en 375 y 1440 px: titular, objetivo, tres pilares y aviso de lanzamiento, bloque de próximos eventos, enlaces reales, logo, ausencia de fotografías activas y animaciones continuas, scroll exclusivo del contenido central, cabecera y redes visibles, navegación por anclas y teclado y accesibilidad con axe.
+La suite activa comprueba la landing en 375 y 1440 px: titular, objetivo, tres pilares, anuncio y ficha del primer evento, carga del cartel, enlaces reales a Luma, logo, ausencia de animaciones continuas, scroll exclusivo del contenido central, cabecera y redes visibles, navegación por anclas y teclado y accesibilidad con axe.
 
 Capturas de producción para revisión:
 
-- [Móvil, 375 px](docs/previews/landing-mobile.png).
-- [Escritorio, 1440 px](docs/previews/landing-desktop.png).
-- [Contacto en móvil](docs/previews/landing-mobile-contacto.png).
-- [El club en escritorio](docs/previews/landing-desktop-el-club.png).
-- [Próximos eventos en móvil](docs/previews/landing-mobile-eventos.png).
+- [Portada en móvil, 375 px](docs/previews/first-event-mobile-home.png).
+- [Portada en escritorio, 1440 px](docs/previews/first-event-desktop-home.png).
+- [Primer evento en escritorio](docs/previews/first-event-desktop.png).
+- [Cartel del primer evento en móvil](docs/previews/first-event-mobile.png).
+- [Detalles e inscripción en móvil](docs/previews/first-event-mobile-details.png).
 
-Los resultados de compilación, pruebas y Lighthouse están en [VALIDATION.md](docs/VALIDATION.md).
+Los resultados del cambio de eventos están en [VALIDATION-2026-10-27.md](docs/VALIDATION-2026-10-27.md). La revisión anterior de rendimiento con Lighthouse está en [VALIDATION.md](docs/VALIDATION.md).
 
 ## Imagen al compartir el enlace
 

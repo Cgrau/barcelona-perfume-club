@@ -1,5 +1,5 @@
 import { Brand } from "./components/Brand";
-import { club, clubPurpose } from "./content";
+import { club, clubPurpose, events } from "./content";
 
 export default function App() {
   return (
@@ -17,14 +17,7 @@ export default function App() {
         </a>
         <nav aria-label="Principal">
           <a href="#el-club">El club</a>
-          <a
-            href={club.links.calendar}
-            target="_blank"
-            rel="noopener noreferrer"
-            data-umami-event="luma-menu"
-          >
-            Eventos
-          </a>
+          <a href="#eventos">Eventos</a>
           <a href={club.links.contact} data-umami-event="contact-menu">
             Contacto
           </a>
@@ -60,25 +53,125 @@ export default function App() {
                 <div className="hero-action">
                   <a
                     className="landing-luma"
-                    href={club.links.calendar}
+                    href={events[0].url}
                     target="_blank"
                     rel="noopener noreferrer"
                     data-umami-event="luma-hero"
                   >
-                    <span>Avísame del primer evento</span>
+                    <span>Apúntate al primer evento</span>
                   </a>
                   <div className="landing-status">
                     <p className="landing-status-title">
-                      Estamos preparándolo todo.
+                      Nuestro primer evento ya tiene fecha.
                     </p>
                     <p>
-                      Sigue nuestro calendario en Luma para recibir las novedades.
+                      {events[0].dateLabel} · {events[0].timeLabel} h · Barcelona
+                    </p>
+                    <p className="landing-access-summary">
+                      Plazas limitadas. Acceso solo con registro y plaza confirmada
+                      en Luma. Sin registro y confirmación no se podrá acceder.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </section>
+
+        <section
+          className="landing-events"
+          id="eventos"
+          aria-labelledby="events-heading"
+        >
+          <div className="events-copy">
+            <h2 id="events-heading">Próximos eventos</h2>
+            <p>
+              Empezamos a encontrarnos. Descubre nuestros encuentros y apúntate
+              en Luma para disfrutar del perfume en compañía.
+            </p>
+          </div>
+          <ul className="events-list">
+            {events.map((event) => (
+              <li key={event.id}>
+                <article className="event-card" aria-labelledby={`event-${event.id}`}>
+                  <a
+                    className="event-poster"
+                    href={event.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`Ver ${event.title} en Luma`}
+                    data-umami-event="luma-event-poster"
+                  >
+                    <img
+                      src={event.image.src}
+                      srcSet={event.image.srcSet}
+                      sizes="(max-width: 700px) calc(100vw - 84px), (max-width: 1000px) 40vw, 420px"
+                      alt={event.image.alt}
+                      width="960"
+                      height="1200"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </a>
+                  <div className="event-copy">
+                    <p className="landing-eyebrow">Barcelona Perfume Club</p>
+                    <h3 id={`event-${event.id}`}>{event.title}</h3>
+                    <div className="event-details">
+                      <time dateTime={event.dateTime}>
+                        {event.dateLabel} · {event.timeLabel} h
+                      </time>
+                      <p>{event.venue}</p>
+                      <p>{event.address}</p>
+                    </div>
+                    <p className="event-description">
+                      {event.description.map((part) =>
+                        typeof part === "string" ? part : (
+                          <a
+                            key={part.url}
+                            href={part.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label={`${part.text} en Instagram`}
+                            data-umami-event="event-brand-instagram"
+                          >
+                            {part.text}
+                          </a>
+                        ),
+                      )}
+                    </p>
+                    <aside className="event-registration" aria-label="Requisitos de acceso">
+                      <h4>Registro obligatorio en Luma</h4>
+                      <p>
+                        Plazas limitadas. Para asistir es imprescindible registrarse
+                        en este evento en Luma y recibir la confirmación de la plaza.
+                      </p>
+                      <p className="event-registration-restriction">
+                        Sin registro y confirmación no se podrá acceder.
+                      </p>
+                    </aside>
+                    <a
+                      className="landing-luma"
+                      href={event.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      data-umami-event="luma-event"
+                    >
+                      <span>Ver evento en Luma</span>
+                    </a>
+                  </div>
+                </article>
+              </li>
+            ))}
+          </ul>
+          <a
+            className="events-calendar"
+            href={club.links.calendar}
+            target="_blank"
+            rel="noopener noreferrer"
+            data-umami-event="luma-calendar"
+          >
+            Ver calendario
+          </a>
         </section>
 
         <section
@@ -147,61 +240,25 @@ export default function App() {
                 </p>
               </details>
               <details>
-                <summary>¿Qué actividades estáis preparando en Barcelona?</summary>
+                <summary>¿Qué actividades organizáis en Barcelona?</summary>
                 <p>
                   Catas de perfumes, descubrimientos de marcas y cenas
-                  olfativas. Estamos preparando las primeras propuestas;
-                  anunciaremos el formato, la fecha y el lugar de cada evento
-                  cuando estén confirmados.
+                  olfativas. En el apartado «Eventos» encontrarás los encuentros
+                  anunciados, con su fecha, lugar y enlace para apuntarte en Luma.
                 </p>
               </details>
               <details>
-                <summary>¿Cómo puedo enterarme del primer evento?</summary>
+                <summary>¿Cómo puedo apuntarme a los eventos?</summary>
                 <p>
-                  Sigue el calendario de Barcelona Perfume Club en Luma.
-                  Publicaremos allí las primeras fechas y la información para
-                  participar. Puedes abrirlo desde «Eventos», en el menú de la
-                  web.
+                  Abre «Eventos» en el menú y elige el encuentro que te interese.
+                  El botón «Ver evento en Luma» te lleva a su página para consultar
+                  los detalles y solicitar tu plaza. Las plazas son limitadas:
+                  es imprescindible registrarse en el evento en Luma y recibir la
+                  confirmación de la plaza para asistir. Sin registro y confirmación
+                  no se podrá acceder. También puedes seguir nuestro
+                  calendario en Luma para enterarte de los próximos encuentros.
                 </p>
               </details>
-            </div>
-          </div>
-        </section>
-        <section
-          className="landing-events"
-          id="eventos"
-          aria-labelledby="events-heading"
-        >
-          <div className="events-panel">
-            <div className="events-copy">
-              <h2 id="events-heading">Próximos eventos</h2>
-              <p>
-                Catas, marcas por descubrir y cenas olfativas. Estamos
-                preparando las primeras fechas para conocernos y compartir lo
-                que más nos gusta.
-              </p>
-              <p>
-                Sigue el calendario del club en Luma para enterarte cuando
-                publiquemos el primer evento.
-              </p>
-            </div>
-            <div className="event-invitation">
-              <p className="landing-eyebrow">Barcelona Perfume Club</p>
-              <p className="event-invitation-title">Nos vemos muy pronto.</p>
-              <div className="event-details">
-                <span>Barcelona</span>
-                <span>Fecha por anunciar</span>
-              </div>
-              <p className="events-status">Muy pronto, el primer evento.</p>
-              <a
-                className="landing-luma"
-                href={club.links.calendar}
-                target="_blank"
-                rel="noopener noreferrer"
-                data-umami-event="luma-calendar"
-              >
-                <span>Ver calendario</span>
-              </a>
             </div>
           </div>
         </section>

@@ -1,3 +1,7 @@
+# Cartel del primer evento — 27 de octubre de 2026
+
+Carles proporciona `barcelona_perfume_club_event1.png` (1122 × 1402 px) para anunciar «Descubriendo perfumes nicho». Se utiliza el cartel completo, sin recorte ni alteraciones de contenido. Las copias locales `descubriendo-perfumes-nicho-480.webp` (480 × 600 px) y `descubriendo-perfumes-nicho-960.webp` (960 × 1200 px) se sirven desde el propio sitio. No se carga la imagen desde Luma.
+
 # Fotografía probada y retirada
 
 La imagen descrita a continuación se ha retirado de la propuesta y sus archivos ya no se sirven. Se conserva esta ficha como registro de la prueba descartada.
