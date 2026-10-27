@@ -1,0 +1,33 @@
+---
+title: Web, código y publicación
+type: architecture
+updated: 2026-10-27
+tags: [web, github]
+---
+
+# Web y publicación
+
+Sitio: https://barcelonaperfumeclub.com/ · Repositorio: https://github.com/Cgrau/barcelona-perfume-club · Rama de publicación: `main`.
+
+React 19, Vite y TypeScript. La compilación prerenderiza la landing a HTML. La producción usa enlaces, anclas y CSS nativos, sin hidratar React. No añadir componentes que necesiten JavaScript de cliente sin revisar esa decisión.
+
+Archivos principales:
+
+| Archivo | Función |
+| --- | --- |
+| `src/App.tsx` | Portada, eventos, club, FAQ y contacto |
+| `src/landing.css` | Diseño activo y comportamiento responsive |
+| `src/content.ts` | Eventos y enlaces del club |
+| `index.html` | Metadatos SEO y de redes |
+| `scripts/prerender.mjs` | HTML inicial de la página |
+| `tests/landing.spec.ts` | Pruebas activas de la landing |
+| `.github/workflows/deploy.yml` | Publicación de GitHub Pages |
+| `.github/workflows/seo.yml` | Controles SEO y Lighthouse en CI |
+
+`src/ClubSite.tsx` conserva una propuesta anterior; no es la web activa.
+
+Para revisar: `npm install`, `npm run build`, `npm run seo:check`, `npm test`. Requiere Node 22.12 o posterior. La suite tiene proyectos móvil (375 px) y escritorio (1440 px), incluyendo axe. Brave puede usarse con `BROWSER_PATH` si Chromium de Playwright no está instalado. Terminar la compilación antes de probar el resultado estático.
+
+GitHub Pages compila y publica `dist/` al subir a `main`. Comprobar el workflow y el contenido servido por el dominio antes de confirmar una publicación. Las notas de [[Inicio]] y el grafo de [[Graphify]] viven fuera de `public/`.
+
+Umami es opcional; el código solo lo inserta si se configura `UMAMI_WEBSITE_ID`. No guardar valores privados en esta bóveda. Detalles en `docs/UMAMI.md`. La organización visual está en [[Decisiones]] y la programación en [[Eventos]].

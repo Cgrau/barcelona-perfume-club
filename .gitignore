@@ -11,3 +11,14 @@ playwright-report/
 
 # Originales sin optimizar (pueden llevar ubicación en los metadatos)
 photos/
+
+# Estado personal de Obsidian y cachés regenerables de Graphify.
+memory/.obsidian/workspace*.json
+memory/.obsidian/cache/
+memory/.obsidian/plugins/
+memory/.trash/
+graphify-out/.*
+graphify-out/cache/
+memory/graphify-out/
+memory/Mapa/.obsidian/
+__pycache__/

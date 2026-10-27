@@ -1,0 +1,2 @@
+# Herramienta local para consultar y exportar la memoria; no interviene en la web.
+graphifyy==0.9.97

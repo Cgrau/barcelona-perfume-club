@@ -1,0 +1,12 @@
+node_modules/
+build/
+dist/
+.git/
+public/
+photos/
+docs/previews/
+memory/.obsidian/
+memory/Mapa/
+Mapa/
+.obsidian/
+graphify-out/

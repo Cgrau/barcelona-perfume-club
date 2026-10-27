@@ -1,5 +1,7 @@
 # Barcelona Perfume Club
 
+La memoria compartida del proyecto está en [memory/Inicio.md](memory/Inicio.md). Abre `memory/` como bóveda en Obsidian para consultar las decisiones, sesiones y relaciones entre notas. `AGENTS.md` indica a futuros asistentes qué leer al retomar; [Graphify](memory/Graphify.md) conserva el mapa derivado en `graphify-out/`. Las notas se versionan en este repositorio y quedan fuera de la web pública.
+
 Rediseño aprobado por Carles el 23 de octubre de 2026 para su publicación en https://barcelonaperfumeclub.com/. GitHub Pages publica automáticamente los cambios de `main`.
 
 La versión actual es una landing de lanzamiento estática, sin animaciones de entrada ni movimiento continuo. El logo original se presenta sin fondo opaco sobre el burdeos #640817. La paleta usa burdeos y marfil en toda la página.

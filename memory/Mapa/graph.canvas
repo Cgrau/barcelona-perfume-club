@@ -1,0 +1,572 @@
+{
+  "nodes": [
+    {
+      "id": "g0",
+      "type": "group",
+      "label": "Continuidad y publicación",
+      "x": 0,
+      "y": 0,
+      "width": 660,
+      "height": 420,
+      "color": "1"
+    },
+    {
+      "id": "n_memory_inicio_boveda_obsidian",
+      "type": "file",
+      "file": "Mapa/Bóveda compartida de Obsidian.md",
+      "x": 20,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_continuidad_continuar_proyecto",
+      "type": "file",
+      "file": "Mapa/Continuar el proyecto desde otro equipo.md",
+      "x": 220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_continuidad_memoria_sin_datos_privados",
+      "type": "file",
+      "file": "Mapa/Memoria sin credenciales ni datos de asistentes.md",
+      "x": 420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_estado_publicacion_comprobada",
+      "type": "file",
+      "file": "Mapa/Publicación comprobada del primer evento.md",
+      "x": 20,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_web_github_pages",
+      "type": "file",
+      "file": "Mapa/Publicación de main en GitHub Pages.md",
+      "x": 220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_inicio_repositorio",
+      "type": "file",
+      "file": "Mapa/Repositorio compartido en GitHub.md",
+      "x": 420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_sesiones_2026_10_27_verificacion_secuencial",
+      "type": "file",
+      "file": "Mapa/Verificación del cambio y compilación antes de las pruebas.md",
+      "x": 20,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_web_verificacion",
+      "type": "file",
+      "file": "Mapa/Verificar compilación, SEO y Playwright.md",
+      "x": 220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g1",
+      "type": "group",
+      "label": "Primer encuentro y club",
+      "x": 740,
+      "y": 0,
+      "width": 660,
+      "height": 420,
+      "color": "2"
+    },
+    {
+      "id": "n_memory_inicio_barcelona_perfume_club",
+      "type": "file",
+      "file": "Mapa/Barcelona Perfume Club.md",
+      "x": 760,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_eventos_2026_11_08_perfumes_nicho_carles_grau",
+      "type": "file",
+      "file": "Mapa/Carles Grau.md",
+      "x": 960,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_eventos_2026_11_08_perfumes_nicho_cartel",
+      "type": "file",
+      "file": "Mapa/Cartel original del primer encuentro.md",
+      "x": 1160,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_eventos_2026_11_08_perfumes_nicho_encuentro",
+      "type": "file",
+      "file": "Mapa/Descubriendo perfumes nicho — 8 de noviembre de 2026.md",
+      "x": 760,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_eventos_2026_11_08_perfumes_nicho_gparfums",
+      "type": "file",
+      "file": "Mapa/Gparfums diez perfumes del discovery set.md",
+      "x": 960,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_decisiones_identidad_del_club",
+      "type": "file",
+      "file": "Mapa/Identidad cercana y abierta del club.md",
+      "x": 1160,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_eventos_2026_11_08_perfumes_nicho_sasva",
+      "type": "file",
+      "file": "Mapa/Sasva seis perfumes del discovery set.md",
+      "x": 760,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_eventos_2026_11_08_perfumes_nicho_volta",
+      "type": "file",
+      "file": "Mapa/Volta Restaurant & Bar.md",
+      "x": 960,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g2",
+      "type": "group",
+      "label": "Memoria y decisiones",
+      "x": 1480,
+      "y": 0,
+      "width": 660,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "n_memory_sesiones_2026_10_27_aprobacion",
+      "type": "file",
+      "file": "Mapa/Aprobación del diseño y autorización de publicación.md",
+      "x": 1500,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_decisiones_diseno_aprobado",
+      "type": "file",
+      "file": "Mapa/Diseño aprobado burdeos, marfil y portada tipográfica.md",
+      "x": 1700,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_graphify_artefactos_derivados",
+      "type": "file",
+      "file": "Mapa/Grafo portable y exportación para Obsidian.md",
+      "x": 1900,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_graphify_graphify",
+      "type": "file",
+      "file": "Mapa/Graphify 0.9.97.md",
+      "x": 1500,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_continuidad_fuentes_de_verdad",
+      "type": "file",
+      "file": "Mapa/Notas originales y código como fuentes de verdad.md",
+      "x": 1700,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_graphify_regeneracion",
+      "type": "file",
+      "file": "Mapa/Regenerar el mapa desde las notas originales.md",
+      "x": 1900,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g3",
+      "type": "group",
+      "label": "Eventos y acceso",
+      "x": 0,
+      "y": 500,
+      "width": 660,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "n_memory_decisiones_registro_y_plaza_confirmada",
+      "type": "file",
+      "file": "Mapa/Acceso obligatorio con registro y plaza confirmada en Luma.md",
+      "x": 20,
+      "y": 580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_eventos_luma",
+      "type": "file",
+      "file": "Mapa/Luma calendario, inscripciones y disponibilidad.md",
+      "x": 220,
+      "y": 580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_eventos_mantenimiento_manual",
+      "type": "file",
+      "file": "Mapa/Mantenimiento manual de eventos.md",
+      "x": 420,
+      "y": 580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_estado_pendientes_de_producto",
+      "type": "file",
+      "file": "Mapa/Pendientes de producto y alcance.md",
+      "x": 20,
+      "y": 660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_web_content_ts",
+      "type": "file",
+      "file": "Mapa/srccontent.ts eventos y enlaces.md",
+      "x": 220,
+      "y": 660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g4",
+      "type": "group",
+      "label": "Arquitectura web",
+      "x": 740,
+      "y": 500,
+      "width": 660,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "n_memory_web_arquitectura",
+      "type": "file",
+      "file": "Mapa/Arquitectura React, Vite y TypeScript con HTML prerenderizado.md",
+      "x": 760,
+      "y": 580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_web_prerender",
+      "type": "file",
+      "file": "Mapa/scriptsprerender.mjs HTML inicial.md",
+      "x": 960,
+      "y": 580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_web_app_tsx",
+      "type": "file",
+      "file": "Mapa/srcApp.tsx web activa.md",
+      "x": 1160,
+      "y": 580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_web_clubsite_archivado",
+      "type": "file",
+      "file": "Mapa/srcClubSite.tsx propuesta archivada.md",
+      "x": 760,
+      "y": 660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_memory_web_landing_css",
+      "type": "file",
+      "file": "Mapa/srclanding.css diseño y adaptación a pantallas.md",
+      "x": 960,
+      "y": 660,
+      "width": 180,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_memory_sesiones_2026_10_27_verificacion_secuencial_memory_estado_publicacion_comprobada",
+      "fromNode": "n_memory_sesiones_2026_10_27_verificacion_secuencial",
+      "toNode": "n_memory_estado_publicacion_comprobada",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_continuidad_continuar_proyecto_memory_estado_publicacion_comprobada",
+      "fromNode": "n_memory_continuidad_continuar_proyecto",
+      "toNode": "n_memory_estado_publicacion_comprobada",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_estado_publicacion_comprobada_memory_web_github_pages",
+      "fromNode": "n_memory_estado_publicacion_comprobada",
+      "toNode": "n_memory_web_github_pages",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_sesiones_2026_10_27_aprobacion_memory_web_github_pages",
+      "fromNode": "n_memory_sesiones_2026_10_27_aprobacion",
+      "toNode": "n_memory_web_github_pages",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_web_github_pages_memory_inicio_repositorio",
+      "fromNode": "n_memory_web_github_pages",
+      "toNode": "n_memory_inicio_repositorio",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_continuidad_fuentes_de_verdad_memory_continuidad_continuar_proyecto",
+      "fromNode": "n_memory_continuidad_fuentes_de_verdad",
+      "toNode": "n_memory_continuidad_continuar_proyecto",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_continuidad_continuar_proyecto_memory_inicio_boveda_obsidian",
+      "fromNode": "n_memory_continuidad_continuar_proyecto",
+      "toNode": "n_memory_inicio_boveda_obsidian",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_continuidad_continuar_proyecto_memory_inicio_repositorio",
+      "fromNode": "n_memory_continuidad_continuar_proyecto",
+      "toNode": "n_memory_inicio_repositorio",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_web_verificacion_memory_sesiones_2026_10_27_verificacion_secuencial",
+      "fromNode": "n_memory_web_verificacion",
+      "toNode": "n_memory_sesiones_2026_10_27_verificacion_secuencial",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_continuidad_memoria_sin_datos_privados_memory_inicio_boveda_obsidian",
+      "fromNode": "n_memory_continuidad_memoria_sin_datos_privados",
+      "toNode": "n_memory_inicio_boveda_obsidian",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_graphify_artefactos_derivados_memory_inicio_boveda_obsidian",
+      "fromNode": "n_memory_graphify_artefactos_derivados",
+      "toNode": "n_memory_inicio_boveda_obsidian",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_inicio_boveda_obsidian_memory_inicio_barcelona_perfume_club",
+      "fromNode": "n_memory_inicio_boveda_obsidian",
+      "toNode": "n_memory_inicio_barcelona_perfume_club",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_inicio_repositorio_memory_inicio_boveda_obsidian",
+      "fromNode": "n_memory_inicio_repositorio",
+      "toNode": "n_memory_inicio_boveda_obsidian",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_sesiones_2026_10_27_aprobacion_memory_inicio_boveda_obsidian",
+      "fromNode": "n_memory_sesiones_2026_10_27_aprobacion",
+      "toNode": "n_memory_inicio_boveda_obsidian",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_eventos_2026_11_08_perfumes_nicho_encuentro_memory_eventos_2026_11_08_perfumes_nicho_gparfums",
+      "fromNode": "n_memory_eventos_2026_11_08_perfumes_nicho_encuentro",
+      "toNode": "n_memory_eventos_2026_11_08_perfumes_nicho_gparfums",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_eventos_2026_11_08_perfumes_nicho_encuentro_memory_eventos_2026_11_08_perfumes_nicho_sasva",
+      "fromNode": "n_memory_eventos_2026_11_08_perfumes_nicho_encuentro",
+      "toNode": "n_memory_eventos_2026_11_08_perfumes_nicho_sasva",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_eventos_2026_11_08_perfumes_nicho_encuentro_memory_eventos_2026_11_08_perfumes_nicho_volta",
+      "fromNode": "n_memory_eventos_2026_11_08_perfumes_nicho_encuentro",
+      "toNode": "n_memory_eventos_2026_11_08_perfumes_nicho_volta",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_eventos_2026_11_08_perfumes_nicho_encuentro_memory_eventos_2026_11_08_perfumes_nicho_carles_grau",
+      "fromNode": "n_memory_eventos_2026_11_08_perfumes_nicho_encuentro",
+      "toNode": "n_memory_eventos_2026_11_08_perfumes_nicho_carles_grau",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_eventos_2026_11_08_perfumes_nicho_encuentro_memory_inicio_barcelona_perfume_club",
+      "fromNode": "n_memory_eventos_2026_11_08_perfumes_nicho_encuentro",
+      "toNode": "n_memory_inicio_barcelona_perfume_club",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_eventos_2026_11_08_perfumes_nicho_encuentro_memory_decisiones_registro_y_plaza_confirmada",
+      "fromNode": "n_memory_eventos_2026_11_08_perfumes_nicho_encuentro",
+      "toNode": "n_memory_decisiones_registro_y_plaza_confirmada",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_eventos_2026_11_08_perfumes_nicho_encuentro_memory_eventos_2026_11_08_perfumes_nicho_cartel",
+      "fromNode": "n_memory_eventos_2026_11_08_perfumes_nicho_encuentro",
+      "toNode": "n_memory_eventos_2026_11_08_perfumes_nicho_cartel",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_eventos_mantenimiento_manual_memory_eventos_2026_11_08_perfumes_nicho_encuentro",
+      "fromNode": "n_memory_eventos_mantenimiento_manual",
+      "toNode": "n_memory_eventos_2026_11_08_perfumes_nicho_encuentro",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_inicio_barcelona_perfume_club_memory_decisiones_identidad_del_club",
+      "fromNode": "n_memory_inicio_barcelona_perfume_club",
+      "toNode": "n_memory_decisiones_identidad_del_club",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_sesiones_2026_10_27_aprobacion_memory_decisiones_diseno_aprobado",
+      "fromNode": "n_memory_sesiones_2026_10_27_aprobacion",
+      "toNode": "n_memory_decisiones_diseno_aprobado",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_decisiones_diseno_aprobado_memory_web_landing_css",
+      "fromNode": "n_memory_decisiones_diseno_aprobado",
+      "toNode": "n_memory_web_landing_css",
+      "label": "conceptually_related_to [INFERRED]"
+    },
+    {
+      "id": "e_memory_sesiones_2026_10_27_aprobacion_memory_graphify_graphify",
+      "fromNode": "n_memory_sesiones_2026_10_27_aprobacion",
+      "toNode": "n_memory_graphify_graphify",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_continuidad_fuentes_de_verdad_memory_graphify_regeneracion",
+      "fromNode": "n_memory_continuidad_fuentes_de_verdad",
+      "toNode": "n_memory_graphify_regeneracion",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_graphify_graphify_memory_graphify_artefactos_derivados",
+      "fromNode": "n_memory_graphify_graphify",
+      "toNode": "n_memory_graphify_artefactos_derivados",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_graphify_regeneracion_memory_graphify_artefactos_derivados",
+      "fromNode": "n_memory_graphify_regeneracion",
+      "toNode": "n_memory_graphify_artefactos_derivados",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_estado_pendientes_de_producto_memory_eventos_mantenimiento_manual",
+      "fromNode": "n_memory_estado_pendientes_de_producto",
+      "toNode": "n_memory_eventos_mantenimiento_manual",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_decisiones_registro_y_plaza_confirmada_memory_eventos_luma",
+      "fromNode": "n_memory_decisiones_registro_y_plaza_confirmada",
+      "toNode": "n_memory_eventos_luma",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_eventos_mantenimiento_manual_memory_eventos_luma",
+      "fromNode": "n_memory_eventos_mantenimiento_manual",
+      "toNode": "n_memory_eventos_luma",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_eventos_mantenimiento_manual_memory_web_content_ts",
+      "fromNode": "n_memory_eventos_mantenimiento_manual",
+      "toNode": "n_memory_web_content_ts",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_web_arquitectura_memory_web_content_ts",
+      "fromNode": "n_memory_web_arquitectura",
+      "toNode": "n_memory_web_content_ts",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_web_clubsite_archivado_memory_web_app_tsx",
+      "fromNode": "n_memory_web_clubsite_archivado",
+      "toNode": "n_memory_web_app_tsx",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_web_arquitectura_memory_web_landing_css",
+      "fromNode": "n_memory_web_arquitectura",
+      "toNode": "n_memory_web_landing_css",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_web_arquitectura_memory_web_prerender",
+      "fromNode": "n_memory_web_arquitectura",
+      "toNode": "n_memory_web_prerender",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_web_arquitectura_memory_web_app_tsx",
+      "fromNode": "n_memory_web_arquitectura",
+      "toNode": "n_memory_web_app_tsx",
+      "label": "references [EXTRACTED]"
+    }
+  ]
+}
