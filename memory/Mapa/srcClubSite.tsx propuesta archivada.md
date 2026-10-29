@@ -1,17 +1,17 @@
 ---
 source_file: "memory/Web.md"
 type: "concept"
-community: "Arquitectura web"
+community: "Interfaz activa y archivo"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Arquitectura_web
+  - community/Interfaz_activa_y_archivo
 ---
 
 # src/ClubSite.tsx: propuesta archivada
 
 <!-- project-memory:start -->
-Conserva una propuesta anterior y no es la web activa.
+Conserva una propuesta anterior; no es la web activa.
 
 [Nota original](../Web.md)
 <!-- project-memory:end -->
@@ -19,4 +19,4 @@ Conserva una propuesta anterior y no es la web activa.
 ## Connections
 - [[srcApp.tsx web activa]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Arquitectura_web
+#graphify/concept #graphify/EXTRACTED #community/Interfaz_activa_y_archivo

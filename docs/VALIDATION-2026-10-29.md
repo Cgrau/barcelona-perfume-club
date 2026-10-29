@@ -12,3 +12,7 @@ Alcance autorizado: página propia del primer evento y coherencia de identidad; 
 Luma consultado de nuevo el 29 de octubre: mismo nombre, fecha, horario, lugar, dominio y handles del club. La inscripción figura como lista de espera; la web remite a Luma y mantiene el acceso condicionado a registro y plaza confirmada. No se editaron perfiles externos ni se comprobó una posición actual en Google. No se repitió Lighthouse localmente.
 
 La ficha usa WebPage y BreadcrumbList. Event para resultados enriquecidos queda pospuesto por la restricción de acceso mediante confirmación; no se modifica esa condición para cumplir una función del buscador.
+
+Publicación comprobada: commit `4f0a26b`, [GitHub Pages correcto](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/40828628191). Se comprueban en el dominio público la ficha, su canonical, condiciones y enlace Luma, vínculo desde portada, identidad WebSite y entrada del sitemap. La publicación no acredita una posición en Google.
+
+La [auditoría automática SEO de GitHub](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/40828628193) también termina correctamente. Una prueba adicional del prerender con metadatos que contienen `$&`, comillas y HTML conserva sus valores literales en portada y ruta anidada.

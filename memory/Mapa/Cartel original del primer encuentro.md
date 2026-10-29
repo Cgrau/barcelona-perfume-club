@@ -1,17 +1,17 @@
 ---
 source_file: "memory/eventos/2026-11-08-perfumes-nicho.md"
 type: "concept"
-community: "Primer encuentro y club"
+community: "Primer encuentro"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Primer_encuentro_y_club
+  - community/Primer_encuentro
 ---
 
 # Cartel original del primer encuentro
 
 <!-- project-memory:start -->
-barcelona_perfume_club_event1.png, 1122 × 1402 px. La web usa versiones WebP completas, sin recortes, de 480 × 600 y 960 × 1200 px en public/media/descubriendo-perfumes-nicho-*.webp. Las copias necesarias están versionadas.
+barcelona_perfume_club_event1.png, 1122 × 1402 px. WebP de 480 × 600 y 960 × 1200 px en public/media/descubriendo-perfumes-nicho-*.webp, sin recortes. Copias necesarias versionadas; originales de Downloads no garantizados en otro equipo.
 
 [Nota original](../eventos/2026-11-08-perfumes-nicho.md)
 <!-- project-memory:end -->
@@ -19,4 +19,4 @@ barcelona_perfume_club_event1.png, 1122 × 1402 px. La web usa versiones WebP co
 ## Connections
 - [[Descubriendo perfumes nicho — 8 de noviembre de 2026]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Primer_encuentro_y_club
+#graphify/concept #graphify/EXTRACTED #community/Primer_encuentro

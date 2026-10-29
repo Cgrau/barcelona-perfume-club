@@ -11,9 +11,9 @@ tags:
 # Continuar el proyecto desde otro equipo
 
 <!-- project-memory:start -->
-Clonar o actualizar el repositorio; leer AGENTS.md, Inicio, Estado, la sesión más reciente y las decisiones aplicables. Actualizar Estado y una sesión fechada al terminar cambios relevantes.
+Clonar o actualizar el repositorio; leer AGENTS.md, Inicio, Estado, la sesión más reciente y las decisiones aplicables. Al terminar una sesión relevante, actualizar Estado, decisiones aprobadas y una nota fechada con petición, cambios, verificaciones, publicación y pendientes.
 
-**Motivo:** La continuidad depende de archivos accesibles y leídos; el historial del chat y los recuerdos internos no se transfieren automáticamente.
+**Motivo:** El contexto persiste en archivos accesibles y leídos; no se transfiere automáticamente el historial del chat ni los recuerdos internos.
 
 [Nota original](../Continuidad.md)
 <!-- project-memory:end -->
@@ -21,7 +21,7 @@ Clonar o actualizar el repositorio; leer AGENTS.md, Inicio, Estado, la sesión m
 ## Connections
 - [[Bóveda compartida de Obsidian]] - `references` [EXTRACTED]
 - [[Notas originales y código como fuentes de verdad]] - `rationale_for` [EXTRACTED]
-- [[Publicación comprobada del primer evento]] - `references` [EXTRACTED]
+- [[Publicación comprobada de la web]] - `references` [EXTRACTED]
 - [[Repositorio compartido en GitHub]] - `references` [EXTRACTED]
 
 #graphify/rationale #graphify/EXTRACTED #community/Continuidad_y_publicación

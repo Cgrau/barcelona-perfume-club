@@ -1,17 +1,17 @@
 ---
 source_file: "memory/Eventos.md"
 type: "rationale"
-community: "Eventos y acceso"
+community: "Programación y Luma"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Eventos_y_acceso
+  - community/Programación_y_Luma
 ---
 
 # Mantenimiento manual de eventos
 
 <!-- project-memory:start -->
-Las fichas de events en src/content.ts incluyen título, fecha, lugar, descripción con enlaces, cartel local y URL específica de Luma. Al añadir eventos, verificar datos públicos, conservar el cartel completo, comprobar móvil y escritorio y actualizar Estado y la sesión. La portada referencia actualmente la primera ficha.
+events en src/content.ts incluye path, título, edición, introducción y detalle propios, fecha y horario, lugar, descripción con enlaces, cartel local y URL de Luma. El prerender genera ficha y entrada del sitemap. Verificar datos públicos, conservar cartel completo, comprobar móvil y escritorio, revisar portada y actualizar memoria. Publicar en Luma no actualiza la web.
 
 [Nota original](../Eventos.md)
 <!-- project-memory:end -->
@@ -22,4 +22,4 @@ Las fichas de events en src/content.ts incluyen título, fecha, lugar, descripci
 - [[Pendientes de producto y alcance]] - `references` [EXTRACTED]
 - [[srccontent.ts eventos y enlaces]] - `references` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Eventos_y_acceso
+#graphify/rationale #graphify/EXTRACTED #community/Programación_y_Luma

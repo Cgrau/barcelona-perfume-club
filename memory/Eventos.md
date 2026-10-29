@@ -1,7 +1,7 @@
 ---
 title: Eventos y Luma
 type: operations
-updated: 2026-10-27
+updated: 2026-10-29
 tags: [eventos, luma]
 ---
 
@@ -11,7 +11,7 @@ Primer encuentro: [[eventos/2026-11-08-perfumes-nicho]].
 
 Calendario del club: https://luma.com/barcelonaperfumeclub
 
-Las fichas se mantienen en `events` de `src/content.ts`. Cada una incluye título, fecha, lugar, descripción, cartel local y URL específica de Luma. La descripción permite texto y enlaces a Instagram. Añadir los siguientes encuentros a la lista y revisar el anuncio de la portada: actualmente referencia la primera ficha y habla del primer evento.
+Las fichas se mantienen en `events` de `src/content.ts`. Incluyen `path`, título, edición, introducción y detalle propios, fecha y horario, lugar, descripción, cartel local y URL de Luma. La descripción admite texto y enlaces a Instagram. El prerender genera una página propia y añade su URL al sitemap. Revisar la portada al añadir eventos: actualmente referencia la primera ficha y habla del primer encuentro.
 
 No hay sincronización automática con el calendario. Publicar un evento en Luma no lo incorpora por sí solo a esta web. No prometer lo contrario.
 
@@ -20,6 +20,8 @@ No hay sincronización automática con el calendario. Publicar un evento en Luma
 Plazas limitadas. Es imprescindible registrarse en **ese evento** en Luma y recibir la confirmación de la plaza. Sin registro y confirmación no se podrá acceder. Seguir el calendario no equivale a estar inscrito. Carles quiere evitar personas que se presenten sin invitación; mantener visible el recuadro destacado de [[Decisiones]].
 
 La disponibilidad y la gestión de inscripciones corresponden a Luma; no mostrar una cifra estática de plazas restantes.
+
+El 29 de octubre el primer encuentro figura en lista de espera. La ficha remite a Luma y aclara que la lista de espera no confirma plaza. El nombre, dominio y handles del calendario coinciden con los de la web; no se han cambiado perfiles externos. Ver [[sesiones/2026-10-29]].
 
 ## Canales del club
 

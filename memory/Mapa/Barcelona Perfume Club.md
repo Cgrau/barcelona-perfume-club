@@ -1,11 +1,11 @@
 ---
 source_file: "memory/Inicio.md"
 type: "concept"
-community: "Primer encuentro y club"
+community: "Identidad y memoria"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Primer_encuentro_y_club
+  - community/Identidad_y_memoria
 ---
 
 # Barcelona Perfume Club
@@ -21,4 +21,4 @@ Proyecto del club y web https://barcelonaperfumeclub.com/.
 - [[Descubriendo perfumes nicho — 8 de noviembre de 2026]] - `conceptually_related_to` [EXTRACTED]
 - [[Identidad cercana y abierta del club]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Primer_encuentro_y_club
+#graphify/concept #graphify/EXTRACTED #community/Identidad_y_memoria

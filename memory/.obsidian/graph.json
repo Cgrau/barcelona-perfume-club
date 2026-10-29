@@ -1,38 +1,59 @@
 {
   "colorGroups": [
     {
-      "query": "tag:#community/Continuidad_y_publicaci\u00f3n",
+      "query": "tag:#community/Identidad_y_memoria",
       "color": {
         "a": 1,
         "rgb": 5142951
       }
     },
     {
-      "query": "tag:#community/Primer_encuentro_y_club",
+      "query": "tag:#community/Continuidad_y_publicaci\u00f3n",
       "color": {
         "a": 1,
         "rgb": 15896107
       }
     },
     {
-      "query": "tag:#community/Memoria_y_decisiones",
+      "query": "tag:#community/Primer_encuentro",
       "color": {
         "a": 1,
         "rgb": 14767961
       }
     },
     {
-      "query": "tag:#community/Eventos_y_acceso",
+      "query": "tag:#community/Alcance_SEO_aprobado",
       "color": {
         "a": 1,
         "rgb": 7780274
       }
     },
     {
-      "query": "tag:#community/Arquitectura_web",
+      "query": "tag:#community/Generaci\u00f3n_est\u00e1tica",
       "color": {
         "a": 1,
         "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Registro_y_confirmaci\u00f3n",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Programaci\u00f3n_y_Luma",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Interfaz_activa_y_archivo",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
       }
     }
   ]

@@ -1,17 +1,17 @@
 ---
 source_file: "memory/Web.md"
 type: "concept"
-community: "Eventos y acceso"
+community: "Generación estática"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Eventos_y_acceso
+  - community/Generación_estática
 ---
 
 # src/content.ts: eventos y enlaces
 
 <!-- project-memory:start -->
-Fuente de datos de eventos y enlaces del club.
+Datos de eventos y enlaces oficiales del club; events[].path determina las rutas reales de las fichas.
 
 [Nota original](../Web.md)
 <!-- project-memory:end -->
@@ -19,5 +19,7 @@ Fuente de datos de eventos y enlaces del club.
 ## Connections
 - [[Arquitectura React, Vite y TypeScript con HTML prerenderizado]] - `references` [EXTRACTED]
 - [[Mantenimiento manual de eventos]] - `references` [EXTRACTED]
+- [[Sitemap estático generado desde las rutas reales]] - `references` [EXTRACTED]
+- [[srcseo.ts metadatos e identidad común]] - `shares_data_with` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Eventos_y_acceso
+#graphify/concept #graphify/EXTRACTED #community/Generación_estática

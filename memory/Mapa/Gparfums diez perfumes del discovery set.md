@@ -1,17 +1,17 @@
 ---
 source_file: "memory/eventos/2026-11-08-perfumes-nicho.md"
 type: "concept"
-community: "Primer encuentro y club"
+community: "Primer encuentro"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Primer_encuentro_y_club
+  - community/Primer_encuentro
 ---
 
 # Gparfums: diez perfumes del discovery set
 
 <!-- project-memory:start -->
-Los diez perfumes del discovery set se descubrirán en el primer encuentro. Instagram: https://www.instagram.com/gparfums/.
+Se descubrirán diez perfumes de su discovery set. Instagram https://www.instagram.com/gparfums/.
 
 [Nota original](../eventos/2026-11-08-perfumes-nicho.md)
 <!-- project-memory:end -->
@@ -19,4 +19,4 @@ Los diez perfumes del discovery set se descubrirán en el primer encuentro. Inst
 ## Connections
 - [[Descubriendo perfumes nicho — 8 de noviembre de 2026]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Primer_encuentro_y_club
+#graphify/concept #graphify/EXTRACTED #community/Primer_encuentro

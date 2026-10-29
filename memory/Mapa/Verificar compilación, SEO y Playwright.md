@@ -11,12 +11,13 @@ tags:
 # Verificar compilación, SEO y Playwright
 
 <!-- project-memory:start -->
-Ejecutar npm run build, npm run seo:check y npm test. tests/landing.spec.ts cubre móvil de 375 px y escritorio de 1440 px, incluyendo axe. Brave puede configurarse mediante BROWSER_PATH. Terminar la compilación antes de probar dist/.
+npm run build, npm run seo:check y npm test. Suite móvil 375 px y escritorio 1440 px con axe. Brave mediante BROWSER_PATH si falta Chromium. Entrada y metadatos se verifican sin JavaScript; axe usa otro contexto con JavaScript para su analizador. Terminar compilación antes de probar dist/.
 
 [Nota original](../Web.md)
 <!-- project-memory:end -->
 
 ## Connections
-- [[Verificación del cambio y compilación antes de las pruebas]] - `references` [EXTRACTED]
+- [[Verificación SEO de dos páginas y doce pruebas]] - `references` [EXTRACTED]
+- [[Verificación inicial y compilación antes de las pruebas]] - `references` [EXTRACTED]
 
 #graphify/rationale #graphify/EXTRACTED #community/Continuidad_y_publicación

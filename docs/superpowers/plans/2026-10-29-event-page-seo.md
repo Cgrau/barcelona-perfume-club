@@ -42,7 +42,7 @@
 
 **Files:** `README.md`, `docs/SEO.md`, `memory/Estado.md`, notas pertinentes y nueva sesión; grafo derivado.
 
-- [ ] Documentar las rutas y la identidad y guardar el alcance aprobado, distinguiendo cambios locales y externos.
-- [ ] Actualizar memoria y su grafo sin reingerir las notas generadas.
-- [ ] Revisión independiente y corrección de problemas materiales.
-- [ ] Publicar dentro de la autorización vigente y comprobar workflow y las dos URL públicas.
+- [x] Documentar las rutas y la identidad y guardar el alcance aprobado, distinguiendo cambios locales y externos.
+- [x] Actualizar memoria y su grafo sin reingerir las notas generadas.
+- [x] Revisión independiente y corrección de problemas materiales.
+- [x] Publicar dentro de la autorización vigente y comprobar workflow y las dos URL públicas.

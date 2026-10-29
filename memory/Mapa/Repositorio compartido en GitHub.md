@@ -11,7 +11,7 @@ tags:
 # Repositorio compartido en GitHub
 
 <!-- project-memory:start -->
-https://github.com/Cgrau/barcelona-perfume-club conserva el código y la bóveda.
+https://github.com/Cgrau/barcelona-perfume-club conserva código y bóveda.
 
 [Nota original](../Inicio.md)
 <!-- project-memory:end -->

@@ -1,22 +1,22 @@
 ---
 type: community
-cohesion: 0.32
+cohesion: 0.29
 members: 8
 ---
 
 # Continuidad y publicación
 
-**Cohesion:** 0.32 - loosely connected
+**Cohesion:** 0.29 - loosely connected
 **Members:** 8 nodes
 
 ## Members
-- [[Bóveda compartida de Obsidian]] - concept - memory/Inicio.md
 - [[Continuar el proyecto desde otro equipo]] - rationale - memory/Continuidad.md
-- [[Memoria sin credenciales ni datos de asistentes]] - rationale - memory/Continuidad.md
-- [[Publicación comprobada del primer evento]] - concept - memory/Estado.md
+- [[Notas originales y código como fuentes de verdad]] - rationale - memory/Continuidad.md
+- [[Publicación comprobada de la web]] - concept - memory/Estado.md
 - [[Publicación de main en GitHub Pages]] - rationale - memory/Web.md
 - [[Repositorio compartido en GitHub]] - concept - memory/Inicio.md
-- [[Verificación del cambio y compilación antes de las pruebas]] - rationale - memory/sesiones/2026-10-27.md
+- [[Verificación SEO de dos páginas y doce pruebas]] - concept - memory/sesiones/2026-10-29.md
+- [[Verificación inicial y compilación antes de las pruebas]] - rationale - memory/sesiones/2026-10-27.md
 - [[Verificar compilación, SEO y Playwright]] - rationale - memory/Web.md
 
 ## Live Query (requires Dataview plugin)
@@ -27,10 +27,12 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Memoria y decisiones]]
-- 1 edge to [[_COMMUNITY_Primer encuentro y club]]
+- 4 edges to [[_COMMUNITY_Identidad y memoria]]
+- 2 edges to [[_COMMUNITY_Alcance SEO aprobado]]
 
 ## Top bridge nodes
-- [[Bóveda compartida de Obsidian]] - degree 6, connects to 2 communities
 - [[Continuar el proyecto desde otro equipo]] - degree 4, connects to 1 community
+- [[Publicación comprobada de la web]] - degree 4, connects to 1 community
+- [[Repositorio compartido en GitHub]] - degree 3, connects to 1 community
 - [[Publicación de main en GitHub Pages]] - degree 3, connects to 1 community
+- [[Notas originales y código como fuentes de verdad]] - degree 2, connects to 1 community

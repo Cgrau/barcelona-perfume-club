@@ -1,7 +1,7 @@
 ---
 title: Web, código y publicación
 type: architecture
-updated: 2026-10-27
+updated: 2026-10-29
 tags: [web, github]
 ---
 
@@ -18,6 +18,9 @@ Archivos principales:
 | `src/App.tsx` | Portada, eventos, club, FAQ y contacto |
 | `src/landing.css` | Diseño activo y comportamiento responsive |
 | `src/content.ts` | Eventos y enlaces del club |
+| `src/EventPage.tsx` | Ficha estática propia de cada encuentro |
+| `src/components/EventContent.tsx` | Descripción y aviso de acceso compartidos |
+| `src/seo.ts` | Metadatos por URL e identidad común |
 | `index.html` | Metadatos SEO y de redes |
 | `scripts/prerender.mjs` | HTML inicial de la página |
 | `tests/landing.spec.ts` | Pruebas activas de la landing |
@@ -29,5 +32,7 @@ Archivos principales:
 Para revisar: `npm install`, `npm run build`, `npm run seo:check`, `npm test`. Requiere Node 22.12 o posterior. La suite tiene proyectos móvil (375 px) y escritorio (1440 px), incluyendo axe. Brave puede usarse con `BROWSER_PATH` si Chromium de Playwright no está instalado. Terminar la compilación antes de probar el resultado estático.
 
 GitHub Pages compila y publica `dist/` al subir a `main`. Comprobar el workflow y el contenido servido por el dominio antes de confirmar una publicación. Las notas de [[Inicio]] y el grafo de [[Graphify]] viven fuera de `public/`.
+
+El prerender genera portada y rutas `events[].path`, incluyendo `/eventos/descubriendo-perfumes-nicho/`, y deriva de ellas `dist/sitemap.xml`. Ya no hay sitemap manual en `public/`. Cada URL tiene título, descripción, canonical y WebPage propios. Las pruebas usan producción estática: entrada y metadatos sin JavaScript, axe en un contexto con JavaScript para su analizador. Detalle en [[sesiones/2026-10-29]].
 
 Umami es opcional; el código solo lo inserta si se configura `UMAMI_WEBSITE_ID`. No guardar valores privados en esta bóveda. Detalles en `docs/UMAMI.md`. La organización visual está en [[Decisiones]] y la programación en [[Eventos]].

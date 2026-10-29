@@ -1,6 +1,6 @@
 # Mapa de la memoria del club
 
-Grafo generado con Graphify 0.9.97 a partir de las nueve notas originales de `memory/`, el 27 de octubre de 2026: 32 conceptos y decisiones, 38 relaciones y cinco comunidades. Los nodos y enlaces conservan su nota de origen; las relaciones distinguen lo explícito de lo inferido. La cobertura de las nueve notas y la integridad de los enlaces se comprobaron antes de exportar.
+Grafo actualizado con Graphify 0.9.97 a partir de las diez notas originales de `memory/`, el 29 de octubre de 2026: 41 conceptos y decisiones, 60 relaciones y ocho comunidades. Incluye la ficha propia del evento, identidad SEO compartida, lista de espera y alcance autorizado. Los nodos y enlaces conservan su nota de origen; las relaciones distinguen lo explícito de lo inferido. La cobertura de las diez notas y la integridad de los enlaces se comprobaron antes de exportar.
 
 - `graph.json`: grafo portable para consultas.
 - `graph.html`: visor interactivo generado por Graphify.

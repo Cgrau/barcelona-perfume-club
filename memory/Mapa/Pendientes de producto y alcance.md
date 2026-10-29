@@ -1,17 +1,17 @@
 ---
 source_file: "memory/Estado.md"
 type: "concept"
-community: "Eventos y acceso"
+community: "Programación y Luma"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Eventos_y_acceso
+  - community/Programación_y_Luma
 ---
 
 # Pendientes de producto y alcance
 
 <!-- project-memory:start -->
-Añadir futuros encuentros cuando existan y revisar su anuncio de portada. La sincronización automática con Luma no está implementada ni aprobada como trabajo adicional. Siguen pendientes los datos del titular para el aviso legal, según README.
+Añadir siguientes encuentros cuando existan y revisar portada al cambiar programación. No hay sincronización automática con Luma implementada ni aprobada como trabajo adicional. Datos del titular para aviso legal pendientes según README.
 
 [Nota original](../Estado.md)
 <!-- project-memory:end -->
@@ -19,4 +19,4 @@ Añadir futuros encuentros cuando existan y revisar su anuncio de portada. La si
 ## Connections
 - [[Mantenimiento manual de eventos]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Eventos_y_acceso
+#graphify/concept #graphify/EXTRACTED #community/Programación_y_Luma

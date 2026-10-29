@@ -1,11 +1,11 @@
 ---
 source_file: "memory/Decisiones.md"
 type: "rationale"
-community: "Primer encuentro y club"
+community: "Identidad y memoria"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Primer_encuentro_y_club
+  - community/Identidad_y_memoria
 ---
 
 # Identidad cercana y abierta del club
@@ -18,5 +18,6 @@ Reunir en Barcelona a personas que disfrutan del perfume para descubrir marcas, 
 
 ## Connections
 - [[Barcelona Perfume Club]] - `references` [EXTRACTED]
+- [[srcseo.ts metadatos e identidad común]] - `references` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Primer_encuentro_y_club
+#graphify/rationale #graphify/EXTRACTED #community/Identidad_y_memoria

@@ -1,17 +1,17 @@
 ---
 source_file: "memory/Continuidad.md"
 type: "rationale"
-community: "Continuidad y publicación"
+community: "Identidad y memoria"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Continuidad_y_publicación
+  - community/Identidad_y_memoria
 ---
 
 # Memoria sin credenciales ni datos de asistentes
 
 <!-- project-memory:start -->
-No guardar tokens, archivos .env, datos de asistentes ni rutas locales como si existieran en todos los equipos. Excluir de Git las preferencias de paneles de Obsidian.
+No guardar tokens, archivos .env, datos de asistentes ni rutas locales como universales. Excluir preferencias de paneles de Obsidian de Git. Traer cambios antes de editar desde otra máquina y resolver conflictos antes de subir.
 
 [Nota original](../Continuidad.md)
 <!-- project-memory:end -->
@@ -19,4 +19,4 @@ No guardar tokens, archivos .env, datos de asistentes ni rutas locales como si e
 ## Connections
 - [[Bóveda compartida de Obsidian]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Continuidad_y_publicación
+#graphify/rationale #graphify/EXTRACTED #community/Identidad_y_memoria
