@@ -23,8 +23,8 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Memoria compartida y continuidad]]
-- 1 edge to [[_COMMUNITY_Diseño y permisos de publicación]]
+- 2 edges to [[_COMMUNITY_Continuidad y publicación]]
+- 1 edge to [[_COMMUNITY_Diseño y aprobación]]
 
 ## Top bridge nodes
 - [[Grafo portable y exportación para Obsidian]] - degree 3, connects to 1 community

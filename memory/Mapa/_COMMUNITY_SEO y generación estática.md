@@ -30,17 +30,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Organizadores y Quiénes somos]]
-- 2 edges to [[_COMMUNITY_Validación y despliegues]]
+- 6 edges to [[_COMMUNITY_Organizadores y validación del About]]
+- 2 edges to [[_COMMUNITY_Identidad e indexación confirmada]]
+- 1 edge to [[_COMMUNITY_Continuidad y publicación]]
 - 1 edge to [[_COMMUNITY_Programación y canales oficiales]]
-- 1 edge to [[_COMMUNITY_Identidad del club]]
 - 1 edge to [[_COMMUNITY_Acceso con plaza confirmada]]
 - 1 edge to [[_COMMUNITY_Primer encuentro y marcas]]
-- 1 edge to [[_COMMUNITY_Diseño y permisos de publicación]]
+- 1 edge to [[_COMMUNITY_Diseño y aprobación]]
 
 ## Top bridge nodes
 - [[srcEventPage.tsx ficha propia del encuentro]] - degree 8, connects to 3 communities
+- [[Publicación SEO comprobada 4f0a26b]] - degree 7, connects to 3 communities
 - [[srcseo.ts metadatos e identidad común]] - degree 5, connects to 2 communities
-- [[Publicación SEO comprobada 4f0a26b]] - degree 6, connects to 1 community
 - [[srcApp.tsx web activa]] - degree 4, connects to 1 community
 - [[Arquitectura React, Vite y TypeScript con HTML prerenderizado]] - degree 4, connects to 1 community

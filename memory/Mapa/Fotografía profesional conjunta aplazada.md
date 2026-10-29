@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Decisiones.md"
 type: "rationale"
-community: "Organizadores y Quiénes somos"
+community: "Organizadores y validación del About"
 location: "L44"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Organizadores_y_Quiénes_somos
+  - community/Organizadores_y_validación_del_About
 ---
 
 # Fotografía profesional conjunta aplazada
@@ -20,4 +20,4 @@ La fotografía profesional conjunta de Carles y Laura queda para más adelante. 
 ## Connections
 - [[srcAboutPage.tsx Quiénes somos publicado y comprobado]] - `references` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Organizadores_y_Quiénes_somos
+#graphify/rationale #graphify/EXTRACTED #community/Organizadores_y_validación_del_About

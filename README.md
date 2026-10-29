@@ -1,14 +1,12 @@
-# Barcelona Perfume Club
+# Código fuente de Barcelona Perfume Club
+
+**Web oficial: [barcelonaperfumeclub.com](https://barcelonaperfumeclub.com/)**
+
+Este repositorio contiene el código fuente y la documentación técnica de la web. Para conocer el club, consultar los próximos eventos y acceder a las inscripciones, visita la [web oficial de Barcelona Perfume Club](https://barcelonaperfumeclub.com/).
 
 La memoria compartida del proyecto está en [memory/Inicio.md](memory/Inicio.md). Abre `memory/` como bóveda en Obsidian para consultar las decisiones, sesiones y relaciones entre notas. `AGENTS.md` indica a futuros asistentes qué leer al retomar; [Graphify](memory/Graphify.md) conserva el mapa derivado en `graphify-out/`. Las notas se versionan en este repositorio y quedan fuera de la web pública.
 
-Rediseño aprobado por Carles el 23 de octubre de 2026 para su publicación en https://barcelonaperfumeclub.com/. GitHub Pages publica automáticamente los cambios de `main`.
-
-La versión actual es una landing de lanzamiento estática, sin animaciones de entrada ni movimiento continuo. El logo original se presenta sin fondo opaco sobre el burdeos #640817. La paleta usa burdeos y marfil en toda la página.
-
-La portada presenta «El perfume se disfruta más en compañía» con una composición tipográfica a todo el ancho y altura natural, sin centrar el contenido verticalmente en una pantalla completa. La fotografía de stock probada se ha retirado a petición de Carles. El logo, centrado y compacto, y el menú quedan fijos arriba y las redes sociales fijas abajo. Solo se desplaza el contenido central, con navegación por ratón, tacto y teclado. Los textos mantienen un tamaño cómodo de lectura.
-
-La frase «Perfume, conversación y comunidad» introduce la portada, que anuncia el primer evento con acceso directo a su inscripción. Justo después, Próximos eventos lista los encuentros con su cartel, fecha, lugar, descripción y enlace a Luma. El primer encuentro es «Descubriendo perfumes nicho», el 8 de noviembre de 2026 a las 12:00 en Volta Restaurant & Bar. El apartado El club desarrolla tres pilares: Descubrir, Compartir y Conectar. El contacto invita a consultas o propuestas de colaboración: «¿Tienes alguna consulta o una idea para colaborar? Nos encantará leerte».
+Aplicación React, Vite y TypeScript con HTML prerenderizado. GitHub Pages publica la web desde `main`. Las decisiones de diseño, contenido y acceso a eventos se conservan en la memoria y en [DESIGN.md](DESIGN.md).
 
 ## Abrir en local
 

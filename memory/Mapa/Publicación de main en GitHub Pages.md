@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Web.md"
 type: "rationale"
-community: "Diseño y permisos de publicación"
+community: "Continuidad y publicación"
 location: "L35"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Diseño_y_permisos_de_publicación
+  - community/Continuidad_y_publicación
 ---
 
 # Publicación de main en GitHub Pages
@@ -23,4 +23,4 @@ Subir a main activa .github/workflows/deploy.yml para compilar y publicar dist/;
 - [[Quiénes somos de revisión local a publicación comprobada]] - `conceptually_related_to` [EXTRACTED]
 - [[Repositorio compartido en GitHub]] - `references` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Diseño_y_permisos_de_publicación
+#graphify/rationale #graphify/EXTRACTED #community/Continuidad_y_publicación

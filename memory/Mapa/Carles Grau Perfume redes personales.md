@@ -1,12 +1,12 @@
 ---
 source_file: "memory/sesiones/2026-10-29.md"
 type: "concept"
-community: "Organizadores y Quiénes somos"
+community: "Organizadores y validación del About"
 location: "L36"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Organizadores_y_Quiénes_somos
+  - community/Organizadores_y_validación_del_About
 ---
 
 # Carles Grau Perfume: redes personales
@@ -23,4 +23,4 @@ TikTok confirmado por Carles: https://www.tiktok.com/@carles.grau. YouTube confi
 - [[Identidad Person de Carles separada del club]] - `references` [EXTRACTED]
 - [[srcAboutPage.tsx Quiénes somos publicado y comprobado]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Organizadores_y_Quiénes_somos
+#graphify/concept #graphify/EXTRACTED #community/Organizadores_y_validación_del_About

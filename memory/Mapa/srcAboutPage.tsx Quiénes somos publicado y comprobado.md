@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Web.md"
 type: "concept"
-community: "Organizadores y Quiénes somos"
+community: "Organizadores y validación del About"
 location: "L39"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Organizadores_y_Quiénes_somos
+  - community/Organizadores_y_validación_del_About
 ---
 
 # src/AboutPage.tsx: Quiénes somos publicado y comprobado
@@ -30,4 +30,4 @@ Página aparte «Quiénes somos», /sobre-el-club/, tercera ruta prerenderizada:
 - [[srcApp.tsx web activa]] - `references` [EXTRACTED]
 - [[srcEventPage.tsx ficha propia del encuentro]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Organizadores_y_Quiénes_somos
+#graphify/concept #graphify/EXTRACTED #community/Organizadores_y_validación_del_About

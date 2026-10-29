@@ -23,10 +23,10 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
+- 1 edge to [[_COMMUNITY_Organizadores y validación del About]]
 - 1 edge to [[_COMMUNITY_SEO y generación estática]]
-- 1 edge to [[_COMMUNITY_Organizadores y Quiénes somos]]
 - 1 edge to [[_COMMUNITY_Primer encuentro y marcas]]
-- 1 edge to [[_COMMUNITY_Identidad del club]]
+- 1 edge to [[_COMMUNITY_Identidad e indexación confirmada]]
 - 1 edge to [[_COMMUNITY_Acceso con plaza confirmada]]
 
 ## Top bridge nodes

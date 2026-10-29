@@ -1,12 +1,12 @@
 ---
 source_file: "memory/sesiones/2026-10-27.md"
 type: "rationale"
-community: "Validación y despliegues"
+community: "Organizadores y validación del About"
 location: "L29"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Validación_y_despliegues
+  - community/Organizadores_y_validación_del_About
 ---
 
 # Verificación inicial y compilación antes de las pruebas
@@ -23,4 +23,4 @@ El 27 de octubre pasan compilación, SEO y seis pruebas Playwright con móvil, e
 - [[Publicación comprobada de la web]] - `conceptually_related_to` [EXTRACTED]
 - [[Verificar compilación, SEO y Playwright]] - `references` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Validación_y_despliegues
+#graphify/rationale #graphify/EXTRACTED #community/Organizadores_y_validación_del_About

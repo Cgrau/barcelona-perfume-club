@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Inicio.md"
 type: "concept"
-community: "Memoria compartida y continuidad"
+community: "Continuidad y publicación"
 location: "L10"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Memoria_compartida_y_continuidad
+  - community/Continuidad_y_publicación
 ---
 
 # Bóveda compartida de Obsidian
@@ -25,4 +25,4 @@ La carpeta memory resume hechos y decisiones con wikilinks para continuar desde 
 - [[Memoria sin credenciales ni datos de asistentes]] - `conceptually_related_to` [EXTRACTED]
 - [[Repositorio compartido en GitHub]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Memoria_compartida_y_continuidad
+#graphify/concept #graphify/EXTRACTED #community/Continuidad_y_publicación

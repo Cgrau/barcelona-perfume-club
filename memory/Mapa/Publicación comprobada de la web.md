@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Estado.md"
 type: "concept"
-community: "Validación y despliegues"
+community: "Continuidad y publicación"
 location: "L14"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Validación_y_despliegues
+  - community/Continuidad_y_publicación
 ---
 
 # Publicación comprobada de la web
@@ -23,4 +23,4 @@ Publicado y comprobado en 4df3f11 (commit completo 4df3f117548c911c82c55d932a9d0
 - [[Publicación de main en GitHub Pages]] - `references` [EXTRACTED]
 - [[Verificación inicial y compilación antes de las pruebas]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Validación_y_despliegues
+#graphify/concept #graphify/EXTRACTED #community/Continuidad_y_publicación
