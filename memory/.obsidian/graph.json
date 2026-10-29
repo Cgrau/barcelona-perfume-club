@@ -1,59 +1,73 @@
 {
   "colorGroups": [
     {
-      "query": "tag:#community/Identidad_y_memoria",
+      "query": "tag:#community/SEO_y_generaci\u00f3n_est\u00e1tica",
       "color": {
         "a": 1,
         "rgb": 5142951
       }
     },
     {
-      "query": "tag:#community/Continuidad_y_publicaci\u00f3n",
+      "query": "tag:#community/Organizadores_y_Qui\u00e9nes_somos",
       "color": {
         "a": 1,
         "rgb": 15896107
       }
     },
     {
-      "query": "tag:#community/Primer_encuentro",
+      "query": "tag:#community/Dise\u00f1o_y_permisos_de_publicaci\u00f3n",
       "color": {
         "a": 1,
         "rgb": 14767961
       }
     },
     {
-      "query": "tag:#community/Alcance_SEO_aprobado",
+      "query": "tag:#community/Validaci\u00f3n_y_despliegues",
       "color": {
         "a": 1,
         "rgb": 7780274
       }
     },
     {
-      "query": "tag:#community/Generaci\u00f3n_est\u00e1tica",
+      "query": "tag:#community/Primer_encuentro_y_marcas",
       "color": {
         "a": 1,
         "rgb": 5873999
       }
     },
     {
-      "query": "tag:#community/Registro_y_confirmaci\u00f3n",
+      "query": "tag:#community/Memoria_compartida_y_continuidad",
       "color": {
         "a": 1,
         "rgb": 15583560
       }
     },
     {
-      "query": "tag:#community/Programaci\u00f3n_y_Luma",
+      "query": "tag:#community/Graphify_y_fuentes_de_verdad",
       "color": {
         "a": 1,
         "rgb": 11565729
       }
     },
     {
-      "query": "tag:#community/Interfaz_activa_y_archivo",
+      "query": "tag:#community/Programaci\u00f3n_y_canales_oficiales",
       "color": {
         "a": 1,
         "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Acceso_con_plaza_confirmada",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Identidad_del_club",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
       }
     }
   ]

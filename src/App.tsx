@@ -1,12 +1,14 @@
 import { Brand } from "./components/Brand";
-import { club, clubPurpose, events } from "./content";
+import { about, club, clubPurpose, events } from "./content";
 import { EventDescription, RegistrationNotice } from "./components/EventContent";
 import EventPage from "./EventPage";
+import AboutPage from "./AboutPage";
 import { normalizePathname } from "./seo";
 
 export default function App({ pathname = "/" }: { pathname?: string }) {
   const eventDetail = events.find((event) => event.path === normalizePathname(pathname));
-  const home = eventDetail ? "/" : "";
+  const isAbout = normalizePathname(pathname) === about.path;
+  const home = eventDetail || isAbout ? "/" : "";
   return (
     <div className="landing">
       <a className="skip-link" href="#contenido">
@@ -21,8 +23,10 @@ export default function App({ pathname = "/" }: { pathname?: string }) {
           <Brand className="landing-logo" />
         </a>
         <nav aria-label="Principal">
+          <a href={`${home}#inicio`} aria-current={!eventDetail && !isAbout ? "page" : undefined}>Inicio</a>
           <a href={`${home}#el-club`}>El club</a>
           <a href={`${home}#eventos`}>Eventos</a>
+          <a href={about.path} aria-current={isAbout ? "page" : undefined}>Quiénes somos</a>
           <a href={club.links.contact} data-umami-event="contact-menu">
             Contacto
           </a>
@@ -35,7 +39,7 @@ export default function App({ pathname = "/" }: { pathname?: string }) {
         tabIndex={0}
         aria-label="Contenido del club"
       >
-        {eventDetail ? <EventPage event={eventDetail} /> : <>
+        {isAbout ? <AboutPage /> : eventDetail ? <EventPage event={eventDetail} /> : <>
         <section
           className="landing-hero"
           id="inicio"

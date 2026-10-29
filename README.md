@@ -12,6 +12,8 @@ La frase «Perfume, conversación y comunidad» introduce la portada, que anunci
 
 ## Abrir en local
 
+La versión aprobada incorpora `/sobre-el-club/`, con Carles y Laura, el propósito del club y las redes de Carles Grau Perfume. Carles solicita publicarla el 29 de octubre de 2026, tras revisarla en local; la autorización sustituye la restricción inicial de no subirla. El resultado del despliegue se registra en la memoria y la validación. El menú conserva Inicio, El club y Eventos en la home; «Quiénes somos» abre la presentación en una página aparte. La fotografía conjunta queda para más adelante. Validación en [ABOUT-LOCAL-2026-10-29.md](docs/ABOUT-LOCAL-2026-10-29.md).
+
 La ficha del primer encuentro tiene URL propia: [/eventos/descubriendo-perfumes-nicho/](https://barcelonaperfumeclub.com/eventos/descubriendo-perfumes-nicho/). El título del evento en portada lleva a ella; los botones de inscripción siguen llevando directamente a Luma. La ficha conserva el registro y la plaza confirmada como condiciones de acceso.
 
 Requiere Node.js 22.12 o posterior.
@@ -34,6 +36,7 @@ npm run preview
 - `src/landing.css`: fondo, tipografías locales y diseño responsive, sin animaciones.
 - `src/content.ts`: lista `events`, objetivo del club y enlaces compartidos con la futura web.
 - `src/EventPage.tsx` y `src/components/EventContent.tsx`: ficha del encuentro y descripción y aviso de acceso compartidos.
+- `src/AboutPage.tsx`: historia, organizadores y objetivo del club; versión local pendiente de revisión.
 - `src/seo.ts`: metadatos por URL e identidad Organization y WebSite, a partir de `club` en `src/content.ts`.
 - `public/media/descubriendo-perfumes-nicho-*.webp`: cartel proporcionado por Carles en dos tamaños, sin recortar.
 - `public/media/logo-vector.svg`: contornos vectoriales trazados desde el logo original, con tinta marfil y fondo transparente, sin filtros ni imágenes incrustadas. `logo.webp` conserva la copia optimizada original. Detalles en [LOGO.md](docs/LOGO.md).

@@ -1,11 +1,12 @@
 ---
 source_file: "memory/Eventos.md"
 type: "concept"
-community: "Programación y Luma"
+community: "Programación y canales oficiales"
+location: "L12"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Programación_y_Luma
+  - community/Programación_y_canales_oficiales
 ---
 
 # Luma: calendario, inscripciones y disponibilidad
@@ -18,6 +19,7 @@ https://luma.com/barcelonaperfumeclub gestiona disponibilidad e inscripciones. S
 
 ## Connections
 - [[Acceso obligatorio con registro y plaza confirmada en Luma]] - `references` [EXTRACTED]
+- [[Canales oficiales de Barcelona Perfume Club]] - `references` [EXTRACTED]
 - [[Mantenimiento manual de eventos]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Programación_y_Luma
+#graphify/concept #graphify/EXTRACTED #community/Programación_y_canales_oficiales

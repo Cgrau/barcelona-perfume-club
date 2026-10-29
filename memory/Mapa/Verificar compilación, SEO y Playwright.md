@@ -1,11 +1,12 @@
 ---
 source_file: "memory/Web.md"
 type: "rationale"
-community: "Continuidad y publicación"
+community: "Validación y despliegues"
+location: "L33"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Continuidad_y_publicación
+  - community/Validación_y_despliegues
 ---
 
 # Verificar compilación, SEO y Playwright
@@ -17,7 +18,8 @@ npm run build, npm run seo:check y npm test. Suite móvil 375 px y escritorio 14
 <!-- project-memory:end -->
 
 ## Connections
+- [[Validación del About dieciséis pruebas y publicación autorizada]] - `references` [EXTRACTED]
 - [[Verificación SEO de dos páginas y doce pruebas]] - `references` [EXTRACTED]
 - [[Verificación inicial y compilación antes de las pruebas]] - `references` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Continuidad_y_publicación
+#graphify/rationale #graphify/EXTRACTED #community/Validación_y_despliegues

@@ -1,11 +1,12 @@
 ---
 source_file: "memory/Web.md"
 type: "concept"
-community: "Interfaz activa y archivo"
+community: "SEO y generación estática"
+location: "L31"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Interfaz_activa_y_archivo
+  - community/SEO_y_generación_estática
 ---
 
 # src/ClubSite.tsx: propuesta archivada
@@ -19,4 +20,4 @@ Conserva una propuesta anterior; no es la web activa.
 ## Connections
 - [[srcApp.tsx web activa]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Interfaz_activa_y_archivo
+#graphify/concept #graphify/EXTRACTED #community/SEO_y_generación_estática

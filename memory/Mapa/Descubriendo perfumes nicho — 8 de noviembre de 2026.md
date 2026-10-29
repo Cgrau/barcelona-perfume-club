@@ -1,11 +1,12 @@
 ---
 source_file: "memory/eventos/2026-11-08-perfumes-nicho.md"
 type: "concept"
-community: "Primer encuentro"
+community: "Primer encuentro y marcas"
+location: "L11"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Primer_encuentro
+  - community/Primer_encuentro_y_marcas
 ---
 
 # Descubriendo perfumes nicho — 8 de noviembre de 2026
@@ -28,4 +29,4 @@ Primer encuentro del club, 12:00–13:30 Europe/Madrid. Inscripción https://lum
 - [[Volta Restaurant & Bar]] - `references` [EXTRACTED]
 - [[srcEventPage.tsx ficha propia del encuentro]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Primer_encuentro
+#graphify/concept #graphify/EXTRACTED #community/Primer_encuentro_y_marcas

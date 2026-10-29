@@ -1,11 +1,12 @@
 ---
 source_file: "memory/Continuidad.md"
 type: "rationale"
-community: "Continuidad y publicación"
+community: "Memoria compartida y continuidad"
+location: "L10"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Continuidad_y_publicación
+  - community/Memoria_compartida_y_continuidad
 ---
 
 # Continuar el proyecto desde otro equipo
@@ -24,4 +25,4 @@ Clonar o actualizar el repositorio; leer AGENTS.md, Inicio, Estado, la sesión m
 - [[Publicación comprobada de la web]] - `references` [EXTRACTED]
 - [[Repositorio compartido en GitHub]] - `references` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Continuidad_y_publicación
+#graphify/rationale #graphify/EXTRACTED #community/Memoria_compartida_y_continuidad

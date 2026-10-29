@@ -1,11 +1,12 @@
 ---
 source_file: "memory/Web.md"
 type: "concept"
-community: "Identidad y memoria"
+community: "Diseño y permisos de publicación"
+location: "L19"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Identidad_y_memoria
+  - community/Diseño_y_permisos_de_publicación
 ---
 
 # src/landing.css: diseño y adaptación a pantallas
@@ -20,4 +21,4 @@ Estilos activos y comportamiento responsive de la web; conserva el scroll del co
 - [[Arquitectura React, Vite y TypeScript con HTML prerenderizado]] - `references` [EXTRACTED]
 - [[Diseño aprobado burdeos, marfil y portada tipográfica]] - `conceptually_related_to` [INFERRED]
 
-#graphify/concept #graphify/EXTRACTED #community/Identidad_y_memoria
+#graphify/concept #graphify/EXTRACTED #community/Diseño_y_permisos_de_publicación

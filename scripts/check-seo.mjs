@@ -79,7 +79,7 @@ for (const path of paths) {
     });
   const organization = entities.find((value) => value["@type"] === "Organization");
   const website = entities.find((value) => value["@type"] === "WebSite");
-  const webpage = entities.find((value) => value["@type"] === "WebPage");
+  const webpage = entities.find((value) => ["WebPage", "AboutPage"].includes(value["@type"]));
   assert.equal(organization?.name, "Barcelona Perfume Club");
   assert.equal(organization?.url, `${origin}/`);
   assert.equal(website?.name, organization.name);
@@ -89,11 +89,13 @@ for (const path of paths) {
   if (path !== "/") {
     assert.ok(entities.some((value) => value["@type"] === "BreadcrumbList"), `Faltan migas en ${path}`);
     assert.ok(html.includes(`href="${path}"`), `La portada no enlaza ${path}`);
+  }
+  if (page.registrationUrl) {
     assert.ok(pageHtml.includes("Sin registro y confirmación no se podrá acceder."));
     assert.ok(page.registrationUrl && pageHtml.includes(page.registrationUrl), `Falta el enlace propio de inscripción en ${path}`);
-    for (const match of pageHtml.matchAll(/<img\b[^>]*src="(\/[^\"]+)"/g)) {
-      assert.ok((await stat(`dist${match[1]}`)).isFile(), `Imagen ausente: ${match[1]}`);
-    }
+  }
+  for (const match of pageHtml.matchAll(/<img\b[^>]*src="(\/[^\"]+)"/g)) {
+    assert.ok((await stat(`dist${match[1]}`)).isFile(), `Imagen ausente: ${match[1]}`);
   }
 }
 console.log(`SEO: ${paths.length} páginas con HTML inicial, títulos y descripciones únicos, canonical, identidad, JSON-LD, enlaces y sitemap correctos; imagen social y verificación de Google conservadas.`);

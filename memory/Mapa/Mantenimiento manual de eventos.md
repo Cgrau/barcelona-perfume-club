@@ -1,11 +1,12 @@
 ---
 source_file: "memory/Eventos.md"
 type: "rationale"
-community: "Programación y Luma"
+community: "Programación y canales oficiales"
+location: "L14"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Programación_y_Luma
+  - community/Programación_y_canales_oficiales
 ---
 
 # Mantenimiento manual de eventos
@@ -22,4 +23,4 @@ events en src/content.ts incluye path, título, edición, introducción y detall
 - [[Pendientes de producto y alcance]] - `references` [EXTRACTED]
 - [[srccontent.ts eventos y enlaces]] - `references` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Programación_y_Luma
+#graphify/rationale #graphify/EXTRACTED #community/Programación_y_canales_oficiales

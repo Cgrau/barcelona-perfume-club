@@ -1,17 +1,18 @@
 ---
 source_file: "memory/Decisiones.md"
 type: "rationale"
-community: "Alcance SEO aprobado"
+community: "SEO y generación estática"
+location: "L36"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Alcance_SEO_aprobado
+  - community/SEO_y_generación_estática
 ---
 
 # Alcance SEO aprobado: página propia e identidad
 
 <!-- project-memory:start -->
-El 29 de octubre Carles autoriza solo SEO 1, página propia del primer evento, y SEO 2, coherencia de identidad con canales oficiales. Descarta solicitar enlaces a colaboradores. Crónica con fotos y seguimiento periódico de consultas quedan para después del encuentro y no son tareas actuales. No prometer primer puesto en Google. Conservar diseño y acceso condicionado.
+En la fase SEO del 29 de octubre Carles autoriza la página propia del evento y coherencia de identidad; ambas quedan publicadas en 4f0a26b. Descarta pedir enlaces a colaboradores. Crónica con fotos y seguimiento periódico de consultas se dejan para después del encuentro y no son tareas actuales. No prometer primer puesto en Google. Tras la revisión local y aprobación del texto, Carles autoriza expresamente publicar el About; despliegue pendiente de comprobar.
 
 [Nota original](../Decisiones.md)
 <!-- project-memory:end -->
@@ -22,4 +23,4 @@ El 29 de octubre Carles autoriza solo SEO 1, página propia del primer evento, y
 - [[srcEventPage.tsx ficha propia del encuentro]] - `references` [EXTRACTED]
 - [[srcseo.ts metadatos e identidad común]] - `references` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Alcance_SEO_aprobado
+#graphify/rationale #graphify/EXTRACTED #community/SEO_y_generación_estática

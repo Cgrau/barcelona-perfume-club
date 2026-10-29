@@ -1,17 +1,18 @@
 ---
 source_file: "memory/Web.md"
 type: "concept"
-community: "Alcance SEO aprobado"
+community: "SEO y generación estática"
+location: "L21"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Alcance_SEO_aprobado
+  - community/SEO_y_generación_estática
 ---
 
 # src/EventPage.tsx: ficha propia del encuentro
 
 <!-- project-memory:start -->
-Página estática del evento con cartel, descripción propia, fecha, horario, lugar, organización, retorno y acceso a Luma. Ruta actual /eventos/descubriendo-perfumes-nicho/.
+Página estática /eventos/descubriendo-perfumes-nicho/ con cartel, descripción propia, fecha, horario, lugar, organización, retorno y Luma. La versión aprobada para publicar añade enlace a /sobre-el-club/; su despliegue todavía no se ha comprobado.
 
 [Nota original](../Web.md)
 <!-- project-memory:end -->
@@ -22,7 +23,8 @@ Página estática del evento con cartel, descripción propia, fecha, horario, lu
 - [[Publicación SEO comprobada 4f0a26b]] - `references` [EXTRACTED]
 - [[WebPage y BreadcrumbList; Event aplazado]] - `implements` [EXTRACTED]
 - [[scriptsprerender.mjs generación estática]] - `references` [EXTRACTED]
+- [[srcAboutPage.tsx Quiénes somos, publicación autorizada]] - `references` [EXTRACTED]
 - [[srcApp.tsx web activa]] - `references` [EXTRACTED]
 - [[srccomponentsEventContent.tsx contenido compartido]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Alcance_SEO_aprobado
+#graphify/concept #graphify/EXTRACTED #community/SEO_y_generación_estática

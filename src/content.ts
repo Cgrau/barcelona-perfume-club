@@ -23,6 +23,19 @@ export const club = {
     email: string;
   } | null,
 };
+export const about = {
+  path: "/sobre-el-club/",
+  carles: {
+    name: "Carles Grau",
+    project: "Carles Grau Perfume",
+    socials: [
+      { label: "Instagram", url: "https://www.instagram.com/carles.grau.perfume/" },
+      { label: "TikTok", url: "https://www.tiktok.com/@carles.grau" },
+      { label: "YouTube", url: "https://www.youtube.com/@carles.grau.perfume" },
+    ],
+  },
+  laura: { name: "Laura" },
+};
 export const pendingLinks: Record<LinkKey, { title: string; detail: string }> =
   {
     calendar: { title: "Calendario", detail: "TODO: URL de Luma" },

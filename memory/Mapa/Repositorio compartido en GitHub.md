@@ -1,11 +1,12 @@
 ---
 source_file: "memory/Inicio.md"
 type: "concept"
-community: "Continuidad y publicación"
+community: "Memoria compartida y continuidad"
+location: "L21"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Continuidad_y_publicación
+  - community/Memoria_compartida_y_continuidad
 ---
 
 # Repositorio compartido en GitHub
@@ -21,4 +22,4 @@ https://github.com/Cgrau/barcelona-perfume-club conserva código y bóveda.
 - [[Continuar el proyecto desde otro equipo]] - `references` [EXTRACTED]
 - [[Publicación de main en GitHub Pages]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Continuidad_y_publicación
+#graphify/concept #graphify/EXTRACTED #community/Memoria_compartida_y_continuidad

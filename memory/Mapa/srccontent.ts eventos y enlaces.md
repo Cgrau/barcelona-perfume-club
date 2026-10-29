@@ -1,11 +1,12 @@
 ---
 source_file: "memory/Web.md"
 type: "concept"
-community: "Generación estática"
+community: "SEO y generación estática"
+location: "L20"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Generación_estática
+  - community/SEO_y_generación_estática
 ---
 
 # src/content.ts: eventos y enlaces
@@ -22,4 +23,4 @@ Datos de eventos y enlaces oficiales del club; events[].path determina las rutas
 - [[Sitemap estático generado desde las rutas reales]] - `references` [EXTRACTED]
 - [[srcseo.ts metadatos e identidad común]] - `shares_data_with` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Generación_estática
+#graphify/concept #graphify/EXTRACTED #community/SEO_y_generación_estática

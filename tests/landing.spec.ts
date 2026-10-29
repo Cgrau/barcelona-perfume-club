@@ -17,7 +17,7 @@ test("anuncia el primer evento, el objetivo del club y los contactos reales", as
   await expect(
     page.getByText("Nuestro primer evento ya tiene fecha.", { exact: true }),
   ).toBeVisible();
-  await page.getByRole("link", { name: "El club", exact: true }).click();
+  await page.getByRole("navigation", { name: "Principal" }).getByRole("link", { name: "El club", exact: true }).click();
   const about = page.getByRole("region", { name: "El club" });
   await expect(about).toBeVisible();
   await expect(about).toContainText("Nuestro objetivo");

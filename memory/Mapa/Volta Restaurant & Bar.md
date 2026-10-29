@@ -1,11 +1,12 @@
 ---
 source_file: "memory/eventos/2026-11-08-perfumes-nicho.md"
 type: "concept"
-community: "Primer encuentro"
+community: "Primer encuentro y marcas"
+location: "L15"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Primer_encuentro
+  - community/Primer_encuentro_y_marcas
 ---
 
 # Volta Restaurant & Bar
@@ -19,4 +20,4 @@ Lugar del primer encuentro: Passeig de Picasso, 26, Barcelona.
 ## Connections
 - [[Descubriendo perfumes nicho — 8 de noviembre de 2026]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Primer_encuentro
+#graphify/concept #graphify/EXTRACTED #community/Primer_encuentro_y_marcas

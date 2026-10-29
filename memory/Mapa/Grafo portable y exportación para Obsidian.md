@@ -1,11 +1,12 @@
 ---
 source_file: "memory/Graphify.md"
 type: "concept"
-community: "Identidad y memoria"
+community: "Graphify y fuentes de verdad"
+location: "L12"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Identidad_y_memoria
+  - community/Graphify_y_fuentes_de_verdad
 ---
 
 # Grafo portable y exportación para Obsidian
@@ -21,4 +22,4 @@ graphify-out/graph.json, graph.html y GRAPH_REPORT.md son resultados portables; 
 - [[Graphify 0.9.97]] - `conceptually_related_to` [EXTRACTED]
 - [[Regenerar el mapa desde las notas originales]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Identidad_y_memoria
+#graphify/concept #graphify/EXTRACTED #community/Graphify_y_fuentes_de_verdad
