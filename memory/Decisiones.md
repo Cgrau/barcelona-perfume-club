@@ -48,3 +48,7 @@ TikTok personal confirmado: `@carles.grau`; YouTube: `@carles.grau.perfume`. Se 
 ## Diferenciar repositorio y web oficial
 
 Ante el resultado de Google del repositorio, Carles autoriza «hazlo entonces»: añadir https://barcelonaperfumeclub.com/ al campo Website de GitHub y presentar el README como código fuente con enlace destacado a la web oficial. La descripción pública se aclara también como código fuente de la web oficial. Es un ajuste de identidad del repositorio, sin prometer una posición ni cambiar la web o su acceso a eventos. Las métricas de Search Console no prueban que el dominio aparezca cuarto o quinto para la búsqueda de marca.
+
+## Consultas de marca y club local
+
+Carles recalca que quiere visibilidad por «Barcelona perfume club», «perfume club Barcelona» y «perfume club» para quien busca desde Barcelona. Las tres consultas se orientan a la portada. Como criterio de implementación, se refuerzan título, descripción y una respuesta existente de preguntas frecuentes con la actividad de club de perfumería en Barcelona, conservando el nombre, titular visible, diseño y condiciones de acceso. No se prometen posiciones ni se convierten los 4,7 agregados de Search Console en una medición de estas consultas.

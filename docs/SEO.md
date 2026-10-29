@@ -1,8 +1,22 @@
 # SEO y Search Console
 
-Estado de implementación, 29 de octubre de 2026: Carles autoriza únicamente una página propia del primer evento y coherencia de identidad. No se realizará captación de enlaces de colaboradores; la crónica y el seguimiento periódico se dejan para después del evento. El objetivo prioritario es «Barcelona Perfume Club», seguido de consultas locales de comunidad y perfumería. No hay una primera posición acreditada.
+Estado de implementación, 29 de octubre de 2026: publicadas la ficha del primer evento y Quiénes somos, con identidad coherente y repositorio diferenciado como código fuente. Carles recalca que la web debe ganar visibilidad tanto por «Barcelona perfume club» como por «perfume club Barcelona» y «perfume club» desde Barcelona. Se ajustan los metadatos de portada y una respuesta existente de preguntas frecuentes para expresar el carácter de club local con naturalidad. No se realizará captación de enlaces de colaboradores; la crónica y el seguimiento periódico se dejan para después del evento. No hay una primera posición acreditada.
 
 La web conserva el diseño aprobado. Portada y ficha tienen HTML prerenderizado, canonical y metadatos propios y datos Organization, WebSite y WebPage coherentes. El nombre, dominio y enlaces oficiales se definen en `club` de `src/content.ts`; los metadatos, en `src/seo.ts`.
+
+## Consultas objetivo de la portada
+
+| Consulta | Intención | URL principal |
+| --- | --- | --- |
+| Barcelona perfume club | Encontrar el club por su nombre | `/` |
+| Perfume club Barcelona | Encontrar una comunidad de perfumería en la ciudad | `/` |
+| Perfume club, con ubicación en Barcelona | Descubrir un club local afín a esa búsqueda | `/` |
+
+Se conserva el nombre oficial y se usa el título «Barcelona Perfume Club | Club de perfumería en Barcelona» y una descripción que comienza «Un perfume club en Barcelona». La primera respuesta de preguntas frecuentes explica esa actividad. Se conservan el titular visible aprobado, el anuncio y el acceso a Luma. Organization ya declara Barcelona como `areaServed`; el lugar de cada evento sigue perteneciendo a su ficha, sin atribuir al club una sede permanente.
+
+Las tres consultas comparten una portada. Google puede relacionar variaciones aunque no se incluyan todas sus formas exactas; el contenido se mantiene natural, sin listas de palabras clave ni páginas duplicadas. [Guía oficial de Google](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=es).
+
+La búsqueda genérica depende de factores como ubicación, idioma y dispositivo. Esta mejora busca relevancia local; no garantiza puestos ni aporta una medición de las tres consultas. Los seis registros de impresión y la posición media agregada de 4,7 vistos en Search Console no se asignan a esas consultas ni al efecto de esta actualización.
 
 ## Página del primer encuentro
 

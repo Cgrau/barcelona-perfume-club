@@ -212,9 +212,9 @@ export default function App({ pathname = "/" }: { pathname?: string }) {
               <details>
                 <summary>¿Qué es Barcelona Perfume Club?</summary>
                 <p>
-                  Una comunidad de Barcelona para personas que disfrutan del
-                  perfume y quieren compartir esa afición. Queremos reunirnos
-                  para descubrir fragancias y marcas, intercambiar impresiones
+                  Somos un perfume club en Barcelona: una comunidad para personas
+                  que disfrutan del perfume y quieren compartir esa afición.
+                  Queremos reunirnos para descubrir fragancias y marcas, intercambiar impresiones
                   y conocer gente con la misma curiosidad.
                 </p>
               </details>

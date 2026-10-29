@@ -579,9 +579,39 @@
       "label": "references [EXTRACTED]"
     },
     {
+      "id": "e_memory_decisiones_alcance_seo_aprobado_memory_sesiones_2026_10_29_webpage_breadcrumblist",
+      "fromNode": "n_memory_decisiones_alcance_seo_aprobado",
+      "toNode": "n_memory_sesiones_2026_10_29_webpage_breadcrumblist",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_decisiones_alcance_seo_aprobado_memory_web_eventpage_tsx",
+      "fromNode": "n_memory_decisiones_alcance_seo_aprobado",
+      "toNode": "n_memory_web_eventpage_tsx",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_decisiones_alcance_seo_aprobado_memory_web_seo_ts",
+      "fromNode": "n_memory_decisiones_alcance_seo_aprobado",
+      "toNode": "n_memory_web_seo_ts",
+      "label": "references [EXTRACTED]"
+    },
+    {
       "id": "e_memory_decisiones_alcance_seo_aprobado_memory_sesiones_2026_10_29_publicacion_seo",
       "fromNode": "n_memory_decisiones_alcance_seo_aprobado",
       "toNode": "n_memory_sesiones_2026_10_29_publicacion_seo",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_inicio_barcelona_perfume_club_memory_decisiones_identidad_del_club",
+      "fromNode": "n_memory_inicio_barcelona_perfume_club",
+      "toNode": "n_memory_decisiones_identidad_del_club",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_web_seo_ts_memory_decisiones_identidad_del_club",
+      "fromNode": "n_memory_web_seo_ts",
+      "toNode": "n_memory_decisiones_identidad_del_club",
       "label": "references [EXTRACTED]"
     },
     {
@@ -625,6 +655,18 @@
       "fromNode": "n_memory_estado_indexacion_confirmada_29_octubre",
       "toNode": "n_memory_inicio_barcelona_perfume_club",
       "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_web_person_sameas_memory_web_seo_ts",
+      "fromNode": "n_memory_web_person_sameas",
+      "toNode": "n_memory_web_seo_ts",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_memory_web_seo_ts_memory_web_content_ts",
+      "fromNode": "n_memory_web_seo_ts",
+      "toNode": "n_memory_web_content_ts",
+      "label": "shares_data_with [EXTRACTED]"
     },
     {
       "id": "e_memory_web_aboutpage_tsx_memory_decisiones_presentacion_carles_laura",
@@ -690,12 +732,6 @@
       "id": "e_memory_web_person_sameas_memory_sesiones_2026_10_29_carles_grau_perfume",
       "fromNode": "n_memory_web_person_sameas",
       "toNode": "n_memory_sesiones_2026_10_29_carles_grau_perfume",
-      "label": "references [EXTRACTED]"
-    },
-    {
-      "id": "e_memory_web_person_sameas_memory_web_seo_ts",
-      "fromNode": "n_memory_web_person_sameas",
-      "toNode": "n_memory_web_seo_ts",
       "label": "references [EXTRACTED]"
     },
     {
@@ -777,33 +813,9 @@
       "label": "references [EXTRACTED]"
     },
     {
-      "id": "e_memory_web_seo_ts_memory_web_content_ts",
-      "fromNode": "n_memory_web_seo_ts",
-      "toNode": "n_memory_web_content_ts",
-      "label": "shares_data_with [EXTRACTED]"
-    },
-    {
       "id": "e_memory_web_prerender_memory_web_sitemap_generado",
       "fromNode": "n_memory_web_prerender",
       "toNode": "n_memory_web_sitemap_generado",
-      "label": "references [EXTRACTED]"
-    },
-    {
-      "id": "e_memory_decisiones_alcance_seo_aprobado_memory_sesiones_2026_10_29_webpage_breadcrumblist",
-      "fromNode": "n_memory_decisiones_alcance_seo_aprobado",
-      "toNode": "n_memory_sesiones_2026_10_29_webpage_breadcrumblist",
-      "label": "references [EXTRACTED]"
-    },
-    {
-      "id": "e_memory_decisiones_alcance_seo_aprobado_memory_web_eventpage_tsx",
-      "fromNode": "n_memory_decisiones_alcance_seo_aprobado",
-      "toNode": "n_memory_web_eventpage_tsx",
-      "label": "references [EXTRACTED]"
-    },
-    {
-      "id": "e_memory_decisiones_alcance_seo_aprobado_memory_web_seo_ts",
-      "fromNode": "n_memory_decisiones_alcance_seo_aprobado",
-      "toNode": "n_memory_web_seo_ts",
       "label": "references [EXTRACTED]"
     },
     {
@@ -822,12 +834,6 @@
       "id": "e_memory_web_prerender_memory_web_eventpage_tsx",
       "fromNode": "n_memory_web_prerender",
       "toNode": "n_memory_web_eventpage_tsx",
-      "label": "references [EXTRACTED]"
-    },
-    {
-      "id": "e_memory_web_seo_ts_memory_decisiones_identidad_del_club",
-      "fromNode": "n_memory_web_seo_ts",
-      "toNode": "n_memory_decisiones_identidad_del_club",
       "label": "references [EXTRACTED]"
     },
     {
@@ -1027,12 +1033,6 @@
       "fromNode": "n_memory_decisiones_diseno_aprobado",
       "toNode": "n_memory_web_landing_css",
       "label": "conceptually_related_to [INFERRED]"
-    },
-    {
-      "id": "e_memory_inicio_barcelona_perfume_club_memory_decisiones_identidad_del_club",
-      "fromNode": "n_memory_inicio_barcelona_perfume_club",
-      "toNode": "n_memory_decisiones_identidad_del_club",
-      "label": "references [EXTRACTED]"
     },
     {
       "id": "e_memory_web_eventcontent_tsx_memory_decisiones_registro_y_plaza_confirmada",

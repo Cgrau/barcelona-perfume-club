@@ -2,7 +2,7 @@
 source_file: "memory/Estado.md"
 type: "concept"
 community: "Programación y canales oficiales"
-location: "L32"
+location: "L36"
 tags:
   - graphify/concept
   - graphify/EXTRACTED

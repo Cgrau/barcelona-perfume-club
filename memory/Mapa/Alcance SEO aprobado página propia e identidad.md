@@ -12,7 +12,7 @@ tags:
 # Alcance SEO aprobado: página propia e identidad
 
 <!-- project-memory:start -->
-En la fase SEO del 29 de octubre Carles autoriza la página propia del evento y coherencia de identidad; ambas quedan publicadas en 4f0a26b. Descarta pedir enlaces a colaboradores. Crónica con fotos y seguimiento periódico de consultas se dejan para después del encuentro y no son tareas actuales. No prometer primer puesto en Google. Tras la revisión local y aprobación del texto, Carles autoriza expresamente publicar el About; despliegue comprobado en 4df3f11.
+La fase inicial del 29 de octubre publica la ficha del evento y coherencia de identidad en 4f0a26b; después se publica Quiénes somos en 4df3f11. Carles descarta pedir enlaces a colaboradores; crónica con fotos y seguimiento periódico quedan para después del evento. Nueva mejora: las consultas «Barcelona perfume club», «perfume club Barcelona» y «perfume club» desde Barcelona se orientan a la misma portada. Reforzar título, descripción y una respuesta existente de FAQ con la actividad local, conservando nombre, titular visible, diseño, evento y registro con plaza confirmada en Luma. No crear páginas duplicadas ni listas de términos o meta keywords, ni prometer posiciones. Google puede interpretar el orden de palabras; ubicación, idioma y dispositivo influyen. Los 4,7 agregados de Search Console no miden esas consultas. Implementación nueva con compilación y control SEO correctos; Dieciséis pruebas Playwright correctas y revisión independiente sin incidencias; despliegue aún pendiente de comprobar.
 
 [Nota original](../Decisiones.md)
 <!-- project-memory:end -->

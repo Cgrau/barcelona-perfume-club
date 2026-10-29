@@ -18,12 +18,12 @@ export function getPageMetadata(pathname: string) {
     ? `Sobre el club | Carles y Laura · ${club.name}`
     : event
     ? `${event.title} en Barcelona | ${club.name}`
-    : `${club.name} | Comunidad y eventos de perfumería`;
+    : `${club.name} | Club de perfumería en Barcelona`;
   const description = isAbout
     ? "Conoce a Carles y Laura y por qué organizamos Barcelona Perfume Club: una comunidad para descubrir fragancias y disfrutar del perfume en compañía en Barcelona."
     : event
     ? `Descubre perfumes nicho en Barcelona el ${event.dateLabel} en ${event.venue}. Acceso con registro y plaza confirmada en Luma.`
-    : "Comunidad de Barcelona para amantes de la perfumería. Descubre nuestros eventos, comparte tu afición y apúntate al próximo encuentro en Luma.";
+    : "Un perfume club en Barcelona para descubrir fragancias y conocer a otros amantes de la perfumería. Consulta nuestros encuentros y solicita tu plaza en Luma.";
   const organization = {
     "@context": "https://schema.org",
     "@type": "Organization",
