@@ -1,6 +1,6 @@
 # Mapa de la memoria del club
 
-Grafo actualizado con Graphify 0.9.97 a partir de las diez notas originales de `memory/`, el 29 de octubre de 2026: 50 conceptos y decisiones, 84 relaciones y nueve comunidades. Incluye la ficha publicada del evento, identidad SEO compartida, lista de espera y Quiénes somos publicado y comprobado en `4df3f11` tras la revisión local y la fotografía conjunta aplazada. Los nodos y enlaces conservan su nota de origen; las relaciones distinguen lo explícito de lo inferido. La cobertura de las diez notas y la integridad de los enlaces se comprobaron antes de exportar.
+Grafo actualizado con Graphify 0.9.97 a partir de las diez notas originales de `memory/`, el 29 de octubre de 2026: 50 conceptos y decisiones, 84 relaciones y nueve comunidades. Incluye la ficha publicada del evento, identidad SEO compartida, lista de espera y Quiénes somos publicado y comprobado en `4df3f11` tras la revisión local y la fotografía conjunta aplazada. La portada incorpora la mejora de relevancia local de `650efeb`, publicada y comprobada para orientar las tres consultas de marca y club en Barcelona, sin acreditar posiciones. Los nodos y enlaces conservan su nota de origen; las relaciones distinguen lo explícito de lo inferido. La cobertura de las diez notas y la integridad de los enlaces se comprobaron antes de exportar.
 
 - `graph.json`: grafo portable para consultas.
 - `graph.html`: visor interactivo generado por Graphify.

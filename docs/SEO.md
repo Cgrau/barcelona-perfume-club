@@ -18,6 +18,8 @@ Las tres consultas comparten una portada. Google puede relacionar variaciones au
 
 La búsqueda genérica depende de factores como ubicación, idioma y dispositivo. Esta mejora busca relevancia local; no garantiza puestos ni aporta una medición de las tres consultas. Los seis registros de impresión y la posición media agregada de 4,7 vistos en Search Console no se asignan a esas consultas ni al efecto de esta actualización.
 
+Publicado y comprobado en `650efeb`, con [GitHub Pages correcto](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/40967387698) y [SEO y Lighthouse correctos](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/40967387702) en móvil y escritorio. El dominio público sirve el título y la descripción locales y la respuesta de FAQ actualizada; las tres rutas, el titular visible, el evento y el registro con plaza confirmada se conservan. Compilación, control SEO y dieciséis pruebas Playwright correctos; revisión independiente sin incidencias. La publicación no acredita posiciones para las consultas objetivo.
+
 ## Página del primer encuentro
 
 La ruta `/eventos/descubriendo-perfumes-nicho/` se genera como directorio con `index.html`, accesible directamente sin JavaScript. El título del evento en portada enlaza a la ficha y su navegación devuelve al club o al listado. Incluye cartel, fecha, horario 12:00–13:30, lugar, descripción, organización, acceso a Luma y aviso destacado de registro y plaza confirmada. El sitemap se genera desde las rutas, sin una segunda lista manual en `public/`.
