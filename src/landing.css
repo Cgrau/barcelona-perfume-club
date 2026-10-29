@@ -82,7 +82,8 @@ p {
 .landing-hero-copy,
 .landing-about,
 .landing-events,
-.landing-contact {
+.landing-contact,
+.event-page {
   width: min(100% - 124px, 1252px);
   margin-inline: auto;
 }
@@ -426,6 +427,11 @@ p {
   letter-spacing: -0.03em;
   margin-top: 18px;
 }
+.event-copy h3 a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 6px;
+}
 .event-details {
   display: grid;
   gap: 6px;
@@ -466,6 +472,7 @@ p {
   font-size: 16px;
   line-height: 1.65;
 }
+.event-registration h2,
 .event-registration h4 {
   margin: 0 0 12px;
   font: 400 25px/1.2 var(--display);
@@ -483,6 +490,78 @@ p {
   margin-top: 20px;
   text-decoration: underline;
   text-underline-offset: 6px;
+}
+.event-page {
+  padding: 20px 0 52px;
+}
+.event-breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: var(--soft);
+  font-size: 14px;
+}
+.event-breadcrumbs a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.event-page-header {
+  padding: 24px 0 36px;
+}
+.event-page-header h1 {
+  max-width: 20ch;
+  margin: 18px 0;
+  font: 400 clamp(38px, 5.2vw, 70px)/1.08 var(--display);
+  letter-spacing: -0.04em;
+  text-wrap: balance;
+}
+.event-page-header > p:last-child {
+  max-width: 60ch;
+  color: var(--soft);
+  font-size: 18px;
+  line-height: 1.7;
+  text-wrap: pretty;
+}
+.event-page-poster {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.event-page .event-details {
+  margin-top: 0;
+}
+.event-availability {
+  margin-top: 14px;
+  color: var(--soft);
+  font-size: 14px;
+  line-height: 1.7;
+}
+.event-page-about {
+  margin-top: 38px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+}
+.event-page-about h2 {
+  font: 400 clamp(26px, 3vw, 36px)/1.2 var(--display);
+  letter-spacing: -0.025em;
+}
+.event-page-about p {
+  max-width: 65ch;
+  margin-top: 18px;
+  color: var(--soft);
+  font-size: 17px;
+  line-height: 1.7;
+}
+.event-page-about > a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  margin-top: 12px;
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
 .landing-contact {
   display: grid;
@@ -569,7 +648,8 @@ p {
   .landing-hero-copy,
   .landing-about,
   .landing-events,
-  .landing-contact {
+  .landing-contact,
+  .event-page {
     width: calc(100% - 84px);
   }
   .landing-hero h1 {
@@ -605,7 +685,8 @@ p {
   .landing-hero-copy,
   .landing-about,
   .landing-events,
-  .landing-contact {
+  .landing-contact,
+  .event-page {
     width: calc(100% - 42px);
   }
   .landing-header {

@@ -2,6 +2,10 @@ export type LinkKey = "calendar" | "instagram" | "contact";
 export type Photo = { src: string; srcSet: string; alt: string };
 // Completar con los datos reales del club.
 export const club = {
+  name: "Barcelona Perfume Club",
+  url: "https://barcelonaperfumeclub.com/",
+  description:
+    "Comunidad de Barcelona para amantes de la perfumería. Organizamos encuentros para descubrir marcas, compartir fragancias y disfrutar del perfume en compañía.",
   links: {
     calendar: "https://luma.com/barcelonaperfumeclub",
     instagram: "https://www.instagram.com/barcelonaperfumeclub/" as
@@ -57,10 +61,18 @@ export const clubPurpose =
 export const events = [
   {
     id: "tdhs6lr0",
+    path: "/eventos/descubriendo-perfumes-nicho/",
     title: "Descubriendo perfumes nicho",
+    edition: "Primer encuentro",
+    introduction:
+      "Una sesión de perfumería en Barcelona para descubrir fragancias de Sasva y Gparfums, compartir impresiones y conocer al club.",
+    detail:
+      "Es nuestro primer encuentro: Carles Grau nos acompañará durante la sesión para explorar las fragancias y conversar sobre lo que vamos oliendo. Puedes venir aunque estés empezando a descubrir el mundo del perfume.",
     dateTime: "2026-11-08T12:00:00+01:00",
+    endDateTime: "2026-11-08T13:30:00+01:00",
     dateLabel: "8 de noviembre de 2026",
     timeLabel: "12:00",
+    endTimeLabel: "13:30",
     venue: "Volta Restaurant & Bar",
     address: "Passeig de Picasso, 26, Barcelona",
     description: [
@@ -79,6 +91,7 @@ export const events = [
     url: "https://luma.com/tdhs6lr0",
   },
 ];
+export type ClubEvent = (typeof events)[number];
 export const experiences = [
   {
     title: "Encuentros",

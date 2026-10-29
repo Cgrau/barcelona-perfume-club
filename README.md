@@ -12,6 +12,8 @@ La frase «Perfume, conversación y comunidad» introduce la portada, que anunci
 
 ## Abrir en local
 
+La ficha del primer encuentro tiene URL propia: [/eventos/descubriendo-perfumes-nicho/](https://barcelonaperfumeclub.com/eventos/descubriendo-perfumes-nicho/). El título del evento en portada lleva a ella; los botones de inscripción siguen llevando directamente a Luma. La ficha conserva el registro y la plaza confirmada como condiciones de acceso.
+
 Requiere Node.js 22.12 o posterior.
 
 ```sh
@@ -31,11 +33,13 @@ npm run preview
 - `src/App.tsx`: estructura, anuncio del primer encuentro y listado de eventos.
 - `src/landing.css`: fondo, tipografías locales y diseño responsive, sin animaciones.
 - `src/content.ts`: lista `events`, objetivo del club y enlaces compartidos con la futura web.
+- `src/EventPage.tsx` y `src/components/EventContent.tsx`: ficha del encuentro y descripción y aviso de acceso compartidos.
+- `src/seo.ts`: metadatos por URL e identidad Organization y WebSite, a partir de `club` en `src/content.ts`.
 - `public/media/descubriendo-perfumes-nicho-*.webp`: cartel proporcionado por Carles en dos tamaños, sin recortar.
 - `public/media/logo-vector.svg`: contornos vectoriales trazados desde el logo original, con tinta marfil y fondo transparente, sin filtros ni imágenes incrustadas. `logo.webp` conserva la copia optimizada original. Detalles en [LOGO.md](docs/LOGO.md).
 - `public/media/mouillettes-*.webp`: recursos conservados para la futura web completa. No se cargan en la landing actual.
-- `index.html`: título y metadatos para buscadores y redes sociales.
-- `src/entry-server.tsx` y `scripts/prerender.mjs`: incorporan el contenido al HTML durante la compilación para que sea legible antes de ejecutar JavaScript.
+- `index.html`: plantilla HTML y tarjeta social de marca; los metadatos se completan para cada página al compilar.
+- `src/entry-server.tsx` y `scripts/prerender.mjs`: generan HTML y metadatos para portada y encuentros, sin JavaScript de cliente, y derivan `dist/sitemap.xml` de las rutas reales.
 - `DESIGN.md`: criterio de diseño y decisiones de la revisión aprobada.
 
 Enlaces incorporados:
@@ -46,7 +50,7 @@ Enlaces incorporados:
 
 No hay formularios. La analítica opcional de Umami Cloud permanece desactivada mientras no se configure `UMAMI_WEBSITE_ID`: mide visitas y clics en los enlaces, sin añadir cookies desde la aplicación. La configuración y activación se explican en [UMAMI.md](docs/UMAMI.md). Las fuentes Playfair Display y Jost se sirven desde el propio sitio.
 
-Para incorporar otro evento, añade su ficha a `events` en `src/content.ts`, con su URL de Luma y las imágenes optimizadas en `public/media/`. La lista se genera al compilar; no se sincroniza automáticamente con Luma. La portada referencia la primera ficha, que actualmente corresponde al primer evento del club; revisa también ese anuncio cuando cambie la programación. Los datos del primer encuentro se comprobaron en Luma el 27 de octubre de 2026. La disponibilidad de plazas y la inscripción se consultan en Luma.
+Para incorporar otro evento, añade su ficha a `events` en `src/content.ts`, con `path` terminado en `/`, edición, introducción y detalle propios, fecha y horario, URL de Luma e imágenes optimizadas en `public/media/`. Su página y entrada del sitemap se generan al compilar; no existe sincronización automática con Luma. Revisa también la portada: referencia la primera ficha y habla del primer evento. Los datos y la identidad del calendario se comprobaron de nuevo en Luma el 29 de octubre de 2026. Entonces el evento figuraba en lista de espera; la web remite allí para consultar disponibilidad y mantiene que solo una plaza confirmada permite el acceso.
 
 ## Web completa para más adelante
 
@@ -69,7 +73,7 @@ También se puede utilizar Brave instalado en macOS:
 BROWSER_PATH='/Applications/Brave Browser.app/Contents/MacOS/Brave Browser' npm test
 ```
 
-La suite activa comprueba la landing en 375 y 1440 px: titular, objetivo, tres pilares, anuncio y ficha del primer evento, carga del cartel, enlaces reales a Luma, logo, ausencia de animaciones continuas, scroll exclusivo del contenido central, cabecera y redes visibles, navegación por anclas y teclado y accesibilidad con axe.
+La suite activa comprueba portada y ficha en 375 y 1440 px: contenido, cartel, enlaces, scroll central, cabecera y redes, navegación y accesibilidad con axe. La entrada directa y metadatos de la ficha se prueban sin JavaScript; axe usa un contexto separado para ejecutar su analizador. Playwright compila y arranca una vista previa estática cuando no hay un servidor de pruebas.
 
 Capturas de producción para revisión:
 

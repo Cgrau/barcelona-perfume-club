@@ -1,7 +1,12 @@
 import { Brand } from "./components/Brand";
 import { club, clubPurpose, events } from "./content";
+import { EventDescription, RegistrationNotice } from "./components/EventContent";
+import EventPage from "./EventPage";
+import { normalizePathname } from "./seo";
 
-export default function App() {
+export default function App({ pathname = "/" }: { pathname?: string }) {
+  const eventDetail = events.find((event) => event.path === normalizePathname(pathname));
+  const home = eventDetail ? "/" : "";
   return (
     <div className="landing">
       <a className="skip-link" href="#contenido">
@@ -9,15 +14,15 @@ export default function App() {
       </a>
       <header className="landing-header">
         <a
-          href="#inicio"
+          href={`${home}#inicio`}
           className="landing-brand"
           aria-label="Barcelona Perfume Club, inicio"
         >
           <Brand className="landing-logo" />
         </a>
         <nav aria-label="Principal">
-          <a href="#el-club">El club</a>
-          <a href="#eventos">Eventos</a>
+          <a href={`${home}#el-club`}>El club</a>
+          <a href={`${home}#eventos`}>Eventos</a>
           <a href={club.links.contact} data-umami-event="contact-menu">
             Contacto
           </a>
@@ -30,6 +35,7 @@ export default function App() {
         tabIndex={0}
         aria-label="Contenido del club"
       >
+        {eventDetail ? <EventPage event={eventDetail} /> : <>
         <section
           className="landing-hero"
           id="inicio"
@@ -46,8 +52,8 @@ export default function App() {
             <div className="hero-invitation">
               <div className="hero-message">
                 <p className="landing-intro">
-                  Barcelona Perfume Club es una comunidad de Barcelona para
-                  amantes de la perfumería. Descubre marcas, comparte tu afición
+                  {club.name} es un club de perfumería en Barcelona.
+                  Descubre marcas, comparte tu afición
                   y conoce gente con tu misma pasión.
                 </p>
                 <div className="hero-action">
@@ -115,7 +121,9 @@ export default function App() {
                   </a>
                   <div className="event-copy">
                     <p className="landing-eyebrow">Barcelona Perfume Club</p>
-                    <h3 id={`event-${event.id}`}>{event.title}</h3>
+                    <h3 id={`event-${event.id}`}>
+                      <a href={event.path} data-umami-event="event-page">{event.title}</a>
+                    </h3>
                     <div className="event-details">
                       <time dateTime={event.dateTime}>
                         {event.dateLabel} · {event.timeLabel} h
@@ -123,32 +131,8 @@ export default function App() {
                       <p>{event.venue}</p>
                       <p>{event.address}</p>
                     </div>
-                    <p className="event-description">
-                      {event.description.map((part) =>
-                        typeof part === "string" ? part : (
-                          <a
-                            key={part.url}
-                            href={part.url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            aria-label={`${part.text} en Instagram`}
-                            data-umami-event="event-brand-instagram"
-                          >
-                            {part.text}
-                          </a>
-                        ),
-                      )}
-                    </p>
-                    <aside className="event-registration" aria-label="Requisitos de acceso">
-                      <h4>Registro obligatorio en Luma</h4>
-                      <p>
-                        Plazas limitadas. Para asistir es imprescindible registrarse
-                        en este evento en Luma y recibir la confirmación de la plaza.
-                      </p>
-                      <p className="event-registration-restriction">
-                        Sin registro y confirmación no se podrá acceder.
-                      </p>
-                    </aside>
+                    <EventDescription event={event} />
+                    <RegistrationNotice />
                     <a
                       className="landing-luma"
                       href={event.url}
@@ -276,6 +260,7 @@ export default function App() {
             barcelonaperfumeclub@proton.me
           </a>
         </section>
+        </>}
       </main>
 
       <footer className="landing-footer">

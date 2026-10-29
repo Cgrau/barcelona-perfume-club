@@ -1,6 +1,18 @@
 # SEO y Search Console
 
-La landing conserva el diseño aprobado. El título y las descripciones explican la comunidad, la perfumería y las actividades que se están preparando en Barcelona. El contenido principal se incorpora al HTML durante la compilación y el sitio ya incluye canonical, robots, sitemap y datos estructurados Organization.
+Estado de implementación, 29 de octubre de 2026: Carles autoriza únicamente una página propia del primer evento y coherencia de identidad. No se realizará captación de enlaces de colaboradores; la crónica y el seguimiento periódico se dejan para después del evento. El objetivo prioritario es «Barcelona Perfume Club», seguido de consultas locales de comunidad y perfumería. No hay una primera posición acreditada.
+
+La web conserva el diseño aprobado. Portada y ficha tienen HTML prerenderizado, canonical y metadatos propios y datos Organization, WebSite y WebPage coherentes. El nombre, dominio y enlaces oficiales se definen en `club` de `src/content.ts`; los metadatos, en `src/seo.ts`.
+
+## Página del primer encuentro
+
+La ruta `/eventos/descubriendo-perfumes-nicho/` se genera como directorio con `index.html`, accesible directamente sin JavaScript. El título del evento en portada enlaza a la ficha y su navegación devuelve al club o al listado. Incluye cartel, fecha, horario 12:00–13:30, lugar, descripción, organización, acceso a Luma y aviso destacado de registro y plaza confirmada. El sitemap se genera desde las rutas, sin una segunda lista manual en `public/`.
+
+Luma confirma el 29 de octubre los datos del encuentro y el calendario «Barcelona Perfume Club», con nuestra web y los handles oficiales. La inscripción figura como lista de espera. No se muestran disponibilidad ni cifras estáticas; se remite a Luma para solicitar plaza. No se han modificado perfiles externos.
+
+La ficha incorpora WebPage y BreadcrumbList. Se pospone Event orientado a resultados enriquecidos: Google exige que se pueda reservar para el público general y excluye eventos con invitación previa. No se altera la condición de acceso mediante confirmación para optar a esa presentación. La página puede indexarse como contenido normal; no se promete indexación ni posición. [Requisitos de Google](https://developers.google.com/search/docs/appearance/structured-data/event).
+
+Las secciones siguientes conservan el historial de auditorías y actuaciones. Sus estados de lanzamiento y textos de botones son históricos cuando difieren de lo descrito arriba.
 
 ## Auditorías automáticas
 

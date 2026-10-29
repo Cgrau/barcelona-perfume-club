@@ -4,7 +4,7 @@ import App from "./App";
 
 const app = (
   <React.StrictMode>
-    <App />
+    <App pathname={window.location.pathname} />
   </React.StrictMode>
 );
 
