@@ -167,7 +167,7 @@
     {
       "id": "n_memory_web_aboutpage_tsx",
       "type": "file",
-      "file": "Mapa/srcAboutPage.tsx Quiénes somos, publicación autorizada.md",
+      "file": "Mapa/srcAboutPage.tsx Quiénes somos publicado y comprobado.md",
       "x": 1380,
       "y": 160,
       "width": 180,
@@ -213,7 +213,7 @@
     {
       "id": "n_memory_decisiones_about_solo_local",
       "type": "file",
-      "file": "Mapa/Quiénes somos publicación autorizada tras revisión local.md",
+      "file": "Mapa/Quiénes somos de revisión local a publicación comprobada.md",
       "x": 1720,
       "y": 160,
       "width": 180,
@@ -250,7 +250,7 @@
     {
       "id": "n_memory_estado_validacion_about_local",
       "type": "file",
-      "file": "Mapa/Validación del About dieciséis pruebas y publicación autorizada.md",
+      "file": "Mapa/Validación del About dieciséis pruebas y publicación comprobada.md",
       "x": 2660,
       "y": 80,
       "width": 180,

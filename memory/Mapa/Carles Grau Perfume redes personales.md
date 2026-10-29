@@ -21,6 +21,6 @@ TikTok confirmado por Carles: https://www.tiktok.com/@carles.grau. YouTube confi
 - [[Canales oficiales de Barcelona Perfume Club]] - `conceptually_related_to` [EXTRACTED]
 - [[Carles Grau]] - `references` [EXTRACTED]
 - [[Identidad Person de Carles separada del club]] - `references` [EXTRACTED]
-- [[srcAboutPage.tsx Quiénes somos, publicación autorizada]] - `references` [EXTRACTED]
+- [[srcAboutPage.tsx Quiénes somos publicado y comprobado]] - `references` [EXTRACTED]
 
 #graphify/concept #graphify/EXTRACTED #community/Organizadores_y_Quiénes_somos

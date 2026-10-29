@@ -1,7 +1,7 @@
 # Graph Report - memory  (2026-10-29)
 
 ## Corpus Check
-- Corpus is ~3,815 words - fits in a single context window. You may not need a graph.
+- Corpus is ~4,547 words - fits in a single context window. You may not need a graph.
 
 ## Summary
 - 49 nodes · 82 edges · 10 communities (5 shown, 5 thin omitted)
@@ -21,7 +21,7 @@
 - [Identidad del club](../memory/Mapa/_COMMUNITY_Identidad%20del%20club.md)
 
 ## God Nodes (most connected - your core abstractions)
-1. `src/AboutPage.tsx: Quiénes somos, publicación autorizada` - 11 edges
+1. `src/AboutPage.tsx: Quiénes somos publicado y comprobado` - 11 edges
 2. `Descubriendo perfumes nicho — 8 de noviembre de 2026` - 10 edges
 3. `src/EventPage.tsx: ficha propia del encuentro` - 8 edges
 4. `Bóveda compartida de Obsidian` - 6 edges
@@ -46,7 +46,7 @@
 
 ## Hyperedges (group relationships)
 - **Continuidad mediante repositorio, bóveda y grafo derivado** — memory_inicio_repositorio, memory_inicio_boveda_obsidian, memory_continuidad_continuar_proyecto, memory_graphify_artefactos_derivados [EXTRACTED 1.00]
-- **About revisado y aprobado; publicación autorizada y despliegue pendiente de comprobar** — memory_decisiones_about_solo_local, memory_web_aboutpage_tsx, memory_estado_validacion_about_local, memory_decisiones_presentacion_carles_laura, memory_web_person_sameas [EXTRACTED 1.00]
+- **About revisado, autorizado, publicado y comprobado en 4df3f11** — memory_decisiones_about_solo_local, memory_web_aboutpage_tsx, memory_estado_validacion_about_local, memory_decisiones_presentacion_carles_laura, memory_web_person_sameas [EXTRACTED 1.00]
 - **Rutas propias, metadatos y sitemap desde el prerender** — memory_web_content_ts, memory_web_eventpage_tsx, memory_web_seo_ts, memory_web_prerender, memory_web_sitemap_generado [EXTRACTED 1.00]
 
 ## Communities (10 total, 5 thin omitted)
@@ -57,11 +57,11 @@ Nodes (7): Publicación SEO comprobada: 4f0a26b, src/App.tsx: web activa, src/Cl
 
 ### Community 1 - "Organizadores y Quiénes somos"
 Cohesion: 0.47
-Nodes (3): Carles Grau, Carles Grau Perfume: redes personales, src/AboutPage.tsx: Quiénes somos, publicación autorizada
+Nodes (3): Carles Grau, Carles Grau Perfume: redes personales, src/AboutPage.tsx: Quiénes somos publicado y comprobado
 
 ### Community 3 - "Validación y despliegues"
 Cohesion: 0.40
-Nodes (3): Publicación comprobada de la web, Validación del About: dieciséis pruebas y publicación autorizada, Verificación SEO de dos páginas y doce pruebas
+Nodes (3): Publicación comprobada de la web, Validación del About: dieciséis pruebas y publicación comprobada, Verificación SEO de dos páginas y doce pruebas
 
 ### Community 4 - "Primer encuentro y marcas"
 Cohesion: 0.40
@@ -83,7 +83,7 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.288) - this node is a cross-community bridge._
 - **What connects `Pendientes de producto y alcance`, `src/ClubSite.tsx: propuesta archivada`, `Volta Restaurant & Bar` to the rest of the system?**
   _6 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Why does `src/AboutPage.tsx: Quiénes somos, publicación autorizada` connect `Organizadores y Quiénes somos` to `Acceso con plaza confirmada`, `SEO y generación estática`, `Diseño y permisos de publicación`, `Validación y despliegues`?**
+- **Why does `src/AboutPage.tsx: Quiénes somos publicado y comprobado` connect `Organizadores y Quiénes somos` to `Acceso con plaza confirmada`, `SEO y generación estática`, `Diseño y permisos de publicación`, `Validación y despliegues`?**
   _High betweenness centrality (0.256) - this node is a cross-community bridge._
 - **Why does `src/EventPage.tsx: ficha propia del encuentro` connect `SEO y generación estática` to `Acceso con plaza confirmada`, `Organizadores y Quiénes somos`, `Primer encuentro y marcas`?**
   _High betweenness centrality (0.191) - this node is a cross-community bridge._

@@ -12,7 +12,7 @@ tags:
 # src/EventPage.tsx: ficha propia del encuentro
 
 <!-- project-memory:start -->
-Página estática /eventos/descubriendo-perfumes-nicho/ con cartel, descripción propia, fecha, horario, lugar, organización, retorno y Luma. La versión aprobada para publicar añade enlace a /sobre-el-club/; su despliegue todavía no se ha comprobado.
+Página estática /eventos/descubriendo-perfumes-nicho/ con cartel, descripción propia, fecha, horario, lugar, organización, retorno y Luma. La versión publicada y comprobada añade enlace a /sobre-el-club/; su despliegue y contenido público están comprobados en 4df3f11.
 
 [Nota original](../Web.md)
 <!-- project-memory:end -->
@@ -23,7 +23,7 @@ Página estática /eventos/descubriendo-perfumes-nicho/ con cartel, descripción
 - [[Publicación SEO comprobada 4f0a26b]] - `references` [EXTRACTED]
 - [[WebPage y BreadcrumbList; Event aplazado]] - `implements` [EXTRACTED]
 - [[scriptsprerender.mjs generación estática]] - `references` [EXTRACTED]
-- [[srcAboutPage.tsx Quiénes somos, publicación autorizada]] - `references` [EXTRACTED]
+- [[srcAboutPage.tsx Quiénes somos publicado y comprobado]] - `references` [EXTRACTED]
 - [[srcApp.tsx web activa]] - `references` [EXTRACTED]
 - [[srccomponentsEventContent.tsx contenido compartido]] - `references` [EXTRACTED]
 

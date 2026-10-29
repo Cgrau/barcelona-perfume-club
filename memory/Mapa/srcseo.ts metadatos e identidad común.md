@@ -12,7 +12,7 @@ tags:
 # src/seo.ts: metadatos e identidad común
 
 <!-- project-memory:start -->
-Metadatos por URL y Organization y WebSite comunes desde datos del club en src/content.ts. La versión aprobada para publicar añade AboutPage y Person para el About. Las redes personales de Carles solo se asocian a su Person; no se incorporan a Organization.sameAs. No se modifican perfiles externos.
+Metadatos por URL y Organization y WebSite comunes desde datos del club en src/content.ts. La versión publicada y comprobada añade AboutPage y Person para el About. Las redes personales de Carles solo se asocian a su Person; no se incorporan a Organization.sameAs. No se modifican perfiles externos.
 
 [Nota original](../Web.md)
 <!-- project-memory:end -->

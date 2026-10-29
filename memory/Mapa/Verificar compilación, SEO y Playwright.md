@@ -18,7 +18,7 @@ npm run build, npm run seo:check y npm test. Suite móvil 375 px y escritorio 14
 <!-- project-memory:end -->
 
 ## Connections
-- [[Validación del About dieciséis pruebas y publicación autorizada]] - `references` [EXTRACTED]
+- [[Validación del About dieciséis pruebas y publicación comprobada]] - `references` [EXTRACTED]
 - [[Verificación SEO de dos páginas y doce pruebas]] - `references` [EXTRACTED]
 - [[Verificación inicial y compilación antes de las pruebas]] - `references` [EXTRACTED]
 

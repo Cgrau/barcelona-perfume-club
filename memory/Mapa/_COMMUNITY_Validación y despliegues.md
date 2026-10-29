@@ -11,7 +11,7 @@ members: 5
 
 ## Members
 - [[Publicación comprobada de la web]] - concept - memory/Estado.md
-- [[Validación del About dieciséis pruebas y publicación autorizada]] - concept - memory/Estado.md
+- [[Validación del About dieciséis pruebas y publicación comprobada]] - concept - memory/Estado.md
 - [[Verificación SEO de dos páginas y doce pruebas]] - concept - memory/sesiones/2026-10-29.md
 - [[Verificación inicial y compilación antes de las pruebas]] - rationale - memory/sesiones/2026-10-27.md
 - [[Verificar compilación, SEO y Playwright]] - rationale - memory/Web.md
@@ -31,5 +31,5 @@ SORT file.name ASC
 
 ## Top bridge nodes
 - [[Publicación comprobada de la web]] - degree 4, connects to 3 communities
-- [[Validación del About dieciséis pruebas y publicación autorizada]] - degree 3, connects to 2 communities
+- [[Validación del About dieciséis pruebas y publicación comprobada]] - degree 3, connects to 2 communities
 - [[Verificación SEO de dos páginas y doce pruebas]] - degree 2, connects to 1 community

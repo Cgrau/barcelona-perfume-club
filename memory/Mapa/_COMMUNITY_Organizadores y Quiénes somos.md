@@ -15,7 +15,7 @@ members: 6
 - [[Carles y Laura relato conjunto ampliado]] - rationale - memory/Decisiones.md
 - [[Fotografía profesional conjunta aplazada]] - rationale - memory/Decisiones.md
 - [[Identidad Person de Carles separada del club]] - rationale - memory/Web.md
-- [[srcAboutPage.tsx Quiénes somos, publicación autorizada]] - concept - memory/Web.md
+- [[srcAboutPage.tsx Quiénes somos publicado y comprobado]] - concept - memory/Web.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -33,7 +33,7 @@ SORT file.name ASC
 - 1 edge to [[_COMMUNITY_Programación y canales oficiales]]
 
 ## Top bridge nodes
-- [[srcAboutPage.tsx Quiénes somos, publicación autorizada]] - degree 11, connects to 4 communities
+- [[srcAboutPage.tsx Quiénes somos publicado y comprobado]] - degree 11, connects to 4 communities
 - [[Carles Grau Perfume redes personales]] - degree 4, connects to 1 community
 - [[Carles Grau]] - degree 3, connects to 1 community
 - [[Identidad Person de Carles separada del club]] - degree 3, connects to 1 community

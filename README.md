@@ -12,7 +12,7 @@ La frase «Perfume, conversación y comunidad» introduce la portada, que anunci
 
 ## Abrir en local
 
-La versión aprobada incorpora `/sobre-el-club/`, con Carles y Laura, el propósito del club y las redes de Carles Grau Perfume. Carles solicita publicarla el 29 de octubre de 2026, tras revisarla en local; la autorización sustituye la restricción inicial de no subirla. El resultado del despliegue se registra en la memoria y la validación. El menú conserva Inicio, El club y Eventos en la home; «Quiénes somos» abre la presentación en una página aparte. La fotografía conjunta queda para más adelante. Validación en [ABOUT-LOCAL-2026-10-29.md](docs/ABOUT-LOCAL-2026-10-29.md).
+La web incorpora [Quiénes somos](https://barcelonaperfumeclub.com/sobre-el-club/), con Carles y Laura, el propósito del club y las redes de Carles Grau Perfume. Carles solicita publicarla el 29 de octubre de 2026, tras revisarla en local; la autorización sustituye la restricción inicial de no subirla. Publicación comprobada en `4df3f11`; despliegue y dominio verificados. El resultado se registra en la memoria y la validación. El menú conserva Inicio, El club y Eventos en la home; «Quiénes somos» abre la presentación en una página aparte. La fotografía conjunta queda para más adelante. Validación en [ABOUT-LOCAL-2026-10-29.md](docs/ABOUT-LOCAL-2026-10-29.md).
 
 La ficha del primer encuentro tiene URL propia: [/eventos/descubriendo-perfumes-nicho/](https://barcelonaperfumeclub.com/eventos/descubriendo-perfumes-nicho/). El título del evento en portada lleva a ella; los botones de inscripción siguen llevando directamente a Luma. La ficha conserva el registro y la plaza confirmada como condiciones de acceso.
 
@@ -36,13 +36,13 @@ npm run preview
 - `src/landing.css`: fondo, tipografías locales y diseño responsive, sin animaciones.
 - `src/content.ts`: lista `events`, objetivo del club y enlaces compartidos con la futura web.
 - `src/EventPage.tsx` y `src/components/EventContent.tsx`: ficha del encuentro y descripción y aviso de acceso compartidos.
-- `src/AboutPage.tsx`: historia, organizadores y objetivo del club; versión local pendiente de revisión.
+- `src/AboutPage.tsx`: historia, organizadores y objetivo del club; publicada tras su revisión local.
 - `src/seo.ts`: metadatos por URL e identidad Organization y WebSite, a partir de `club` en `src/content.ts`.
 - `public/media/descubriendo-perfumes-nicho-*.webp`: cartel proporcionado por Carles en dos tamaños, sin recortar.
 - `public/media/logo-vector.svg`: contornos vectoriales trazados desde el logo original, con tinta marfil y fondo transparente, sin filtros ni imágenes incrustadas. `logo.webp` conserva la copia optimizada original. Detalles en [LOGO.md](docs/LOGO.md).
 - `public/media/mouillettes-*.webp`: recursos conservados para la futura web completa. No se cargan en la landing actual.
 - `index.html`: plantilla HTML y tarjeta social de marca; los metadatos se completan para cada página al compilar.
-- `src/entry-server.tsx` y `scripts/prerender.mjs`: generan HTML y metadatos para portada y encuentros, sin JavaScript de cliente, y derivan `dist/sitemap.xml` de las rutas reales.
+- `src/entry-server.tsx` y `scripts/prerender.mjs`: generan HTML y metadatos para portada, Quiénes somos y encuentros, sin JavaScript de cliente, y derivan `dist/sitemap.xml` de las rutas reales.
 - `DESIGN.md`: criterio de diseño y decisiones de la revisión aprobada.
 
 Enlaces incorporados:
@@ -76,7 +76,7 @@ También se puede utilizar Brave instalado en macOS:
 BROWSER_PATH='/Applications/Brave Browser.app/Contents/MacOS/Brave Browser' npm test
 ```
 
-La suite activa comprueba portada y ficha en 375 y 1440 px: contenido, cartel, enlaces, scroll central, cabecera y redes, navegación y accesibilidad con axe. La entrada directa y metadatos de la ficha se prueban sin JavaScript; axe usa un contexto separado para ejecutar su analizador. Playwright compila y arranca una vista previa estática cuando no hay un servidor de pruebas.
+La suite activa tiene dieciséis pruebas y comprueba portada, Quiénes somos y ficha en 375 y 1440 px: contenido, cartel, enlaces, scroll central, cabecera y redes, navegación y accesibilidad con axe. La entrada directa y metadatos de la ficha se prueban sin JavaScript; axe usa un contexto separado para ejecutar su analizador. Playwright compila y arranca una vista previa estática cuando no hay un servidor de pruebas.
 
 Capturas de producción para revisión:
 

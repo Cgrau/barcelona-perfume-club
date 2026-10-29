@@ -13,7 +13,7 @@ members: 5
 - [[Aprobación inicial y autorización de publicación]] - concept - memory/sesiones/2026-10-27.md
 - [[Diseño aprobado burdeos, marfil y portada tipográfica]] - rationale - memory/Decisiones.md
 - [[Publicación de main en GitHub Pages]] - rationale - memory/Web.md
-- [[Quiénes somos publicación autorizada tras revisión local]] - rationale - memory/Decisiones.md
+- [[Quiénes somos de revisión local a publicación comprobada]] - rationale - memory/Decisiones.md
 - [[srclanding.css diseño y adaptación a pantallas]] - concept - memory/Web.md
 
 ## Live Query (requires Dataview plugin)
@@ -32,6 +32,6 @@ SORT file.name ASC
 
 ## Top bridge nodes
 - [[Aprobación inicial y autorización de publicación]] - degree 5, connects to 2 communities
-- [[Quiénes somos publicación autorizada tras revisión local]] - degree 4, connects to 2 communities
+- [[Quiénes somos de revisión local a publicación comprobada]] - degree 4, connects to 2 communities
 - [[Publicación de main en GitHub Pages]] - degree 4, connects to 2 communities
 - [[srclanding.css diseño y adaptación a pantallas]] - degree 2, connects to 1 community

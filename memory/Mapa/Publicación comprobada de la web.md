@@ -2,7 +2,7 @@
 source_file: "memory/Estado.md"
 type: "concept"
 community: "Validación y despliegues"
-location: "L38"
+location: "L14"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
@@ -12,7 +12,7 @@ tags:
 # Publicación comprobada de la web
 
 <!-- project-memory:start -->
-La versión pública comprobada sigue siendo la ficha del primer evento e identidad SEO publicadas en 4f0a26b, workflow 40828628191; el anuncio inicial se publicó en 9e4ab8a, workflow 40570602908. Portada y ficha, canonical, acceso, identidad WebSite y sitemap se comprobaron en el dominio. El nuevo About tiene texto aprobado y publicación autorizada por «súbelo a producción»; su despliegue y dominio todavía están pendientes de comprobar. No se acredita primera posición en Google.
+Publicado y comprobado en 4df3f11 (commit completo 4df3f117548c911c82c55d932a9d06488c34cddd), con GitHub Pages correcto: https://github.com/Cgrau/barcelona-perfume-club/actions/runs/40939189954. Verificados en https://barcelonaperfumeclub.com/ portada, menú, /sobre-el-club/, relato conjunto, redes personales, retrato WebP 320/640 y CSS grayscale, canonical, AboutPage, ficha del evento y sitemap de tres URLs. El evento conserva registro y plaza confirmada en Luma. Se conservan la ficha e identidad SEO de 4f0a26b, workflow 40828628191, y el anuncio inicial de 9e4ab8a. La restricción inicial de solo local fue superada tras la revisión y autorización expresa. No se acredita primera posición en Google ni se da por terminado el workflow SEO nuevo.
 
 [Nota original](../Estado.md)
 <!-- project-memory:end -->

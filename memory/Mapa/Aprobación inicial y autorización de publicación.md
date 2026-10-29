@@ -22,6 +22,6 @@ Carles aprueba vista previa y pide subir todo a GitHub y guardar memoria como Ob
 - [[Diseño aprobado burdeos, marfil y portada tipográfica]] - `references` [EXTRACTED]
 - [[Graphify 0.9.97]] - `references` [EXTRACTED]
 - [[Publicación de main en GitHub Pages]] - `references` [EXTRACTED]
-- [[Quiénes somos publicación autorizada tras revisión local]] - `conceptually_related_to` [EXTRACTED]
+- [[Quiénes somos de revisión local a publicación comprobada]] - `conceptually_related_to` [EXTRACTED]
 
 #graphify/concept #graphify/EXTRACTED #community/Diseño_y_permisos_de_publicación

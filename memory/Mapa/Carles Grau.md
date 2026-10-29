@@ -12,7 +12,7 @@ tags:
 # Carles Grau
 
 <!-- project-memory:start -->
-Carles Grau participa en el primer encuentro y proporciona su cartel. Se presenta como perfumista autodidacta y divulgador de perfumería; comparte contenido como Carles Grau Perfume y tiene el objetivo futuro de crear su propia marca de perfumes, sin afirmar una marca o productos ya lanzados. Organiza el club junto a Laura; el relato conjunto ampliado aparece únicamente en «Quiénes somos», aprobado y autorizado para publicar; despliegue pendiente de comprobar.
+Carles Grau participa en el primer encuentro y proporciona su cartel. Se presenta como perfumista autodidacta y divulgador de perfumería; comparte contenido como Carles Grau Perfume y tiene el objetivo futuro de crear su propia marca de perfumes, sin afirmar una marca o productos ya lanzados. Organiza el club junto a Laura; el relato conjunto ampliado aparece únicamente en «Quiénes somos», aprobado y autorizado para publicar; despliegue comprobado en 4df3f11.
 
 [Nota original](../eventos/2026-11-08-perfumes-nicho.md)
 <!-- project-memory:end -->

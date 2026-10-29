@@ -12,7 +12,7 @@ tags:
 # Alcance SEO aprobado: página propia e identidad
 
 <!-- project-memory:start -->
-En la fase SEO del 29 de octubre Carles autoriza la página propia del evento y coherencia de identidad; ambas quedan publicadas en 4f0a26b. Descarta pedir enlaces a colaboradores. Crónica con fotos y seguimiento periódico de consultas se dejan para después del encuentro y no son tareas actuales. No prometer primer puesto en Google. Tras la revisión local y aprobación del texto, Carles autoriza expresamente publicar el About; despliegue pendiente de comprobar.
+En la fase SEO del 29 de octubre Carles autoriza la página propia del evento y coherencia de identidad; ambas quedan publicadas en 4f0a26b. Descarta pedir enlaces a colaboradores. Crónica con fotos y seguimiento periódico de consultas se dejan para después del encuentro y no son tareas actuales. No prometer primer puesto en Google. Tras la revisión local y aprobación del texto, Carles autoriza expresamente publicar el About; despliegue comprobado en 4df3f11.
 
 [Nota original](../Decisiones.md)
 <!-- project-memory:end -->

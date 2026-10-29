@@ -12,7 +12,7 @@ tags:
 # Pendientes de producto y alcance
 
 <!-- project-memory:start -->
-Añadir siguientes encuentros cuando existan y revisar portada al cambiar programación. No hay sincronización automática con Luma implementada ni aprobada como trabajo adicional. Datos del titular para aviso legal pendientes según README. El About tiene texto aprobado y publicación autorizada; falta comprobar despliegue y dominio público.
+Añadir siguientes encuentros cuando existan y revisar portada al cambiar programación. No hay sincronización automática con Luma implementada ni aprobada como trabajo adicional. Datos del titular para aviso legal pendientes según README. El About aprobado está publicado y comprobado en 4df3f11; no queda pendiente comprobar este despliegue.
 
 [Nota original](../Estado.md)
 <!-- project-memory:end -->
