@@ -261,7 +261,7 @@ export default function App({ pathname = "/" }: { pathname?: string }) {
             leerte.
           </p>
           <a href={club.links.contact} data-umami-event="contact-email">
-            barcelonaperfumeclub@proton.me
+            {club.links.contact.replace("mailto:", "")}
           </a>
         </section>
         </>}

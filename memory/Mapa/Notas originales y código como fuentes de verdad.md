@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Continuidad.md"
 type: "rationale"
-community: "Graphify y fuentes de verdad"
+community: "Memoria y publicación"
 location: "L21"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Graphify_y_fuentes_de_verdad
+  - community/Memoria_y_publicación
 ---
 
 # Notas originales y código como fuentes de verdad
@@ -23,4 +23,4 @@ Separar decisiones aprobadas, hechos comprobados e hipótesis. Comprobar desplie
 - [[Continuar el proyecto desde otro equipo]] - `rationale_for` [EXTRACTED]
 - [[Regenerar el mapa desde las notas originales]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Graphify_y_fuentes_de_verdad
+#graphify/rationale #graphify/EXTRACTED #community/Memoria_y_publicación

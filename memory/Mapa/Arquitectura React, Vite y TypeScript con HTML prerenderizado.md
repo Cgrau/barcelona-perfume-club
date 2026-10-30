@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Web.md"
 type: "rationale"
-community: "SEO y generación estática"
+community: "Arquitectura y diseño web"
 location: "L12"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/SEO_y_generación_estática
+  - community/Arquitectura_y_diseño_web
 ---
 
 # Arquitectura React, Vite y TypeScript con HTML prerenderizado
@@ -23,4 +23,4 @@ React 19, Vite y TypeScript; producción con HTML prerenderizado, enlaces, ancla
 - [[srccontent.ts eventos y enlaces]] - `references` [EXTRACTED]
 - [[srclanding.css diseño y adaptación a pantallas]] - `references` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/SEO_y_generación_estática
+#graphify/rationale #graphify/EXTRACTED #community/Arquitectura_y_diseño_web

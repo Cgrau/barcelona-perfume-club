@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Web.md"
 type: "concept"
-community: "Diseño y aprobación"
+community: "Arquitectura y diseño web"
 location: "L19"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Diseño_y_aprobación
+  - community/Arquitectura_y_diseño_web
 ---
 
 # src/landing.css: diseño y adaptación a pantallas
@@ -21,4 +21,4 @@ Estilos activos y comportamiento responsive de la web; conserva el scroll del co
 - [[Arquitectura React, Vite y TypeScript con HTML prerenderizado]] - `references` [EXTRACTED]
 - [[Diseño aprobado burdeos, marfil y portada tipográfica]] - `conceptually_related_to` [INFERRED]
 
-#graphify/concept #graphify/EXTRACTED #community/Diseño_y_aprobación
+#graphify/concept #graphify/EXTRACTED #community/Arquitectura_y_diseño_web

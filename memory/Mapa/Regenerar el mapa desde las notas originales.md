@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Graphify.md"
 type: "rationale"
-community: "Graphify y fuentes de verdad"
+community: "Memoria y publicación"
 location: "L26"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Graphify_y_fuentes_de_verdad
+  - community/Memoria_y_publicación
 ---
 
 # Regenerar el mapa desde las notas originales
@@ -23,4 +23,4 @@ Usar skill oficial sobre memory excluyendo memory/Mapa y .obsidian; exportar Obs
 - [[Grafo portable y exportación para Obsidian]] - `references` [EXTRACTED]
 - [[Notas originales y código como fuentes de verdad]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Graphify_y_fuentes_de_verdad
+#graphify/rationale #graphify/EXTRACTED #community/Memoria_y_publicación

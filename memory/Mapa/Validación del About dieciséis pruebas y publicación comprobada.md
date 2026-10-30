@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Estado.md"
 type: "concept"
-community: "Organizadores y validación del About"
-location: "L14"
+community: "Organizadores y Quiénes somos"
+location: "L18"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Organizadores_y_validación_del_About
+  - community/Organizadores_y_Quiénes_somos
 ---
 
 # Validación del About: dieciséis pruebas y publicación comprobada
@@ -22,4 +22,4 @@ Compilación y control SEO correctos para tres páginas estáticas; dieciséis p
 - [[Verificar compilación, SEO y Playwright]] - `references` [EXTRACTED]
 - [[srcAboutPage.tsx Quiénes somos publicado y comprobado]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Organizadores_y_validación_del_About
+#graphify/concept #graphify/EXTRACTED #community/Organizadores_y_Quiénes_somos

@@ -47,7 +47,7 @@ Enlaces incorporados:
 
 - Eventos: https://luma.com/barcelonaperfumeclub
 - Primer evento: https://luma.com/tdhs6lr0
-- Contacto: mailto:barcelonaperfumeclub@proton.me
+- Contacto: mailto:contacto@barcelonaperfumeclub.com
 
 No hay formularios. La analítica opcional de Umami Cloud permanece desactivada mientras no se configure `UMAMI_WEBSITE_ID`: mide visitas y clics en los enlaces, sin añadir cookies desde la aplicación. La configuración y activación se explican en [UMAMI.md](docs/UMAMI.md). Las fuentes Playfair Display y Jost se sirven desde el propio sitio.
 

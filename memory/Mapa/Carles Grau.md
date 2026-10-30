@@ -1,12 +1,12 @@
 ---
 source_file: "memory/eventos/2026-11-08-perfumes-nicho.md"
 type: "concept"
-community: "Organizadores y validación del About"
+community: "Organizadores y Quiénes somos"
 location: "L20"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Organizadores_y_validación_del_About
+  - community/Organizadores_y_Quiénes_somos
 ---
 
 # Carles Grau
@@ -22,4 +22,4 @@ Carles Grau participa en el primer encuentro y proporciona su cartel. Se present
 - [[Carles y Laura relato conjunto ampliado]] - `references` [EXTRACTED]
 - [[Descubriendo perfumes nicho — 8 de noviembre de 2026]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Organizadores_y_validación_del_About
+#graphify/concept #graphify/EXTRACTED #community/Organizadores_y_Quiénes_somos

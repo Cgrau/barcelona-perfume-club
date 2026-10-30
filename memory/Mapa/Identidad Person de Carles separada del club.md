@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Web.md"
 type: "rationale"
-community: "Organizadores y validación del About"
+community: "Organizadores y Quiénes somos"
 location: "L39"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Organizadores_y_validación_del_About
+  - community/Organizadores_y_Quiénes_somos
 ---
 
 # Identidad Person de Carles separada del club
@@ -24,4 +24,4 @@ El About publicado tiene metadatos propios, AboutPage y Person. Las redes person
 - [[srcAboutPage.tsx Quiénes somos publicado y comprobado]] - `references` [EXTRACTED]
 - [[srcseo.ts metadatos e identidad común]] - `references` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Organizadores_y_validación_del_About
+#graphify/rationale #graphify/EXTRACTED #community/Organizadores_y_Quiénes_somos

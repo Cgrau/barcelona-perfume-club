@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Decisiones.md"
 type: "rationale"
-community: "Diseño y aprobación"
+community: "Memoria y publicación"
 location: "L16"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Diseño_y_aprobación
+  - community/Memoria_y_publicación
 ---
 
 # Diseño aprobado: burdeos, marfil y portada tipográfica
@@ -21,4 +21,4 @@ Burdeos #640817 y marfil #f3eee0; logo original con lettering en public/media/lo
 - [[Aprobación inicial y autorización de publicación]] - `references` [EXTRACTED]
 - [[srclanding.css diseño y adaptación a pantallas]] - `conceptually_related_to` [INFERRED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Diseño_y_aprobación
+#graphify/rationale #graphify/EXTRACTED #community/Memoria_y_publicación

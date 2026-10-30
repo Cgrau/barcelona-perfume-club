@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Estado.md"
 type: "concept"
-community: "Programación y canales oficiales"
-location: "L36"
+community: "Identidad y contacto del club"
+location: "L40"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Programación_y_canales_oficiales
+  - community/Identidad_y_contacto_del_club
 ---
 
 # Pendientes de producto y alcance
@@ -20,4 +20,4 @@ Añadir siguientes encuentros cuando existan y revisar portada al cambiar progra
 ## Connections
 - [[Mantenimiento manual de eventos]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Programación_y_canales_oficiales
+#graphify/concept #graphify/EXTRACTED #community/Identidad_y_contacto_del_club

@@ -1,66 +1,45 @@
 {
   "colorGroups": [
     {
-      "query": "tag:#community/Organizadores_y_validaci\u00f3n_del_About",
+      "query": "tag:#community/Memoria_y_publicaci\u00f3n",
       "color": {
         "a": 1,
         "rgb": 5142951
       }
     },
     {
-      "query": "tag:#community/SEO_y_generaci\u00f3n_est\u00e1tica",
+      "query": "tag:#community/Identidad_y_contacto_del_club",
       "color": {
         "a": 1,
         "rgb": 15896107
       }
     },
     {
-      "query": "tag:#community/Continuidad_y_publicaci\u00f3n",
+      "query": "tag:#community/Generaci\u00f3n_est\u00e1tica_y_verificaci\u00f3n",
       "color": {
         "a": 1,
         "rgb": 14767961
       }
     },
     {
-      "query": "tag:#community/Primer_encuentro_y_marcas",
+      "query": "tag:#community/Organizadores_y_Qui\u00e9nes_somos",
       "color": {
         "a": 1,
         "rgb": 7780274
       }
     },
     {
-      "query": "tag:#community/Graphify_y_fuentes_de_verdad",
+      "query": "tag:#community/Primer_encuentro_y_acceso",
       "color": {
         "a": 1,
         "rgb": 5873999
       }
     },
     {
-      "query": "tag:#community/Programaci\u00f3n_y_canales_oficiales",
+      "query": "tag:#community/Arquitectura_y_dise\u00f1o_web",
       "color": {
         "a": 1,
         "rgb": 15583560
-      }
-    },
-    {
-      "query": "tag:#community/Dise\u00f1o_y_aprobaci\u00f3n",
-      "color": {
-        "a": 1,
-        "rgb": 11565729
-      }
-    },
-    {
-      "query": "tag:#community/Identidad_e_indexaci\u00f3n_confirmada",
-      "color": {
-        "a": 1,
-        "rgb": 16752039
-      }
-    },
-    {
-      "query": "tag:#community/Acceso_con_plaza_confirmada",
-      "color": {
-        "a": 1,
-        "rgb": 10253663
       }
     }
   ]

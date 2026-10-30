@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Decisiones.md"
 type: "rationale"
-community: "Acceso con plaza confirmada"
+community: "Primer encuentro y acceso"
 location: "L30"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Acceso_con_plaza_confirmada
+  - community/Primer_encuentro_y_acceso
 ---
 
 # Acceso obligatorio con registro y plaza confirmada en Luma
@@ -26,4 +26,4 @@ El acceso exige registro y plaza confirmada en Luma. Sin ambas condiciones no se
 - [[srcAboutPage.tsx Quiénes somos publicado y comprobado]] - `references` [EXTRACTED]
 - [[srccomponentsEventContent.tsx contenido compartido]] - `references` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Acceso_con_plaza_confirmada
+#graphify/rationale #graphify/EXTRACTED #community/Primer_encuentro_y_acceso

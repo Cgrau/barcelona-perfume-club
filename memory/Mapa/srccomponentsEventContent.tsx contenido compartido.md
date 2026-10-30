@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Web.md"
 type: "concept"
-community: "Acceso con plaza confirmada"
+community: "Primer encuentro y acceso"
 location: "L23"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Acceso_con_plaza_confirmada
+  - community/Primer_encuentro_y_acceso
 ---
 
 # src/components/EventContent.tsx: contenido compartido
@@ -21,4 +21,4 @@ Comparte descripción y aviso de acceso entre portada y ficha propia.
 - [[Acceso obligatorio con registro y plaza confirmada en Luma]] - `references` [EXTRACTED]
 - [[srcEventPage.tsx ficha propia del encuentro]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Acceso_con_plaza_confirmada
+#graphify/concept #graphify/EXTRACTED #community/Primer_encuentro_y_acceso

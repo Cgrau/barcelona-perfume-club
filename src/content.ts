@@ -12,7 +12,7 @@ export const club = {
       | string
       | null,
     tiktok: "https://www.tiktok.com/@barcelonaperfumeclub",
-    contact: "mailto:barcelonaperfumeclub@proton.me",
+    contact: "mailto:contacto@barcelonaperfumeclub.com",
   },
   logo: "/media/logo-vector.svg",
   video: null as { mp4: string; webm?: string; poster: string } | null,

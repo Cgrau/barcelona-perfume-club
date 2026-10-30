@@ -1,7 +1,7 @@
 ---
 title: Decisiones y preferencias aprobadas
 type: decisions
-updated: 2026-10-29
+updated: 2026-10-30
 tags: [diseno, decisiones]
 ---
 
@@ -52,3 +52,7 @@ Ante el resultado de Google del repositorio, Carles autoriza «hazlo entonces»:
 ## Consultas de marca y club local
 
 Carles recalca que quiere visibilidad por «Barcelona perfume club», «perfume club Barcelona» y «perfume club» para quien busca desde Barcelona. Las tres consultas se orientan a la portada. Como criterio de implementación, se refuerzan título, descripción y una respuesta existente de preguntas frecuentes con la actividad de club de perfumería en Barcelona, conservando el nombre, titular visible, diseño y condiciones de acceso. No se prometen posiciones ni se convierten los 4,7 agregados de Search Console en una medición de estas consultas.
+
+## Correo oficial del club
+
+El 30 de octubre Carles solicita usar contacto@barcelonaperfumeclub.com como correo público del club, sustituyendo el correo anterior de Proton. Aplicarlo a enlaces mailto, texto de contacto y datos estructurados. La fuente compartida es `club.links.contact` en `src/content.ts`. Detalle: [[sesiones/2026-10-30]].

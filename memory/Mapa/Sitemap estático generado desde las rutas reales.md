@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Web.md"
 type: "rationale"
-community: "SEO y generación estática"
+community: "Generación estática y verificación"
 location: "L37"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/SEO_y_generación_estática
+  - community/Generación_estática_y_verificación
 ---
 
 # Sitemap estático generado desde las rutas reales
@@ -25,4 +25,4 @@ El prerender deriva dist/sitemap.xml de las rutas reales; no hay sitemap manual 
 - [[srcAboutPage.tsx Quiénes somos publicado y comprobado]] - `references` [EXTRACTED]
 - [[srccontent.ts eventos y enlaces]] - `references` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/SEO_y_generación_estática
+#graphify/rationale #graphify/EXTRACTED #community/Generación_estática_y_verificación

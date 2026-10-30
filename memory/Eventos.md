@@ -1,7 +1,7 @@
 ---
 title: Eventos y Luma
 type: operations
-updated: 2026-10-29
+updated: 2026-10-30
 tags: [eventos, luma]
 ---
 
@@ -27,6 +27,6 @@ El 29 de octubre el primer encuentro figura en lista de espera. La ficha remite 
 
 - Instagram: https://www.instagram.com/barcelonaperfumeclub/
 - TikTok: https://www.tiktok.com/@barcelonaperfumeclub
-- Contacto: barcelonaperfumeclub@proton.me
+- Contacto: contacto@barcelonaperfumeclub.com
 
 Al añadir un evento, verificar sus datos públicos, usar el cartel proporcionado, optimizarlo sin cortar contenido, comprobar móvil y escritorio y registrar los cambios en [[Estado]] y la nota de sesión. Procedimiento técnico: [[Web]].

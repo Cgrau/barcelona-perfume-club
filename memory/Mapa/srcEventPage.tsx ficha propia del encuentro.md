@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Web.md"
 type: "concept"
-community: "SEO y generación estática"
+community: "Generación estática y verificación"
 location: "L21"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/SEO_y_generación_estática
+  - community/Generación_estática_y_verificación
 ---
 
 # src/EventPage.tsx: ficha propia del encuentro
@@ -27,4 +27,4 @@ Página estática /eventos/descubriendo-perfumes-nicho/ con cartel, descripción
 - [[srcApp.tsx web activa]] - `references` [EXTRACTED]
 - [[srccomponentsEventContent.tsx contenido compartido]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/SEO_y_generación_estática
+#graphify/concept #graphify/EXTRACTED #community/Generación_estática_y_verificación

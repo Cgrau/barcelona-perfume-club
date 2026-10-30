@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Decisiones.md"
 type: "rationale"
-community: "Organizadores y validación del About"
+community: "Organizadores y Quiénes somos"
 location: "L46"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Organizadores_y_validación_del_About
+  - community/Organizadores_y_Quiénes_somos
 ---
 
 # Quiénes somos: de revisión local a publicación comprobada
@@ -25,4 +25,4 @@ Carles pidió inicialmente mantener /sobre-el-club/ y su memoria solo en local. 
 - [[Validación del About dieciséis pruebas y publicación comprobada]] - `references` [EXTRACTED]
 - [[srcAboutPage.tsx Quiénes somos publicado y comprobado]] - `references` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Organizadores_y_validación_del_About
+#graphify/rationale #graphify/EXTRACTED #community/Organizadores_y_Quiénes_somos

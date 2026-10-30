@@ -1,12 +1,12 @@
 ---
 source_file: "memory/sesiones/2026-10-29.md"
 type: "concept"
-community: "Organizadores y validación del About"
+community: "Generación estática y verificación"
 location: "L24"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Organizadores_y_validación_del_About
+  - community/Generación_estática_y_verificación
 ---
 
 # Verificación SEO de dos páginas y doce pruebas
@@ -21,4 +21,4 @@ Fase SEO ya publicada: compilación y control SEO correctos para dos páginas; d
 - [[Publicación SEO comprobada 4f0a26b]] - `references` [EXTRACTED]
 - [[Verificar compilación, SEO y Playwright]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Organizadores_y_validación_del_About
+#graphify/concept #graphify/EXTRACTED #community/Generación_estática_y_verificación

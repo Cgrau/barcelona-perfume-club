@@ -1,12 +1,12 @@
 ---
 source_file: "memory/sesiones/2026-10-29.md"
 type: "rationale"
-community: "SEO y generación estática"
+community: "Generación estática y verificación"
 location: "L22"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/SEO_y_generación_estática
+  - community/Generación_estática_y_verificación
 ---
 
 # WebPage y BreadcrumbList; Event aplazado
@@ -23,4 +23,4 @@ La ficha utiliza WebPage y BreadcrumbList. Se pospone Event para rich results mi
 - [[Alcance SEO aprobado página propia e identidad]] - `references` [EXTRACTED]
 - [[srcEventPage.tsx ficha propia del encuentro]] - `implements` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/SEO_y_generación_estática
+#graphify/rationale #graphify/EXTRACTED #community/Generación_estática_y_verificación

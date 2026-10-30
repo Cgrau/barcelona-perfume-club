@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Estado.md"
 type: "concept"
-community: "Identidad e indexación confirmada"
-location: "L18"
+community: "Identidad y contacto del club"
+location: "L22"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Identidad_e_indexación_confirmada
+  - community/Identidad_y_contacto_del_club
 ---
 
 # Portada indexada: Search Console del 29 de octubre
@@ -21,4 +21,4 @@ Captura de Search Console aportada por Carles confirma la portada https://barcel
 - [[Barcelona Perfume Club]] - `references` [EXTRACTED]
 - [[Publicación SEO comprobada 4f0a26b]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Identidad_e_indexación_confirmada
+#graphify/concept #graphify/EXTRACTED #community/Identidad_y_contacto_del_club

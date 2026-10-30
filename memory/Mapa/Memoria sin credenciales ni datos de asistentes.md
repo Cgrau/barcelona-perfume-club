@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Continuidad.md"
 type: "rationale"
-community: "Continuidad y publicación"
+community: "Memoria y publicación"
 location: "L25"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Continuidad_y_publicación
+  - community/Memoria_y_publicación
 ---
 
 # Memoria sin credenciales ni datos de asistentes
@@ -20,4 +20,4 @@ No guardar tokens, archivos .env, datos de asistentes ni rutas locales como univ
 ## Connections
 - [[Bóveda compartida de Obsidian]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Continuidad_y_publicación
+#graphify/rationale #graphify/EXTRACTED #community/Memoria_y_publicación

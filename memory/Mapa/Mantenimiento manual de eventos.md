@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Eventos.md"
 type: "rationale"
-community: "Programación y canales oficiales"
+community: "Identidad y contacto del club"
 location: "L14"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Programación_y_canales_oficiales
+  - community/Identidad_y_contacto_del_club
 ---
 
 # Mantenimiento manual de eventos
@@ -23,4 +23,4 @@ events en src/content.ts incluye path, título, edición, introducción y detall
 - [[Pendientes de producto y alcance]] - `references` [EXTRACTED]
 - [[srccontent.ts eventos y enlaces]] - `references` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Programación_y_canales_oficiales
+#graphify/rationale #graphify/EXTRACTED #community/Identidad_y_contacto_del_club

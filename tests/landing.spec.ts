@@ -52,13 +52,13 @@ test("anuncia el primer evento, el objetivo del club y los contactos reales", as
   ).toHaveAttribute("href", "#eventos");
   await expect(
     page.getByRole("link", { name: "Contacto", exact: true }),
-  ).toHaveAttribute("href", "mailto:barcelonaperfumeclub@proton.me");
+  ).toHaveAttribute("href", "mailto:contacto@barcelonaperfumeclub.com");
   await expect(
     page.getByRole("link", {
-      name: "barcelonaperfumeclub@proton.me",
+      name: "contacto@barcelonaperfumeclub.com",
       exact: true,
     }),
-  ).toHaveAttribute("href", "mailto:barcelonaperfumeclub@proton.me");
+  ).toHaveAttribute("href", "mailto:contacto@barcelonaperfumeclub.com");
   await expect(
     page.getByText(
       "¿Tienes alguna consulta o una idea para colaborar? Nos encantará leerte.",
@@ -101,7 +101,7 @@ test("solo el contenido central se desplaza y la cabecera y las redes permanecen
   ).toBeInViewport();
   await expect(
     footer.getByRole("link", {
-      name: "barcelonaperfumeclub@proton.me",
+      name: "contacto@barcelonaperfumeclub.com",
       exact: true,
     }),
   ).toHaveCount(0);
@@ -117,7 +117,7 @@ test("solo el contenido central se desplaza y la cabecera y las redes permanecen
   await page.keyboard.press("End");
   await expect(
     page.getByRole("link", {
-      name: "barcelonaperfumeclub@proton.me",
+      name: "contacto@barcelonaperfumeclub.com",
       exact: true,
     }),
   ).toBeInViewport();

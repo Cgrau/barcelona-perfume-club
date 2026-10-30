@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Web.md"
 type: "rationale"
-community: "Organizadores y validación del About"
+community: "Generación estática y verificación"
 location: "L33"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Organizadores_y_validación_del_About
+  - community/Generación_estática_y_verificación
 ---
 
 # Verificar compilación, SEO y Playwright
@@ -22,4 +22,4 @@ npm run build, npm run seo:check y npm test. Suite móvil 375 px y escritorio 14
 - [[Verificación SEO de dos páginas y doce pruebas]] - `references` [EXTRACTED]
 - [[Verificación inicial y compilación antes de las pruebas]] - `references` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Organizadores_y_validación_del_About
+#graphify/rationale #graphify/EXTRACTED #community/Generación_estática_y_verificación

@@ -1,11 +1,15 @@
 ---
 title: Estado actual del proyecto
 type: status
-updated: 2026-10-29
+updated: 2026-10-30
 tags: [estado, web]
 ---
 
 # Estado actual
+
+## Correo de contacto actualizado
+
+El 30 de octubre Carles pide cambiar el correo público a contacto@barcelonaperfumeclub.com. Se actualizan los enlaces mailto compartidos, el texto visible de contacto y los datos Organization, incluida la plantilla HTML, además de documentación y pruebas existentes. El texto visible se deriva del mismo enlace compartido para evitar diferencias. Compilación, control SEO y dieciséis pruebas correctos. Se comprueba en las tres páginas compiladas el nuevo mailto y el email de Organization, sin el correo anterior. Despliegue pendiente de comprobar. Contexto: [[sesiones/2026-10-30]] y [[Eventos]].
 
 ## Quiénes somos publicado
 
