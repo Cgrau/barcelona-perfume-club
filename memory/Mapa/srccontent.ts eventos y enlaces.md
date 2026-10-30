@@ -12,7 +12,7 @@ tags:
 # src/content.ts: eventos y enlaces
 
 <!-- project-memory:start -->
-Datos de eventos y enlaces oficiales del club; events[].path determina las rutas reales de las fichas. club.links.contact es la fuente compartida del mailto y del nuevo contacto@barcelonaperfumeclub.com; el cambio del 30 de octubre espera verificar despliegue.
+Datos de eventos y enlaces oficiales del club; events[].path determina las rutas reales de las fichas. club.links.contact es la fuente compartida del mailto y del nuevo contacto@barcelonaperfumeclub.com; el cambio del 30 de octubre está publicado y comprobado en 566d09a.
 
 [Nota original](../Web.md)
 <!-- project-memory:end -->

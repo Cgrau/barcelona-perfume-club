@@ -12,7 +12,7 @@ tags:
 # Canales oficiales de Barcelona Perfume Club
 
 <!-- project-memory:start -->
-Instagram https://www.instagram.com/barcelonaperfumeclub/ y TikTok https://www.tiktok.com/@barcelonaperfumeclub. Correo público oficial solicitado el 30 de octubre: contacto@barcelonaperfumeclub.com, sustituyendo la dirección anterior de Proton. El cambio está implementado en texto, mailto y Organization; su despliegue aún está pendiente de comprobar. Son canales del club, separados de Carles Grau Perfume.
+Instagram https://www.instagram.com/barcelonaperfumeclub/ y TikTok https://www.tiktok.com/@barcelonaperfumeclub. Correo público oficial solicitado el 30 de octubre: contacto@barcelonaperfumeclub.com, sustituyendo la dirección anterior de Proton. El cambio está implementado en texto, mailto y Organization; su despliegue está comprobado en 566d09a. Son canales del club, separados de Carles Grau Perfume.
 
 [Nota original](../Eventos.md)
 <!-- project-memory:end -->

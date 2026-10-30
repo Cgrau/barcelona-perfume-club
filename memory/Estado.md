@@ -9,7 +9,7 @@ tags: [estado, web]
 
 ## Correo de contacto actualizado
 
-El 30 de octubre Carles pide cambiar el correo público a contacto@barcelonaperfumeclub.com. Se actualizan los enlaces mailto compartidos, el texto visible de contacto y los datos Organization, incluida la plantilla HTML, además de documentación y pruebas existentes. El texto visible se deriva del mismo enlace compartido para evitar diferencias. Compilación, control SEO y dieciséis pruebas correctos. Se comprueba en las tres páginas compiladas el nuevo mailto y el email de Organization, sin el correo anterior. Despliegue pendiente de comprobar. Contexto: [[sesiones/2026-10-30]] y [[Eventos]].
+El 30 de octubre Carles pide cambiar el correo público a contacto@barcelonaperfumeclub.com. Se actualizan los enlaces mailto compartidos, el texto visible de contacto y los datos Organization, incluida la plantilla HTML, además de documentación y pruebas existentes. El texto visible se deriva del mismo enlace compartido para evitar diferencias. Compilación, control SEO y dieciséis pruebas correctos. Se comprueba en las tres páginas compiladas el nuevo mailto y el email de Organization, sin el correo anterior. Publicado y comprobado en `566d09a`, con [GitHub Pages correcto](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/41012416511) y [SEO y Lighthouse correctos](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/41012416321) en móvil y escritorio. El dominio público muestra contacto@barcelonaperfumeclub.com en el texto visible de contacto, los enlaces mailto y el email de Organization de las tres páginas; el correo anterior no aparece en su HTML. Contexto: [[sesiones/2026-10-30]] y [[Eventos]].
 
 ## Quiénes somos publicado
 
