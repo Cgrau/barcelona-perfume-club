@@ -2,7 +2,7 @@
 source_file: "memory/Estado.md"
 type: "concept"
 community: "Identidad y contacto del club"
-location: "L40"
+location: "L60"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
@@ -12,7 +12,7 @@ tags:
 # Pendientes de producto y alcance
 
 <!-- project-memory:start -->
-Añadir siguientes encuentros cuando existan y revisar portada al cambiar programación. No hay sincronización automática con Luma implementada ni aprobada como trabajo adicional. Datos del titular para aviso legal pendientes según README. El About aprobado está publicado y comprobado en 4df3f11; no queda pendiente comprobar este despliegue. El informe de Search Console ya muestra métricas agregadas de portada, pero las consultas siguen sin identificarse; no permite comprobar la posición para la marca ni se convierte en un seguimiento periódico aprobado.
+Añadir encuentros futuros y revisar la portada al cambiar programación. No hay sincronización automática con Luma implementada ni aprobada; los datos del titular para aviso legal siguen pendientes. La crónica y seguimiento periódico quedan para después del encuentro. Al 6 de noviembre se identifica una consulta plural en GSC, pero no se acreditan posiciones de las tres consultas objetivo ni desde Barcelona. Las propuestas de ajustar CTA a lista de espera, comprobar canales propios y añadir material real posterior se distinguen de cambios ya implementados.
 
 [Nota original](../Estado.md)
 <!-- project-memory:end -->

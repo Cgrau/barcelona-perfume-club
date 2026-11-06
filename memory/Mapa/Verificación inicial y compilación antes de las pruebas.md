@@ -1,12 +1,12 @@
 ---
 source_file: "memory/sesiones/2026-10-27.md"
 type: "rationale"
-community: "Generación estática y verificación"
+community: "Verificación y publicación web"
 location: "L29"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Generación_estática_y_verificación
+  - community/Verificación_y_publicación_web
 ---
 
 # Verificación inicial y compilación antes de las pruebas
@@ -23,4 +23,4 @@ El 27 de octubre pasan compilación, SEO y seis pruebas Playwright con móvil, e
 - [[Publicación comprobada de la web]] - `conceptually_related_to` [EXTRACTED]
 - [[Verificar compilación, SEO y Playwright]] - `references` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Generación_estática_y_verificación
+#graphify/rationale #graphify/EXTRACTED #community/Verificación_y_publicación_web

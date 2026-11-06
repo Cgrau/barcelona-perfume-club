@@ -1,13 +1,13 @@
 ---
 type: community
-cohesion: 0.27
-members: 10
+cohesion: 0.31
+members: 9
 ---
 
 # Identidad y contacto del club
 
-**Cohesion:** 0.27 - loosely connected
-**Members:** 10 nodes
+**Cohesion:** 0.31 - loosely connected
+**Members:** 9 nodes
 
 ## Members
 - [[Barcelona Perfume Club]] - concept - memory/Inicio.md
@@ -17,7 +17,6 @@ members: 10
 - [[Luma calendario, inscripciones y disponibilidad]] - concept - memory/Eventos.md
 - [[Mantenimiento manual de eventos]] - rationale - memory/Eventos.md
 - [[Pendientes de producto y alcance]] - concept - memory/Estado.md
-- [[Portada indexada Search Console del 29 de octubre]] - concept - memory/Estado.md
 - [[srccontent.ts eventos y enlaces]] - concept - memory/Web.md
 - [[srcseo.ts metadatos e identidad común]] - concept - memory/Web.md
 
@@ -29,15 +28,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Generación estática y verificación]]
+- 4 edges to [[_COMMUNITY_Indexación y fichas del club]]
 - 3 edges to [[_COMMUNITY_Primer encuentro y acceso]]
 - 2 edges to [[_COMMUNITY_Organizadores y Quiénes somos]]
-- 1 edge to [[_COMMUNITY_Memoria y publicación]]
+- 1 edge to [[_COMMUNITY_Verificación y publicación web]]
+- 1 edge to [[_COMMUNITY_Memoria compartida]]
 - 1 edge to [[_COMMUNITY_Arquitectura y diseño web]]
+- 1 edge to [[_COMMUNITY_Auditoría SEO y métricas]]
 
 ## Top bridge nodes
-- [[srcseo.ts metadatos e identidad común]] - degree 6, connects to 2 communities
-- [[Barcelona Perfume Club]] - degree 5, connects to 2 communities
+- [[Barcelona Perfume Club]] - degree 6, connects to 4 communities
+- [[srcseo.ts metadatos e identidad común]] - degree 7, connects to 3 communities
 - [[srccontent.ts eventos y enlaces]] - degree 5, connects to 2 communities
 - [[Canales oficiales de Barcelona Perfume Club]] - degree 4, connects to 1 community
 - [[Mantenimiento manual de eventos]] - degree 4, connects to 1 community

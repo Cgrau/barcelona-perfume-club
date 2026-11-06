@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Graphify.md"
 type: "rationale"
-community: "Memoria y publicación"
+community: "Memoria compartida"
 location: "L26"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Memoria_y_publicación
+  - community/Memoria_compartida
 ---
 
 # Regenerar el mapa desde las notas originales
@@ -23,4 +23,4 @@ Usar skill oficial sobre memory excluyendo memory/Mapa y .obsidian; exportar Obs
 - [[Grafo portable y exportación para Obsidian]] - `references` [EXTRACTED]
 - [[Notas originales y código como fuentes de verdad]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Memoria_y_publicación
+#graphify/rationale #graphify/EXTRACTED #community/Memoria_compartida

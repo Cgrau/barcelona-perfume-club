@@ -29,9 +29,10 @@ SORT file.name ASC
 ## Connections to other communities
 - 3 edges to [[_COMMUNITY_Identidad y contacto del club]]
 - 2 edges to [[_COMMUNITY_Organizadores y Quiénes somos]]
-- 2 edges to [[_COMMUNITY_Generación estática y verificación]]
+- 2 edges to [[_COMMUNITY_Indexación y fichas del club]]
+- 1 edge to [[_COMMUNITY_Auditoría SEO y métricas]]
 
 ## Top bridge nodes
 - [[Descubriendo perfumes nicho — 8 de noviembre de 2026]] - degree 10, connects to 3 communities
-- [[Acceso obligatorio con registro y plaza confirmada en Luma]] - degree 5, connects to 2 communities
+- [[Acceso obligatorio con registro y plaza confirmada en Luma]] - degree 6, connects to 3 communities
 - [[srccomponentsEventContent.tsx contenido compartido]] - degree 2, connects to 1 community

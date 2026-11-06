@@ -1,12 +1,12 @@
 ---
 source_file: "memory/sesiones/2026-10-29.md"
 type: "concept"
-community: "Generación estática y verificación"
+community: "Indexación y fichas del club"
 location: "L26"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Generación_estática_y_verificación
+  - community/Indexación_y_fichas_del_club
 ---
 
 # Publicación SEO comprobada: 4f0a26b
@@ -26,4 +26,4 @@ Commit 4f0a26b y workflow https://github.com/Cgrau/barcelona-perfume-club/action
 - [[srcEventPage.tsx ficha propia del encuentro]] - `references` [EXTRACTED]
 - [[srcseo.ts metadatos e identidad común]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Generación_estática_y_verificación
+#graphify/concept #graphify/EXTRACTED #community/Indexación_y_fichas_del_club

@@ -12,7 +12,7 @@ tags:
 # Lista de espera de Luma comprobada el 29 de octubre
 
 <!-- project-memory:start -->
-La inscripción del primer encuentro figura en lista de espera al consultar Luma el 29 de octubre. La disponibilidad se consulta allí; estar en lista de espera no confirma plaza y registrarse no garantiza acceso.
+Luma muestra lista de espera el 29 de octubre; al abrirlo el 6 de noviembre se confirma evento completo y lista de espera. Disponibilidad e inscripciones corresponden a Luma; estar en espera no confirma plaza y registrarse no garantiza acceso. Ajustar el CTA a ese estado aparece como propuesta, sin atribuirle una implementación no verificada.
 
 [Nota original](../eventos/2026-11-08-perfumes-nicho.md)
 <!-- project-memory:end -->

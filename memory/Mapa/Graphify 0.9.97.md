@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Graphify.md"
 type: "concept"
-community: "Memoria y publicación"
+community: "Memoria compartida"
 location: "L10"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Memoria_y_publicación
+  - community/Memoria_compartida
 ---
 
 # Graphify 0.9.97
@@ -21,4 +21,4 @@ Graphify de Graphify Labs, paquete graphifyy, en build/graphify-venv con require
 - [[Aprobación inicial y autorización de publicación]] - `references` [EXTRACTED]
 - [[Grafo portable y exportación para Obsidian]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Memoria_y_publicación
+#graphify/concept #graphify/EXTRACTED #community/Memoria_compartida

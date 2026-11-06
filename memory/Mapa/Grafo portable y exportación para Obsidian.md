@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Graphify.md"
 type: "concept"
-community: "Memoria y publicación"
+community: "Memoria compartida"
 location: "L12"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Memoria_y_publicación
+  - community/Memoria_compartida
 ---
 
 # Grafo portable y exportación para Obsidian
@@ -22,4 +22,4 @@ graphify-out/graph.json, graph.html y GRAPH_REPORT.md son resultados portables; 
 - [[Graphify 0.9.97]] - `conceptually_related_to` [EXTRACTED]
 - [[Regenerar el mapa desde las notas originales]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Memoria_y_publicación
+#graphify/concept #graphify/EXTRACTED #community/Memoria_compartida

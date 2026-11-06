@@ -1,8 +1,10 @@
 {
-  "0": "Memoria y publicación",
-  "1": "Identidad y contacto del club",
-  "2": "Generación estática y verificación",
+  "0": "Memoria compartida",
+  "1": "Indexación y fichas del club",
+  "2": "Identidad y contacto del club",
   "3": "Organizadores y Quiénes somos",
-  "4": "Primer encuentro y acceso",
-  "5": "Arquitectura y diseño web"
+  "4": "Verificación y publicación web",
+  "5": "Primer encuentro y acceso",
+  "6": "Arquitectura y diseño web",
+  "7": "Auditoría SEO y métricas"
 }

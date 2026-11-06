@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Web.md"
 type: "rationale"
-community: "Generación estática y verificación"
+community: "Verificación y publicación web"
 location: "L33"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Generación_estática_y_verificación
+  - community/Verificación_y_publicación_web
 ---
 
 # Verificar compilación, SEO y Playwright
@@ -18,8 +18,10 @@ npm run build, npm run seo:check y npm test. Suite móvil 375 px y escritorio 14
 <!-- project-memory:end -->
 
 ## Connections
+- [[Auditoría pública y Lighthouse evidencia de laboratorio]] - `references` [EXTRACTED]
+- [[Mejoras del 6 de noviembre relevancia, enlaces e identidad]] - `references` [EXTRACTED]
 - [[Validación del About dieciséis pruebas y publicación comprobada]] - `references` [EXTRACTED]
 - [[Verificación SEO de dos páginas y doce pruebas]] - `references` [EXTRACTED]
 - [[Verificación inicial y compilación antes de las pruebas]] - `references` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Generación_estática_y_verificación
+#graphify/rationale #graphify/EXTRACTED #community/Verificación_y_publicación_web

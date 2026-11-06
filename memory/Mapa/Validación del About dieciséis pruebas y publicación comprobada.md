@@ -2,7 +2,7 @@
 source_file: "memory/Estado.md"
 type: "concept"
 community: "Organizadores y Quiénes somos"
-location: "L18"
+location: "L38"
 tags:
   - graphify/concept
   - graphify/EXTRACTED

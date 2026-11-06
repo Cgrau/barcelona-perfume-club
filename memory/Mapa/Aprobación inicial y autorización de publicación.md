@@ -1,12 +1,12 @@
 ---
 source_file: "memory/sesiones/2026-10-27.md"
 type: "concept"
-community: "Memoria y publicación"
+community: "Memoria compartida"
 location: "L17"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Memoria_y_publicación
+  - community/Memoria_compartida
 ---
 
 # Aprobación inicial y autorización de publicación
@@ -24,4 +24,4 @@ Carles aprueba vista previa y pide subir todo a GitHub y guardar memoria como Ob
 - [[Publicación de main en GitHub Pages]] - `references` [EXTRACTED]
 - [[Quiénes somos de revisión local a publicación comprobada]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Memoria_y_publicación
+#graphify/concept #graphify/EXTRACTED #community/Memoria_compartida

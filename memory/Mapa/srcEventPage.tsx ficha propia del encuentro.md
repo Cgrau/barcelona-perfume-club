@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Web.md"
 type: "concept"
-community: "Generación estática y verificación"
+community: "Indexación y fichas del club"
 location: "L21"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Generación_estática_y_verificación
+  - community/Indexación_y_fichas_del_club
 ---
 
 # src/EventPage.tsx: ficha propia del encuentro
@@ -20,6 +20,7 @@ Página estática /eventos/descubriendo-perfumes-nicho/ con cartel, descripción
 ## Connections
 - [[Alcance SEO aprobado página propia e identidad]] - `references` [EXTRACTED]
 - [[Descubriendo perfumes nicho — 8 de noviembre de 2026]] - `references` [EXTRACTED]
+- [[Inspección de interiores About desconocido y evento descubierto]] - `references` [EXTRACTED]
 - [[Publicación SEO comprobada 4f0a26b]] - `references` [EXTRACTED]
 - [[WebPage y BreadcrumbList; Event aplazado]] - `implements` [EXTRACTED]
 - [[scriptsprerender.mjs generación estática]] - `references` [EXTRACTED]
@@ -27,4 +28,4 @@ Página estática /eventos/descubriendo-perfumes-nicho/ con cartel, descripción
 - [[srcApp.tsx web activa]] - `references` [EXTRACTED]
 - [[srccomponentsEventContent.tsx contenido compartido]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Generación_estática_y_verificación
+#graphify/concept #graphify/EXTRACTED #community/Indexación_y_fichas_del_club

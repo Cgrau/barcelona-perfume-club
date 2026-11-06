@@ -2,7 +2,7 @@
 source_file: "memory/Inicio.md"
 type: "concept"
 community: "Identidad y contacto del club"
-location: "L21"
+location: "L22"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
@@ -21,6 +21,7 @@ Proyecto del club y web https://barcelonaperfumeclub.com/.
 - [[Bóveda compartida de Obsidian]] - `references` [EXTRACTED]
 - [[Canales oficiales de Barcelona Perfume Club]] - `references` [EXTRACTED]
 - [[Descubriendo perfumes nicho — 8 de noviembre de 2026]] - `conceptually_related_to` [EXTRACTED]
+- [[GSC directo 3 clics y 17 impresiones hasta el 4 de noviembre]] - `references` [EXTRACTED]
 - [[Identidad cercana y abierta del club]] - `references` [EXTRACTED]
 - [[Portada indexada Search Console del 29 de octubre]] - `references` [EXTRACTED]
 

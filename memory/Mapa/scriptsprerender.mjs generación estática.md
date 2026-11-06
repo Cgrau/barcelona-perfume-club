@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Web.md"
 type: "concept"
-community: "Generación estática y verificación"
+community: "Arquitectura y diseño web"
 location: "L37"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Generación_estática_y_verificación
+  - community/Arquitectura_y_diseño_web
 ---
 
 # scripts/prerender.mjs: generación estática
@@ -23,4 +23,4 @@ La versión publicada y comprobada genera portada, events[].path, incluida /even
 - [[srcAboutPage.tsx Quiénes somos publicado y comprobado]] - `references` [EXTRACTED]
 - [[srcEventPage.tsx ficha propia del encuentro]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Generación_estática_y_verificación
+#graphify/concept #graphify/EXTRACTED #community/Arquitectura_y_diseño_web

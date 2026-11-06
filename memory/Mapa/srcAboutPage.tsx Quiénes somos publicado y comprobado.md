@@ -12,7 +12,7 @@ tags:
 # src/AboutPage.tsx: Quiénes somos publicado y comprobado
 
 <!-- project-memory:start -->
-Página aparte «Quiénes somos», /sobre-el-club/, tercera ruta prerenderizada: «El perfume nos reúne.», propósito, relato conjunto ampliado de Carles y Laura, objetivos y próximos encuentros con registro y plaza confirmada. La presentación de los organizadores aparece exclusivamente aquí. Menú «Quiénes somos»; Inicio, El club y Eventos mantienen sus destinos en la home. No hay enlace añadido dentro del resumen del club de la home. Carles aprueba el relato y solicita subirlo a producción. Publicado y comprobado en 4df3f11 (commit completo 4df3f117548c911c82c55d932a9d06488c34cddd), con GitHub Pages correcto: https://github.com/Cgrau/barcelona-perfume-club/actions/runs/40939189954.
+Página aparte Quiénes somos, /sobre-el-club/, publicada y comprobada en 4df3f11, Pages 40939189954. «El perfume nos reúne.», propósito, relato conjunto ampliado de Carles y Laura, objetivos y próximos encuentros con registro y plaza confirmada. Biografías exclusivamente aquí; menú conserva anclas de home. Metadatos propios, Person y retrato de Carles. La fase del 6 de noviembre publica y comprueba un enlace contextual desde About a portada mediante el nombre del club, sin trasladar biografías a la home.
 
 [Nota original](../Web.md)
 <!-- project-memory:end -->
@@ -23,6 +23,7 @@ Página aparte «Quiénes somos», /sobre-el-club/, tercera ruta prerenderizada:
 - [[Carles y Laura relato conjunto ampliado]] - `references` [EXTRACTED]
 - [[Fotografía profesional conjunta aplazada]] - `references` [EXTRACTED]
 - [[Identidad Person de Carles separada del club]] - `references` [EXTRACTED]
+- [[Inspección de interiores About desconocido y evento descubierto]] - `references` [EXTRACTED]
 - [[Quiénes somos de revisión local a publicación comprobada]] - `references` [EXTRACTED]
 - [[Sitemap estático generado desde las rutas reales]] - `references` [EXTRACTED]
 - [[Validación del About dieciséis pruebas y publicación comprobada]] - `references` [EXTRACTED]
