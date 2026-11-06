@@ -1,21 +1,21 @@
 {
   "colorGroups": [
     {
-      "query": "tag:#community/Memoria_y_publicaci\u00f3n",
+      "query": "tag:#community/Memoria_compartida",
       "color": {
         "a": 1,
         "rgb": 5142951
       }
     },
     {
-      "query": "tag:#community/Identidad_y_contacto_del_club",
+      "query": "tag:#community/Indexaci\u00f3n_y_fichas_del_club",
       "color": {
         "a": 1,
         "rgb": 15896107
       }
     },
     {
-      "query": "tag:#community/Generaci\u00f3n_est\u00e1tica_y_verificaci\u00f3n",
+      "query": "tag:#community/Identidad_y_contacto_del_club",
       "color": {
         "a": 1,
         "rgb": 14767961
@@ -29,17 +29,31 @@
       }
     },
     {
-      "query": "tag:#community/Primer_encuentro_y_acceso",
+      "query": "tag:#community/Verificaci\u00f3n_y_publicaci\u00f3n_web",
       "color": {
         "a": 1,
         "rgb": 5873999
       }
     },
     {
-      "query": "tag:#community/Arquitectura_y_dise\u00f1o_web",
+      "query": "tag:#community/Primer_encuentro_y_acceso",
       "color": {
         "a": 1,
         "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Arquitectura_y_dise\u00f1o_web",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Auditor\u00eda_SEO_y_m\u00e9tricas",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
       }
     }
   ]
