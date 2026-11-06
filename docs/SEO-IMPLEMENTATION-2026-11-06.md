@@ -18,7 +18,7 @@ Se consulta la sesión existente de Search Console en Brave, sin conectar una AP
 
 | Página | Estado observado el 6 de noviembre | Acción |
 | --- | --- | --- |
-| Portada | «URL is on Google», «Page is indexed». Canonical declarado `https://barcelonaperfumeclub.com/`, Google-selected canonical: «Inspected URL». Último rastreo mostrado: 24 Oct 2026, 00:12:32; Googlebot smartphone; rastreo, descarga e indexación permitidos | Solicitud de actualización prevista tras verificar publicación |
+| Portada | «URL is on Google», «Page is indexed». Canonical declarado `https://barcelonaperfumeclub.com/`, Google-selected canonical: «Inspected URL». Último rastreo mostrado: 24 Oct 2026, 00:12:32; Googlebot smartphone; rastreo, descarga e indexación permitidos | Solicitud enviada y confirmada: «Indexing requested», añadida a cola prioritaria |
 | Sobre el club | «URL is unknown to Google», sin último rastreo | Solicitud enviada y confirmada: «Indexing requested», añadida a cola prioritaria |
 | Ficha del encuentro | «Discovered – currently not indexed», sitemap reconocido, sin último rastreo | Solicitud enviada y confirmada: «Indexing requested», añadida a cola prioritaria |
 
@@ -36,6 +36,8 @@ Revisión adicional sin JavaScript: enlaces contextuales de ida y vuelta correct
 
 ## Publicación
 
-Preparado y validado. Pendiente comprobar el workflow y el HTML del dominio después de subir esta versión.
+Carles confirma expresamente «Si, publicar esta versión». Se sube `0e7c378` a `main`. [SEO y Lighthouse](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/42268878031) terminan correctamente. El [primer workflow de Pages](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/42268877852) compila correctamente, pero sus dos intentos de despliegue fallan después de permanecer en `deployment_queued`, con «Deployment failed, try again later». El dominio sigue sirviendo la versión anterior; no se declara publicación completada. Se prepara una nueva ejecución completa con artefacto nuevo.
+
+Mientras se reintenta, se solicita actualizar la portada que ya está activa y contiene cambios anteriores al rastreo del 24 de octubre. Google confirma «Indexing requested», por lo que las tres solicitudes quedan aceptadas. No se afirma que Google haya descargado todavía esta versión nueva ni se repiten solicitudes para intentar subir su prioridad.
 
 Referencia previa: [auditoría y datos del ZIP](seo/2026-11-06/barcelonaperfumeclub.com-audit/FULL-AUDIT-REPORT.md).

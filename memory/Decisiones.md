@@ -56,3 +56,7 @@ Carles recalca que quiere visibilidad por «Barcelona perfume club», «perfume 
 ## Correo oficial del club
 
 El 30 de octubre Carles solicita usar contacto@barcelonaperfumeclub.com como correo público del club, sustituyendo el correo anterior de Proton. Aplicarlo a enlaces mailto, texto de contacto y datos estructurados. La fuente compartida es `club.links.contact` en `src/content.ts`. Detalle: [[sesiones/2026-10-30]].
+
+## SEO del 6 de noviembre y autorización de esta versión
+
+Después de la auditoría con Claude SEO y el ZIP de Search Console, Carles solicita implementar mejoras para las tres consultas objetivo y dar prioridad al dominio oficial frente a GitHub. Tras preparar cambios, capturas y verificaciones, confirma expresamente **«Si, publicar esta versión»**. Queda autorizada esta tanda: relevancia local, enlaces internos, identidad de sitio y README técnico, con documentación y memoria. No volver a pedir autorización para publicarla o completar su comprobación. No autoriza cambiar la visibilidad del repositorio ni garantiza una posición. Detalle: [[sesiones/2026-11-06]].
