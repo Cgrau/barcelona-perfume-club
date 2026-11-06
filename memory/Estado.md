@@ -1,11 +1,29 @@
 ---
 title: Estado actual del proyecto
 type: status
-updated: 2026-10-30
+updated: 2026-11-06
 tags: [estado, web]
 ---
 
 # Estado actual
+
+## Mejoras locales e indexación — continuación del 6 de noviembre
+
+Carles solicita mejorar la web para las tres consultas objetivo y que aparezca el dominio frente al repositorio. Se prepara y valida un encabezado descriptivo «Un perfume club en Barcelona», introducción local del listado, FAQ sobre el lugar real del encuentro, enlaces contextuales entre portada, About y ficha, `og:site_name` y dominio como nombre alternativo de WebSite. Se conserva el H1 aprobado. README queda centrado en desarrollo y acceso al dominio; instrucciones completas en `docs/DEVELOPMENT.md`. Website y descripción del repositorio ya son correctos; se verifican y no se cambia su visibilidad. Compilación y control SEO correctos; 16/16 pruebas en serie. Preparado para publicación y verificación, todavía sin declarar despliegue terminado.
+
+La inspección **directa** de Search Console confirma la portada indexada y Google-selected canonical igual a la URL inspeccionada del dominio. Último rastreo mostrado: 24 de octubre, 00:12:32, Googlebot smartphone. About figura «URL is unknown to Google» y la ficha «Discovered – currently not indexed». Se solicita indexación de ambas y Google confirma «Indexing requested», añadidas a cola prioritaria. Eso no acredita indexación completada. Sitemap correcto, leído el 4 de noviembre, tres páginas descubiertas; no se reenvía. El rendimiento abierto muestra ahora tres clics y diecisiete impresiones hasta el 4; el ZIP anterior de quince impresiones sigue siendo un corte distinto. No hay ranking localizado acreditado ni una posición para las tres consultas. [Cambios y validación](../docs/SEO-IMPLEMENTATION-2026-11-06.md). Detalle en [[sesiones/2026-11-06]].
+
+## Claude SEO y Search Console — auditoría local del 6 de noviembre
+
+Carles solicita usar Claude SEO y aporta una exportación ZIP de Search Console. Se instala y verifica **Claude SEO de AgriciDaniel 2.5.0**, habilitado con alcance de proyecto en `.claude/settings.json`. Es un plugin de Claude Code; no registra automáticamente skills en Codex. Se aplican sus guías con herramientas del proyecto. Su entorno Python/Chromium propio aún requiere `/seo setup`, que la skill reserva a una solicitud explícita; no se instalan dependencias globales ni se conectan servicios de pago. Guía portable: [docs/seo/README.md](../docs/seo/README.md).
+
+El ZIP tiene filtro «Last 12 months», pero solo trece filas diarias **del 22 de octubre al 3 de noviembre**: **3 clics, 15 impresiones, CTR 20 % y posición media 3,67**, todos atribuidos a la portada. La única consulta visible es **«perfumes club barcelona»**, plural: dos impresiones, cero clics y posición media 5. Las otras trece impresiones no tienen consulta identificada en la tabla. España suma trece impresiones y los tres clics; no hay dimensión por ciudad. No se acreditan posiciones para las tres consultas objetivo ni resultados localizados desde Barcelona. La muestra no permite tendencias fiables ni atribución causal a los cambios anteriores. Que las interiores no aparezcan en rendimiento no demuestra que estén sin indexar.
+
+Auditoría pública: las tres rutas responden 200 con HTML completo, metadatos y canonical propios; robots, sitemap, redirecciones, 404, imágenes y JSON-LD coherentes. No se identifica bloqueo técnico de rastreo. Lighthouse 13.5.0, una pasada por perfil: rendimiento 99 móvil y 100 escritorio; accesibilidad, buenas prácticas y SEO automatizado 100 ambos. LCP de laboratorio 1,815/0,542 s, CLS 0,01783/0,00268; no se miden CrUX ni INP de campo ni se acredita un aprobado de Core Web Vitals reales. Revisión visual de las tres rutas en móvil y escritorio, sin desbordamiento horizontal y con condiciones de acceso legibles.
+
+Propuestas, **no implementadas**: inspeccionar las dos URLs interiores en GSC; alinear CTA con lista de espera si sigue completa la inscripción; comprobar identidad/enlace en canales propios; después del encuentro actualizar la vigencia y publicar material real cuando exista. Luma muestra evento completo y lista de espera al abrirlo el 6 de noviembre. Un club distinto de Smell Lab usa un nombre parecido; no se deduce su ranking ni una relación entre proyectos. Se conservan las decisiones sobre acceso, H1, diseño y no pedir enlaces a colaboradores.
+
+[Informe y plan locales](../docs/seo/2026-11-06/barcelonaperfumeclub.com-audit/FULL-AUDIT-REPORT.md), con evidencia y límites. Configuración, documentos y memoria preparados **en local, sin commit, push ni cambios de producto**. Datos originales e intermedios en `build/seo-2026-11-06/`, ignorado por Git; no se copian a la web. El grafo derivado conserva su fecha del 30 de octubre y representa el estado anterior; esta nueva auditoría se consulta en las notas fuente. Detalle: [[sesiones/2026-11-06]].
 
 ## Correo de contacto actualizado
 

@@ -20,7 +20,7 @@ test("abre la ficha desde la portada y vuelve a las secciones del club", async (
     .toHaveAttribute("href", "https://luma.com/tdhs6lr0");
   await page.getByRole("navigation", { name: "Principal" }).getByRole("link", { name: "El club", exact: true }).click();
   await expect(page).toHaveURL(/\/#el-club$/);
-  await expect(page.getByRole("heading", { name: "El club", exact: true })).toBeInViewport();
+  await expect(page.getByRole("heading", { name: "Un perfume club en Barcelona", exact: true })).toBeInViewport();
 });
 
 test("sirve la ficha y su SEO sin JavaScript con una identidad común", async ({ page, request }) => {

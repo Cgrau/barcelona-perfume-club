@@ -1,0 +1,219 @@
+{
+  "date": "2026-11-06",
+  "domain": "barcelonaperfumeclub.com",
+  "reference_commit": "4432f14",
+  "method": {
+    "framework": "AgriciDaniel/claude-seo",
+    "version": "2.5.0",
+    "upstream_commit": "6be93f45064ffbadced572b5d5c95f55fd263af0",
+    "execution": "Guides applied by Codex with native HTTP, Playwright/Brave, Lighthouse and stdlib CSV tools; plugin Python runtime not initialized",
+    "paid_services_used": false,
+    "product_modified": false,
+    "published": false
+  },
+  "summary": {
+    "health_score": null,
+    "score_note": "No composite 0–100 score: field CWV and search/AI visibility not measured. Lighthouse category scores are separate lab checks.",
+    "business_type": "Club comunitario de perfumería con encuentros en Barcelona; sin sede permanente acreditada",
+    "top_findings": [
+      "No se identifican bloqueos técnicos en tres rutas públicas",
+      "GSC: 3 clics y 15 impresiones; solo portada; muestra insuficiente para tendencias",
+      "Las tres consultas objetivo y ranking localizado Barcelona no están acreditados",
+      "Luma muestra evento completo y lista de espera; revisar CTA",
+      "Después del 8 de noviembre habrá que actualizar la vigencia del primer evento"
+    ],
+    "quick_wins": [
+      "Inspeccionar las dos URLs interiores en Search Console",
+      "Alinear CTA con disponibilidad comprobada en Luma",
+      "Comprobar coherencia y enlace al dominio en perfiles propios"
+    ]
+  },
+  "gsc": {
+    "source": "https___barcelonaperfumeclub.com_-Performance-on-Search-2026-11-06.zip",
+    "sha256": "b2787a46d947547792f2d83e508f82271df8015bd6591f0d570c3a0ff715866d",
+    "export_date": "2026-11-06",
+    "selected_filter": "Last 12 months",
+    "observed_dates": {
+      "from": "2026-10-22",
+      "to": "2026-11-03",
+      "daily_rows": 13
+    },
+    "totals": {
+      "clicks": 3,
+      "impressions": 15,
+      "ctr_percent": 20.0,
+      "average_position": 3.67,
+      "position_source": "Pages.csv; one page in export"
+    },
+    "query_coverage": {
+      "identified_impressions": 2,
+      "unidentified_impressions": 13,
+      "identified_clicks": 0
+    },
+    "limitations": [
+      "Not twelve months of observations",
+      "No city-level ranking data",
+      "No current URL Inspection API data",
+      "Missing query rows are not zero demand",
+      "Absent pages do not prove non-indexation",
+      "No causal attribution or reliable trend from 15 impressions"
+    ]
+  },
+  "gsc_breakdowns": {
+    "Queries.csv": [
+      {
+        "Top queries": "perfumes club barcelona",
+        "Clicks": "0",
+        "Impressions": "2",
+        "CTR": "0%",
+        "Position": "5"
+      }
+    ],
+    "Pages.csv": [
+      {
+        "Top pages": "https://barcelonaperfumeclub.com/",
+        "Clicks": "3",
+        "Impressions": "15",
+        "CTR": "20%",
+        "Position": "3.67"
+      }
+    ],
+    "Countries.csv": [
+      {
+        "Country": "Spain",
+        "Clicks": "3",
+        "Impressions": "13",
+        "CTR": "23.08%",
+        "Position": "3"
+      },
+      {
+        "Country": "Colombia",
+        "Clicks": "0",
+        "Impressions": "1",
+        "CTR": "0%",
+        "Position": "7"
+      },
+      {
+        "Country": "France",
+        "Clicks": "0",
+        "Impressions": "1",
+        "CTR": "0%",
+        "Position": "9"
+      }
+    ],
+    "Devices.csv": [
+      {
+        "Device": "Desktop",
+        "Clicks": "2",
+        "Impressions": "6",
+        "CTR": "33.33%",
+        "Position": "3.5"
+      },
+      {
+        "Device": "Mobile",
+        "Clicks": "1",
+        "Impressions": "9",
+        "CTR": "11.11%",
+        "Position": "3.78"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "name": "Technical SEO",
+      "score": null,
+      "status": "Sin bloqueos observados en las tres rutas"
+    },
+    {
+      "name": "Content Quality",
+      "score": null,
+      "status": "Contenido específico; identidad externa parecida detectada"
+    },
+    {
+      "name": "On-Page SEO",
+      "score": null,
+      "status": "Títulos, descripciones y enlaces coherentes"
+    },
+    {
+      "name": "Schema / Structured Data",
+      "score": null,
+      "status": "JSON-LD parseable y referencias coherentes; sin test remoto Rich Results"
+    },
+    {
+      "name": "Performance (CWV)",
+      "score": null,
+      "status": "Laboratorio favorable; campo no medido"
+    },
+    {
+      "name": "AI Search Readiness",
+      "score": null,
+      "status": "HTML estático y semántico; citación y Agentic Browsing no medidos"
+    },
+    {
+      "name": "Images",
+      "score": null,
+      "status": "Alt, dimensiones, WebP y srcset presentes"
+    }
+  ],
+  "lighthouse_lab": {
+    "mobile": {
+      "lighthouse_version": "13.5.0",
+      "fetch_time": "2026-11-06T17:30:00.391Z",
+      "url": "https://barcelonaperfumeclub.com/",
+      "runs": 1,
+      "scores": {
+        "performance": 99.0,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "LCP_ms": 1814.8626800000002,
+      "CLS": 0.017831815953489608,
+      "TBT_ms": 4,
+      "INP_field": null
+    },
+    "desktop": {
+      "lighthouse_version": "13.5.0",
+      "fetch_time": "2026-11-06T17:30:04.394Z",
+      "url": "https://barcelonaperfumeclub.com/",
+      "runs": 1,
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "LCP_ms": 541.91542,
+      "CLS": 0.0026798807386977205,
+      "TBT_ms": 0,
+      "INP_field": null
+    }
+  },
+  "action_plan": {
+    "phases": [
+      {
+        "name": "Ahora: comprobar, sin rehacer portada",
+        "timeframe": "6–8 noviembre",
+        "items": [
+          "Inspección GSC de interiores",
+          "Revisar CTA de lista de espera",
+          "Identidad y enlace web en canales propios"
+        ]
+      },
+      {
+        "name": "Después del encuentro",
+        "timeframe": "9 noviembre en adelante",
+        "items": [
+          "Retirar invitación futura al evento ya celebrado, conservar su URL",
+          "Crónica y fotografías reales cuando existan",
+          "Comparar nuevos datos GSC por consulta, página, país y dispositivo"
+        ]
+      }
+    ]
+  },
+  "artifacts": {
+    "findings_dir": "findings/",
+    "screenshots_dir": "build/seo-2026-11-06/screenshots/ (local, ignored)",
+    "raw_evidence_dir": "build/seo-2026-11-06/ (local, ignored)"
+  }
+}

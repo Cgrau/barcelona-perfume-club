@@ -41,6 +41,7 @@ export function getPageMetadata(pathname: string) {
     "@type": "WebSite",
     "@id": `${club.url}#website`,
     name: club.name,
+    alternateName: new URL(club.url).hostname,
     url: club.url,
     inLanguage: "es",
     publisher: { "@id": organization["@id"] },

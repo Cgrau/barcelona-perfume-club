@@ -1,5 +1,7 @@
 # SEO y Search Console
 
+Actualización del 6 de noviembre: [mejoras locales y comprobación directa de indexación](SEO-IMPLEMENTATION-2026-11-06.md). La inspección confirma la portada indexada y canonical correcto, pero último rastreo mostrado el 24 de octubre. Se solicitan las dos interiores, aún sin indexar. La auditoría y exportación anteriores se conservan como corte histórico en [docs/seo](seo/README.md).
+
 Estado de implementación, 29 de octubre de 2026: publicadas la ficha del primer evento y Quiénes somos, con identidad coherente y repositorio diferenciado como código fuente. Carles recalca que la web debe ganar visibilidad tanto por «Barcelona perfume club» como por «perfume club Barcelona» y «perfume club» desde Barcelona. Se ajustan los metadatos de portada y una respuesta existente de preguntas frecuentes para expresar el carácter de club local con naturalidad. No se realizará captación de enlaces de colaboradores; la crónica y el seguimiento periódico se dejan para después del evento. No hay una primera posición acreditada.
 
 La web conserva el diseño aprobado. Portada y ficha tienen HTML prerenderizado, canonical y metadatos propios y datos Organization, WebSite y WebPage coherentes. El nombre, dominio y enlaces oficiales se definen en `club` de `src/content.ts`; los metadatos, en `src/seo.ts`.

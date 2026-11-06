@@ -29,7 +29,7 @@ export default function AboutPage() {
             percibido. Darle a la conversación un lugar y un momento para suceder.
           </p>
           <p>
-            Por eso organizamos Barcelona Perfume Club: un punto de encuentro en
+            Por eso organizamos <a href="/">Barcelona Perfume Club</a>: un punto de encuentro en
             Barcelona para quienes disfrutan del perfume y tienen ganas de
             aprender y conocer gente con esa misma afición.
           </p>

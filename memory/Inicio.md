@@ -1,7 +1,7 @@
 ---
 title: Barcelona Perfume Club — memoria compartida
 type: index
-updated: 2026-10-30
+updated: 2026-11-06
 tags: [club, memoria]
 ---
 
@@ -9,7 +9,7 @@ tags: [club, memoria]
 
 Esta bóveda conserva el contexto necesario para continuar el proyecto desde otro equipo o conversación. Las notas resumen hechos y decisiones; no son una copia literal del chat.
 
-Empieza por [[Estado]] y la última nota de [[sesiones/2026-10-30]]. Después consulta:
+Empieza por [[Estado]] y la última nota de [[sesiones/2026-11-06]]. Después consulta:
 
 - [[Decisiones]]: identidad visual, tono y preferencias aprobadas.
 - [[Web]]: arquitectura, archivos y publicación.
@@ -17,6 +17,7 @@ Empieza por [[Estado]] y la última nota de [[sesiones/2026-10-30]]. Después co
 - [[eventos/2026-11-08-perfumes-nicho]]: primer encuentro.
 - [[Continuidad]]: cómo retomar y mantener esta memoria.
 - [[Graphify]]: grafo persistente y exportación a Obsidian.
+- [[sesiones/2026-11-06]]: Claude SEO instalado y auditoría local con la exportación de Search Console.
 
 Web: https://barcelonaperfumeclub.com/ · Repositorio: https://github.com/Cgrau/barcelona-perfume-club
 

@@ -18,7 +18,7 @@ test("anuncia el primer evento, el objetivo del club y los contactos reales", as
     page.getByText("Nuestro primer evento ya tiene fecha.", { exact: true }),
   ).toBeVisible();
   await page.getByRole("navigation", { name: "Principal" }).getByRole("link", { name: "El club", exact: true }).click();
-  const about = page.getByRole("region", { name: "El club" });
+  const about = page.getByRole("region", { name: "Un perfume club en Barcelona", exact: true });
   await expect(about).toBeVisible();
   await expect(about).toContainText("Nuestro objetivo");
   await expect(about).toContainText("descubrir marcas");
@@ -107,7 +107,7 @@ test("solo el contenido central se desplaza y la cabecera y las redes permanecen
   ).toHaveCount(0);
   await header.getByRole("link", { name: "El club", exact: true }).click();
   await expect(
-    page.getByRole("heading", { name: "El club", exact: true }),
+    page.getByRole("heading", { name: "Un perfume club en Barcelona", exact: true }),
   ).toBeInViewport();
   await header
     .getByRole("link", { name: "Barcelona Perfume Club, inicio", exact: true })

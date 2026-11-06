@@ -83,6 +83,8 @@ for (const path of paths) {
   assert.equal(organization?.name, "Barcelona Perfume Club");
   assert.equal(organization?.url, `${origin}/`);
   assert.equal(website?.name, organization.name);
+  assert.equal(website?.alternateName, new URL(origin).hostname);
+  assert.ok(pageHtml.includes(`property="og:site_name" content="${organization.name}"`), `Identidad social incorrecta en ${path}`);
   assert.equal(website?.publisher?.["@id"], organization["@id"]);
   assert.equal(webpage?.url, page.canonical);
   assert.equal(webpage?.isPartOf?.["@id"], website["@id"]);

@@ -290,7 +290,8 @@ p {
   text-wrap: pretty;
   max-width: 60ch;
 }
-.landing-about-copy .club-welcome {
+.landing-about-copy .club-welcome,
+.landing-about-copy .club-story-link {
   margin-top: 18px;
 }
 .club-pillars {
@@ -456,6 +457,12 @@ p {
 }
 .event-description a {
   color: var(--cream);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.club-story-link a,
+.club-faq a,
+.about-copy > p a {
   text-decoration: underline;
   text-underline-offset: 4px;
 }

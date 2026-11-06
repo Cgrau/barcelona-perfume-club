@@ -96,8 +96,9 @@ export default function App({ pathname = "/" }: { pathname?: string }) {
           <div className="events-copy">
             <h2 id="events-heading">Próximos eventos</h2>
             <p>
-              Empezamos a encontrarnos. Descubre nuestros encuentros y apúntate
-              en Luma para disfrutar del perfume en compañía.
+              Encuentros de perfumería en Barcelona para descubrir fragancias,
+              compartir impresiones y conocer a otros amantes del perfume.
+              Consulta cada evento y solicita tu plaza en Luma.
             </p>
           </div>
           <ul className="events-list">
@@ -168,9 +169,9 @@ export default function App({ pathname = "/" }: { pathname?: string }) {
           aria-labelledby="club-heading"
         >
           <div className="landing-about-label">
-            <h2 id="club-heading">El club</h2>
+            <h2 id="club-heading">Un perfume club en Barcelona</h2>
             <p>
-              Un club de perfumería en Barcelona para oler, aprender y compartir.
+              Un punto de encuentro para oler, aprender y compartir.
             </p>
           </div>
           <div className="landing-about-copy">
@@ -183,6 +184,10 @@ export default function App({ pathname = "/" }: { pathname?: string }) {
             <p className="club-welcome">
               No hace falta ser experto. Solo tener ganas de oler, conversar y
               conocer gente con tu misma pasión.
+            </p>
+            <p className="club-story-link">
+              <a href={about.path}>Conoce la historia de Barcelona Perfume Club</a>
+              {" y por qué queremos reunir esta comunidad."}
             </p>
           </div>
           <div className="club-pillars">
@@ -245,6 +250,17 @@ export default function App({ pathname = "/" }: { pathname?: string }) {
                   confirmación de la plaza para asistir. Sin registro y confirmación
                   no se podrá acceder. También puedes seguir nuestro
                   calendario en Luma para enterarte de los próximos encuentros.
+                </p>
+              </details>
+              <details>
+                <summary>¿Dónde se celebran los encuentros del club?</summary>
+                <p>
+                  Anunciamos el lugar de cada encuentro en su ficha. El{" "}
+                  <a href={events[0].path}>primer encuentro de perfumería</a>
+                  {" se celebra en "}{events[0].venue}, {events[0].address},
+                  {" el "}{events[0].dateLabel}. Consulta siempre los detalles
+                  del evento y recuerda que necesitas registro y plaza confirmada
+                  en Luma para asistir.
                 </p>
               </details>
             </div>
