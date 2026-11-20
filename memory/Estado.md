@@ -13,7 +13,7 @@ La portada y Próximos eventos anuncian [[eventos/2026-11-22-perfumes-gourmand]]
 
 Publicado y comprobado en `d57b246`. Las cuatro rutas, el sitemap y las imágenes nuevas verificadas responden 200 en el dominio público. [Publicación en GitHub Pages](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/44779484762) y [SEO y Lighthouse](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/44779484564) correctos.
 
-A petición de Carles, «Eventos» incluye dos apartados independientes con accesos directos, «Próximos eventos» y «Eventos pasados». El encuentro gourmand figura en Próximos y el primer encuentro y sus fotos se consultan en Pasados.
+A petición de Carles, «Eventos» incluye dos apartados independientes con accesos directos, «Próximos eventos» y «Eventos pasados». El encuentro gourmand figura en Próximos y el primer encuentro y sus fotos se consultan en Pasados. Publicado y verificado en el dominio público con `59b33e8`. [Publicación en GitHub Pages](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/44780227743) y [SEO y Lighthouse](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/44780227645) correctos.
 
 ## Mejoras locales e indexación — continuación del 6 de noviembre
 
