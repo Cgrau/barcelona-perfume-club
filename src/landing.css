@@ -157,6 +157,63 @@ p {
 .landing-main section {
   scroll-margin-block: 0;
 }
+.gourmand-tasting {
+  width: min(100% - 42px, 760px);
+  margin-inline: auto;
+  padding-block: clamp(28px, 5vw, 64px) 56px;
+}
+.gourmand-tasting h1 {
+  margin-top: 10px;
+  font: 400 clamp(38px, 7vw, 64px) / 1.09 var(--display);
+  letter-spacing: -0.04em;
+  text-wrap: balance;
+}
+.gourmand-tasting-intro {
+  margin-top: 18px;
+  max-width: 50ch;
+  color: var(--soft);
+  font-size: 17px;
+  line-height: 1.5;
+}
+.gourmand-tasting-list {
+  margin: 26px 0 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--line);
+}
+.gourmand-tasting-list li {
+  display: grid;
+  grid-template-columns: 2.25rem minmax(0, 1fr);
+  gap: clamp(12px, 3vw, 24px);
+  padding: 21px 0;
+  border-bottom: 1px solid var(--line);
+}
+.gourmand-tasting-number {
+  color: var(--wine);
+  background: var(--cream);
+  display: grid;
+  place-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+}
+.gourmand-tasting-list h2 {
+  font: 400 clamp(23px, 4.5vw, 30px) / 1.2 var(--display);
+}
+.gourmand-tasting-list h2 a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.16em;
+}
+.gourmand-tasting-brand {
+  margin-top: 5px;
+  font-size: 15px;
+  color: var(--soft);
+}
+.gourmand-tasting-notes {
+  margin-top: 7px;
+  font-size: 16px;
+  line-height: 1.5;
+}
 .landing-eyebrow {
   font-size: 12px;
   line-height: 1.6;

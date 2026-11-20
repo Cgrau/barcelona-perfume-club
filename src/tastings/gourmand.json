@@ -1,0 +1,71 @@
+{
+  "path": "/cata/gourmand-8m4k/",
+  "perfumes": [
+    {
+      "name": "Mochi Musk",
+      "brand": "Mancera",
+      "notes": "Polvo de arroz, pistacho triturado, azúcar moreno, helado de pistacho, vainilla, iris italiano, almizcle suave, haba tonka y ámbar gris.",
+      "source": "https://manceraparfums.us/products/mochi-musk"
+    },
+    {
+      "name": "Sugar Bowl",
+      "brand": "SUPERZ.",
+      "notes": "Yogur de fresa, macaron, frambuesa, crema solar, coco, crème brûlée, piña, leche, cachemira, nata montada y vainilla.",
+      "source": "https://superz.com/products/sugar-bowl-50-ml-extrait-de-parfum-unisex-celestial-collection-02"
+    },
+    {
+      "name": "Choco Late",
+      "brand": "Carner Barcelona",
+      "notes": "Crema de avellana, leche cálida, chocolate vienés, absoluto de cacao, Georgywood, vainilla de Madagascar, vetiver y almizcles.",
+      "source": "https://carnerbarcelona.com/es/products/choco-late-perfume"
+    },
+    {
+      "name": "Vanilla Haze",
+      "brand": "Fugazzi",
+      "notes": "Mandarina, leche de coco, almendra, avellana, vaina de vainilla, haba tonka, jazmín, crème brûlée, ámbar blanco y almizcle dulce.",
+      "source": "https://fugazzifragrances.com/products/vanilla-haze"
+    },
+    {
+      "name": "Volupté Noire",
+      "brand": "Pierre Guillaume Paris",
+      "notes": "Bergamota, davana, dátil Medjool, tilo, acacia, jazmín, roble negro, miel de euforbia, ámbar y almizcle.",
+      "source": "https://pierreguillaumeparis.com/en/perfume/volupte-noire/"
+    },
+    {
+      "name": "Turbulent Romantic",
+      "brand": "Art Brüt",
+      "notes": "Té verde, manglar, magnolia, papiro, chocolate negro, caramelo salado, opopónaco, tonka, pachulí, madera de guayaco, musgo y cuero.",
+      "source": "https://artbruet.com/products/turbulent-romantic-parfum"
+    },
+    {
+      "name": "Kokoa Bang",
+      "brand": "Room 1015",
+      "notes": "Champán rosado, pera, limón, magnolia, cacao, Mugane, mirra, vainilla, haba tonka y benjuí de Siam.",
+      "source": "https://room1015.com/100-ml/112-23567-kokoa-bang-3683080678696.html"
+    },
+    {
+      "name": "Memories Gold",
+      "brand": "SUPERZ.",
+      "notes": "Miel, caramelo, vainilla, leche, iris, azúcar balsámico, cedro, haba tonka, ámbar y almizcle.",
+      "source": "https://superz.com/products/memories-gold-50-ml-extrait-de-parfum-unisex"
+    },
+    {
+      "name": "Mooncake",
+      "brand": "d’Annam",
+      "notes": "Sirope dorado, yema de huevo salada, judía mungo, semilla de loto, miel y vainilla.",
+      "source": "https://dannam.co/products/mooncake"
+    },
+    {
+      "name": "Crema Vainilla",
+      "brand": "Carner Barcelona",
+      "notes": "Almendra dulce, acorde de crema catalana, praliné, iris, leche, vainilla de Madagascar, almizcle cremoso y haba tonka tostada.",
+      "source": "https://carnerbarcelona.com/products/crema-vainilla-perfume"
+    },
+    {
+      "name": "Poka",
+      "brand": "Pernoire",
+      "notes": "Palomitas de caramelo, tarta de manzana, canela, avellana tostada, ládano, albaricoque seco, vainilla, almizcle, haba tonka y cedro.",
+      "source": "https://pernoire.com/products/poka"
+    }
+  ]
+}

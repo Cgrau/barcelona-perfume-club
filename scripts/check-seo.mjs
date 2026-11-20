@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { readFile, stat } from "node:fs/promises";
-import { getStaticPages, getPageMetadata } from "../build/prerender/entry-server.js";
+import { getStaticPages, getPageMetadata, gourmandTastingPage } from "../build/prerender/entry-server.js";
 
 const origin = "https://barcelonaperfumeclub.com";
 const [html, robots, sitemap] = await Promise.all(
@@ -60,6 +60,7 @@ const descriptions = new Set();
 for (const path of paths) {
   const page = getPageMetadata(path);
   const pageHtml = await readFile(`dist${path}index.html`, "utf8");
+  assert.ok(!pageHtml.includes(`href="${gourmandTastingPage.path}"`), "Una página pública enlaza la guía de cata");
   const title = pageHtml.match(/<title>([^<]+)<\/title>/)?.[1];
   const description = pageHtml.match(/name="description"[^>]*content="([^"]+)"/)?.[1];
   assert.ok(title && description, `Metadatos incompletos en ${path}`);
@@ -102,4 +103,10 @@ for (const path of paths) {
     assert.ok((await stat(`dist${match[1]}`)).isFile(), `Imagen ausente: ${match[1]}`);
   }
 }
+const tastingHtml = await readFile(`dist${gourmandTastingPage.path}index.html`, "utf8");
+assert.ok(!listedURLs.includes(gourmandTastingPage.canonical), "La guía de cata figura en el sitemap");
+assert.match(tastingHtml, /<meta name="robots" content="noindex"/, "La guía de cata permite indexación");
+assert.ok(tastingHtml.includes(`rel="canonical" href="${gourmandTastingPage.canonical}"`));
+assert.match(tastingHtml, /<ol class="gourmand-tasting-list"/, "La lista de perfumes falta en el HTML inicial");
+assert.doesNotMatch(tastingHtml, /<script\b[^>]*type="module"/, "La guía de cata depende de JavaScript");
 console.log(`SEO: ${paths.length} páginas con HTML inicial, títulos y descripciones únicos, canonical, identidad, JSON-LD, enlaces y sitemap correctos; imagen social y verificación de Google conservadas.`);
