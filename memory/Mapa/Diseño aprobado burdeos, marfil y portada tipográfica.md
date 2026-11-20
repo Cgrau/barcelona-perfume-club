@@ -20,6 +20,7 @@ Burdeos #640817 y marfil #f3eee0; logo original con lettering en public/media/lo
 ## Connections
 - [[Aprobación inicial y autorización de publicación]] - `references` [EXTRACTED]
 - [[Mejoras del 6 de noviembre relevancia, enlaces e identidad]] - `references` [EXTRACTED]
+- [[Propuesta de rediseño con Scroll Craft]] - `references` [EXTRACTED]
 - [[srclanding.css diseño y adaptación a pantallas]] - `conceptually_related_to` [INFERRED]
 
 #graphify/rationale #graphify/EXTRACTED #community/Arquitectura_y_diseño_web

@@ -2,7 +2,7 @@
 source_file: "memory/Inicio.md"
 type: "concept"
 community: "Memoria compartida"
-location: "L22"
+location: "L23"
 tags:
   - graphify/concept
   - graphify/EXTRACTED

@@ -1,12 +1,12 @@
 ---
 source_file: "memory/sesiones/2026-10-29.md"
 type: "concept"
-community: "Verificación y publicación web"
+community: "Auditoría, verificación y publicaciones"
 location: "L24"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Verificación_y_publicación_web
+  - community/Auditoría_verificación_y_publicaciones
 ---
 
 # Verificación SEO de dos páginas y doce pruebas
@@ -21,4 +21,4 @@ Fase SEO ya publicada: compilación y control SEO correctos para dos páginas; d
 - [[Publicación SEO comprobada 4f0a26b]] - `references` [EXTRACTED]
 - [[Verificar compilación, SEO y Playwright]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Verificación_y_publicación_web
+#graphify/concept #graphify/EXTRACTED #community/Auditoría_verificación_y_publicaciones

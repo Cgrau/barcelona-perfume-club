@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Web.md"
 type: "concept"
-community: "Identidad y contacto del club"
+community: "Identidad del club y segundo encuentro"
 location: "L24"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Identidad_y_contacto_del_club
+  - community/Identidad_del_club_y_segundo_encuentro
 ---
 
 # src/seo.ts: metadatos e identidad común
@@ -26,4 +26,4 @@ Metadatos por URL y Organization y WebSite comunes desde src/content.ts. AboutPa
 - [[Publicación SEO comprobada 4f0a26b]] - `references` [EXTRACTED]
 - [[srccontent.ts eventos y enlaces]] - `shares_data_with` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Identidad_y_contacto_del_club
+#graphify/concept #graphify/EXTRACTED #community/Identidad_del_club_y_segundo_encuentro

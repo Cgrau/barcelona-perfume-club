@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Decisiones.md"
 type: "rationale"
-community: "Identidad y contacto del club"
+community: "Identidad del club y segundo encuentro"
 location: "L12"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Identidad_y_contacto_del_club
+  - community/Identidad_del_club_y_segundo_encuentro
 ---
 
 # Identidad cercana y abierta del club
@@ -21,4 +21,4 @@ Barcelona Perfume Club reúne a personas que disfrutan del perfume para descubri
 - [[Barcelona Perfume Club]] - `references` [EXTRACTED]
 - [[srcseo.ts metadatos e identidad común]] - `references` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Identidad_y_contacto_del_club
+#graphify/rationale #graphify/EXTRACTED #community/Identidad_del_club_y_segundo_encuentro

@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Web.md"
 type: "rationale"
-community: "Verificación y publicación web"
+community: "Memoria compartida"
 location: "L35"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Verificación_y_publicación_web
+  - community/Memoria_compartida
 ---
 
 # Publicación de main en GitHub Pages
@@ -24,4 +24,4 @@ Subir a main activa .github/workflows/deploy.yml para compilar y publicar dist/.
 - [[Quiénes somos de revisión local a publicación comprobada]] - `conceptually_related_to` [EXTRACTED]
 - [[Repositorio compartido en GitHub]] - `references` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Verificación_y_publicación_web
+#graphify/rationale #graphify/EXTRACTED #community/Memoria_compartida

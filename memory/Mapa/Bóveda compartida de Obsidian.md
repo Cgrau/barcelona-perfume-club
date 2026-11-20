@@ -12,7 +12,7 @@ tags:
 # Bóveda compartida de Obsidian
 
 <!-- project-memory:start -->
-La carpeta memory resume hechos y decisiones con wikilinks para continuar desde otro equipo o conversación; no es una transcripción del chat. Leer Estado y la sesión más reciente, actualmente 2026-11-06. No se publica en public/.
+La carpeta memory resume decisiones y hechos con wikilinks. Leer Estado y la sesión más reciente, del 20 de noviembre de 2026. La bóveda vive fuera de public/.
 
 [Nota original](../Inicio.md)
 <!-- project-memory:end -->

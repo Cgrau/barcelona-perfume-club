@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Eventos.md"
 type: "concept"
-community: "Identidad y contacto del club"
-location: "L12"
+community: "Identidad del club y segundo encuentro"
+location: "L13"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Identidad_y_contacto_del_club
+  - community/Identidad_del_club_y_segundo_encuentro
 ---
 
 # Luma: calendario, inscripciones y disponibilidad
@@ -20,6 +20,7 @@ https://luma.com/barcelonaperfumeclub gestiona disponibilidad e inscripciones. S
 ## Connections
 - [[Acceso obligatorio con registro y plaza confirmada en Luma]] - `references` [EXTRACTED]
 - [[Canales oficiales de Barcelona Perfume Club]] - `references` [EXTRACTED]
+- [[Descubriendo perfumes gourmand]] - `references` [EXTRACTED]
 - [[Mantenimiento manual de eventos]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Identidad_y_contacto_del_club
+#graphify/concept #graphify/EXTRACTED #community/Identidad_del_club_y_segundo_encuentro

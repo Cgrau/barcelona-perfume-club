@@ -1,12 +1,12 @@
 ---
 source_file: "memory/sesiones/2026-10-30.md"
 type: "concept"
-community: "Identidad y contacto del club"
+community: "Identidad del club y segundo encuentro"
 location: "L10"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Identidad_y_contacto_del_club
+  - community/Identidad_del_club_y_segundo_encuentro
 ---
 
 # Correo oficial: contacto@barcelonaperfumeclub.com
@@ -22,4 +22,4 @@ Carles solicita el 30 de octubre sustituir el correo anterior de Proton por cont
 - [[srccontent.ts eventos y enlaces]] - `references` [EXTRACTED]
 - [[srcseo.ts metadatos e identidad común]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Identidad_y_contacto_del_club
+#graphify/concept #graphify/EXTRACTED #community/Identidad_del_club_y_segundo_encuentro

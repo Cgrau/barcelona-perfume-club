@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Decisiones.md"
 type: "rationale"
-community: "Verificación y publicación web"
+community: "Arquitectura y diseño web"
 location: "L62"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Verificación_y_publicación_web
+  - community/Arquitectura_y_diseño_web
 ---
 
 # Autorización expresa del 6 de noviembre para publicar esta versión
@@ -24,4 +24,4 @@ Después de auditoría, cambios, capturas y verificaciones, Carles confirma «Si
 - [[Publicación de main en GitHub Pages]] - `references` [EXTRACTED]
 - [[SEO del 6 de noviembre publicado y comprobado 710f282]] - `references` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Verificación_y_publicación_web
+#graphify/rationale #graphify/EXTRACTED #community/Arquitectura_y_diseño_web

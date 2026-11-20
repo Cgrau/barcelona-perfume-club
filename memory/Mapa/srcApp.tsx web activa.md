@@ -19,6 +19,7 @@ Portada, eventos, club, FAQ y contacto. Home conserva anuncio y evento, sin biog
 
 ## Connections
 - [[Arquitectura React, Vite y TypeScript con HTML prerenderizado]] - `references` [EXTRACTED]
+- [[Galería del primer encuentro]] - `references` [EXTRACTED]
 - [[Mejoras del 6 de noviembre relevancia, enlaces e identidad]] - `references` [EXTRACTED]
 - [[srcAboutPage.tsx Quiénes somos publicado y comprobado]] - `references` [EXTRACTED]
 - [[srcClubSite.tsx propuesta archivada]] - `conceptually_related_to` [EXTRACTED]

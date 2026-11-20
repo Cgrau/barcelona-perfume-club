@@ -1,12 +1,12 @@
 ---
 source_file: "memory/sesiones/2026-11-06.md"
 type: "concept"
-community: "Verificación y publicación web"
+community: "Arquitectura y diseño web"
 location: "L61"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Verificación_y_publicación_web
+  - community/Arquitectura_y_diseño_web
 ---
 
 # SEO del 6 de noviembre publicado y comprobado: 710f282
@@ -22,4 +22,4 @@ Publicación final completada en 710f282 con ejecución completa y artefacto nue
 - [[Mejoras del 6 de noviembre relevancia, enlaces e identidad]] - `references` [EXTRACTED]
 - [[Publicación comprobada de la web]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Verificación_y_publicación_web
+#graphify/concept #graphify/EXTRACTED #community/Arquitectura_y_diseño_web

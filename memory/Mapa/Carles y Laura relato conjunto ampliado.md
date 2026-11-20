@@ -19,6 +19,7 @@ Ampliar el mismo relato conjunto «Somos Carles y Laura», exclusivamente en «Q
 
 ## Connections
 - [[Carles Grau]] - `references` [EXTRACTED]
+- [[Retrato conjunto de Laura y Carles]] - `references` [EXTRACTED]
 - [[srcAboutPage.tsx Quiénes somos publicado y comprobado]] - `references` [EXTRACTED]
 
 #graphify/rationale #graphify/EXTRACTED #community/Organizadores_y_Quiénes_somos

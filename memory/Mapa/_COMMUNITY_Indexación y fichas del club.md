@@ -28,16 +28,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Identidad y contacto del club]]
-- 3 edges to [[_COMMUNITY_Verificación y publicación web]]
+- 4 edges to [[_COMMUNITY_Identidad del club y segundo encuentro]]
+- 4 edges to [[_COMMUNITY_Arquitectura y diseño web]]
 - 3 edges to [[_COMMUNITY_Organizadores y Quiénes somos]]
-- 3 edges to [[_COMMUNITY_Arquitectura y diseño web]]
+- 2 edges to [[_COMMUNITY_Auditoría, verificación y publicaciones]]
 - 2 edges to [[_COMMUNITY_Primer encuentro y acceso]]
-- 1 edge to [[_COMMUNITY_Auditoría SEO y métricas]]
+- 1 edge to [[_COMMUNITY_Memoria compartida]]
 
 ## Top bridge nodes
 - [[srcEventPage.tsx ficha propia del encuentro]] - degree 9, connects to 3 communities
+- [[Publicación SEO comprobada 4f0a26b]] - degree 7, connects to 3 communities
 - [[Alcance SEO aprobado página propia e identidad]] - degree 6, connects to 3 communities
 - [[Sitemap estático generado desde las rutas reales]] - degree 5, connects to 3 communities
-- [[Publicación SEO comprobada 4f0a26b]] - degree 7, connects to 2 communities
 - [[Inspección de interiores About desconocido y evento descubierto]] - degree 4, connects to 1 community

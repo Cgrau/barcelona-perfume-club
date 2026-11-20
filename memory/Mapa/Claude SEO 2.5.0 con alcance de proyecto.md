@@ -1,12 +1,12 @@
 ---
 source_file: "memory/sesiones/2026-11-06.md"
 type: "concept"
-community: "Auditoría SEO y métricas"
+community: "Auditoría, verificación y publicaciones"
 location: "L10"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Auditoría_SEO_y_métricas
+  - community/Auditoría_verificación_y_publicaciones
 ---
 
 # Claude SEO 2.5.0 con alcance de proyecto
@@ -21,4 +21,4 @@ Plugin oficial AgriciDaniel/claude-seo, MIT, instalado y habilitado en Claude Co
 - [[Auditoría pública y Lighthouse evidencia de laboratorio]] - `references` [EXTRACTED]
 - [[ZIP de Search Console 3 clics y 15 impresiones]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Auditoría_SEO_y_métricas
+#graphify/concept #graphify/EXTRACTED #community/Auditoría_verificación_y_publicaciones

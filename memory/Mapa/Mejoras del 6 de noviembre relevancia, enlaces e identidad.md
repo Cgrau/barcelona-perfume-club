@@ -1,12 +1,12 @@
 ---
 source_file: "memory/sesiones/2026-11-06.md"
 type: "concept"
-community: "Verificación y publicación web"
+community: "Arquitectura y diseño web"
 location: "L47"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Verificación_y_publicación_web
+  - community/Arquitectura_y_diseño_web
 ---
 
 # Mejoras del 6 de noviembre: relevancia, enlaces e identidad
@@ -27,4 +27,4 @@ Implementados y publicados H2 «Un perfume club en Barcelona», introducción lo
 - [[srcApp.tsx web activa]] - `references` [EXTRACTED]
 - [[srcseo.ts metadatos e identidad común]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Verificación_y_publicación_web
+#graphify/concept #graphify/EXTRACTED #community/Arquitectura_y_diseño_web

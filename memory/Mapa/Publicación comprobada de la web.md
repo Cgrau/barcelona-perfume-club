@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Estado.md"
 type: "concept"
-community: "Verificación y publicación web"
-location: "L12"
+community: "Memoria compartida"
+location: "L18"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Verificación_y_publicación_web
+  - community/Memoria_compartida
 ---
 
 # Publicación comprobada de la web
@@ -24,4 +24,4 @@ Historia de publicaciones verificadas: anuncio del primer evento 9e4ab8a, Pages 
 - [[SEO del 6 de noviembre publicado y comprobado 710f282]] - `references` [EXTRACTED]
 - [[Verificación inicial y compilación antes de las pruebas]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Verificación_y_publicación_web
+#graphify/concept #graphify/EXTRACTED #community/Memoria_compartida

@@ -1,12 +1,12 @@
 ---
 source_file: "memory/sesiones/2026-11-06.md"
 type: "concept"
-community: "Auditoría SEO y métricas"
+community: "Auditoría, verificación y publicaciones"
 location: "L53"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Auditoría_SEO_y_métricas
+  - community/Auditoría_verificación_y_publicaciones
 ---
 
 # GSC directo: 3 clics y 17 impresiones hasta el 4 de noviembre
@@ -21,4 +21,4 @@ Corte consultado directamente el 6 de noviembre: 3 clics, 17 impresiones, CTR 17
 - [[Barcelona Perfume Club]] - `references` [EXTRACTED]
 - [[ZIP de Search Console 3 clics y 15 impresiones]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Auditoría_SEO_y_métricas
+#graphify/concept #graphify/EXTRACTED #community/Auditoría_verificación_y_publicaciones

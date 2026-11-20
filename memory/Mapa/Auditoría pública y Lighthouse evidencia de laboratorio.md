@@ -1,12 +1,12 @@
 ---
 source_file: "memory/sesiones/2026-11-06.md"
 type: "concept"
-community: "Auditoría SEO y métricas"
+community: "Auditoría, verificación y publicaciones"
 location: "L29"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Auditoría_SEO_y_métricas
+  - community/Auditoría_verificación_y_publicaciones
 ---
 
 # Auditoría pública y Lighthouse: evidencia de laboratorio
@@ -22,4 +22,4 @@ Tres rutas HTTP 200 con HTML inicial completo, metadatos y canonical únicos, JS
 - [[Claude SEO 2.5.0 con alcance de proyecto]] - `references` [EXTRACTED]
 - [[Verificar compilación, SEO y Playwright]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Auditoría_SEO_y_métricas
+#graphify/concept #graphify/EXTRACTED #community/Auditoría_verificación_y_publicaciones

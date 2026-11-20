@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Inicio.md"
 type: "concept"
-community: "Identidad y contacto del club"
-location: "L22"
+community: "Identidad del club y segundo encuentro"
+location: "L23"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Identidad_y_contacto_del_club
+  - community/Identidad_del_club_y_segundo_encuentro
 ---
 
 # Barcelona Perfume Club
@@ -25,4 +25,4 @@ Proyecto del club y web https://barcelonaperfumeclub.com/.
 - [[Identidad cercana y abierta del club]] - `references` [EXTRACTED]
 - [[Portada indexada Search Console del 29 de octubre]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Identidad_y_contacto_del_club
+#graphify/concept #graphify/EXTRACTED #community/Identidad_del_club_y_segundo_encuentro

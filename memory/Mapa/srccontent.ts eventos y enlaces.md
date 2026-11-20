@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Web.md"
 type: "concept"
-community: "Identidad y contacto del club"
+community: "Identidad del club y segundo encuentro"
 location: "L20"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Identidad_y_contacto_del_club
+  - community/Identidad_del_club_y_segundo_encuentro
 ---
 
 # src/content.ts: eventos y enlaces
@@ -24,4 +24,4 @@ Datos de eventos y enlaces oficiales del club; events[].path determina las rutas
 - [[Sitemap estático generado desde las rutas reales]] - `references` [EXTRACTED]
 - [[srcseo.ts metadatos e identidad común]] - `shares_data_with` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Identidad_y_contacto_del_club
+#graphify/concept #graphify/EXTRACTED #community/Identidad_del_club_y_segundo_encuentro

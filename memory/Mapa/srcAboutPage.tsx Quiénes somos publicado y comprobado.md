@@ -12,7 +12,7 @@ tags:
 # src/AboutPage.tsx: Quiénes somos publicado y comprobado
 
 <!-- project-memory:start -->
-Página aparte Quiénes somos, /sobre-el-club/, publicada y comprobada en 4df3f11, Pages 40939189954. «El perfume nos reúne.», propósito, relato conjunto ampliado de Carles y Laura, objetivos y próximos encuentros con registro y plaza confirmada. Biografías exclusivamente aquí; menú conserva anclas de home. Metadatos propios, Person y retrato de Carles. La fase del 6 de noviembre publica y comprueba un enlace contextual desde About a portada mediante el nombre del club, sin trasladar biografías a la home.
+Página aparte Quiénes somos, /sobre-el-club/, publicada y comprobada en 4df3f11, Pages 40939189954. «El perfume nos reúne.», propósito, relato conjunto ampliado de Carles y Laura, objetivos y próximos encuentros con registro y plaza confirmada. Biografías exclusivamente aquí; menú conserva anclas de home. Metadatos propios, Person y retrato de Carles. La fase del 6 de noviembre publica y comprueba un enlace contextual desde About a portada mediante el nombre del club, sin trasladar biografías a la home. El retrato individual se sustituye el 20 de noviembre por una foto conjunta de Laura y Carles, recortada visualmente y en blanco y negro.
 
 [Nota original](../Web.md)
 <!-- project-memory:end -->
@@ -25,6 +25,7 @@ Página aparte Quiénes somos, /sobre-el-club/, publicada y comprobada en 4df3f1
 - [[Identidad Person de Carles separada del club]] - `references` [EXTRACTED]
 - [[Inspección de interiores About desconocido y evento descubierto]] - `references` [EXTRACTED]
 - [[Quiénes somos de revisión local a publicación comprobada]] - `references` [EXTRACTED]
+- [[Retrato conjunto de Laura y Carles]] - `references` [EXTRACTED]
 - [[Sitemap estático generado desde las rutas reales]] - `references` [EXTRACTED]
 - [[Validación del About dieciséis pruebas y publicación comprobada]] - `references` [EXTRACTED]
 - [[scriptsprerender.mjs generación estática]] - `references` [EXTRACTED]

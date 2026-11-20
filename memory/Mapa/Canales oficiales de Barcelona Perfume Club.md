@@ -1,12 +1,12 @@
 ---
 source_file: "memory/Eventos.md"
 type: "concept"
-community: "Identidad y contacto del club"
-location: "L28"
+community: "Identidad del club y segundo encuentro"
+location: "L29"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Identidad_y_contacto_del_club
+  - community/Identidad_del_club_y_segundo_encuentro
 ---
 
 # Canales oficiales de Barcelona Perfume Club
@@ -23,4 +23,4 @@ Instagram https://www.instagram.com/barcelonaperfumeclub/ y TikTok https://www.t
 - [[Correo oficial contacto@barcelonaperfumeclub.com]] - `references` [EXTRACTED]
 - [[Luma calendario, inscripciones y disponibilidad]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Identidad_y_contacto_del_club
+#graphify/concept #graphify/EXTRACTED #community/Identidad_del_club_y_segundo_encuentro

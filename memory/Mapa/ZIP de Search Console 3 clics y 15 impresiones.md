@@ -1,12 +1,12 @@
 ---
 source_file: "memory/sesiones/2026-11-06.md"
 type: "concept"
-community: "Auditoría SEO y métricas"
+community: "Auditoría, verificación y publicaciones"
 location: "L16"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Auditoría_SEO_y_métricas
+  - community/Auditoría_verificación_y_publicaciones
 ---
 
 # ZIP de Search Console: 3 clics y 15 impresiones
@@ -22,4 +22,4 @@ ZIP exportado el 6 de noviembre, siete CSV y filtro Last 12 months, con trece d�
 - [[Claude SEO 2.5.0 con alcance de proyecto]] - `references` [EXTRACTED]
 - [[GSC directo 3 clics y 17 impresiones hasta el 4 de noviembre]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Auditoría_SEO_y_métricas
+#graphify/concept #graphify/EXTRACTED #community/Auditoría_verificación_y_publicaciones
