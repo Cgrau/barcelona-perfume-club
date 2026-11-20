@@ -84,3 +84,7 @@ Carles autoriza solo la página propia del evento y coherencia de identidad; des
 Luma confirma el nombre del calendario, dominio y handles oficiales y conserva fecha, horario y lugar del evento. La inscripción está en lista de espera al consultarlo; no se promete una plaza por registrarse. No se han editado perfiles externos.
 
 La ficha y la identidad SEO se publican en `4f0a26b`, con [despliegue correcto](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/40828628191). Se comprueban en el dominio la ficha, canonical, acceso condicionado, enlace desde portada, identidad WebSite y sitemap. La nueva URL es https://barcelonaperfumeclub.com/eventos/descubriendo-perfumes-nicho/. No se acredita una primera posición en Google. Detalle en [[sesiones/2026-10-29]].
+
+## Icono de la pestaña
+
+El favicon usa el lettering original de Barcelona Perfume Club sobre fondo burdeos, con contraste reforzado a 16 px. Se publicó y comprobó en las cuatro rutas y en la página de error. Publicación en `3e69c89`. [GitHub Pages](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/44833063095) y [SEO y Lighthouse](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/44833063104) correctos. Contexto en [[sesiones/2026-11-20]].
