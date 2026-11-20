@@ -30,7 +30,12 @@ test("anuncia el próximo encuentro y enlaza el archivo, el club y los contactos
     exact: true,
   });
   await page.getByRole("link", { name: "Eventos", exact: true }).click();
+  const eventNavigation = page.getByRole("navigation", { name: "Secciones de eventos" });
+  await expect(eventNavigation).toBeInViewport();
+  await eventNavigation.getByRole("link", { name: "Próximos eventos" }).click();
+  await expect(page).toHaveURL(/#proximos-eventos$/);
   await expect(events.getByRole("heading", { level: 2 })).toBeInViewport();
+  await expect(events.getByRole("link", { name: "Descubriendo perfumes nicho" })).toHaveCount(0);
   const event = events.getByRole("article", { name: "Descubriendo perfumes gourmand" });
   await expect(event).toContainText("22 de noviembre de 2026");
   await expect(event).toContainText("11:30");
@@ -42,7 +47,12 @@ test("anuncia el próximo encuentro y enlaza el archivo, el club y los contactos
   expect(await poster.evaluate((img: HTMLImageElement) => img.naturalWidth)).toBeGreaterThan(0);
   await expect(event.getByRole("link", { name: "Ver evento en Luma", exact: true }))
     .toHaveAttribute("href", "https://luma.com/7qk1bbin");
-  const archive = events.getByRole("region", { name: "Encuentros anteriores" });
+  await page.getByRole("link", { name: "Eventos", exact: true }).click();
+  await eventNavigation.getByRole("link", { name: "Eventos pasados" }).click();
+  await expect(page).toHaveURL(/#eventos-pasados$/);
+  const archive = page.getByRole("region", { name: "Eventos pasados" });
+  await expect(archive.getByRole("heading", { level: 2 })).toBeInViewport();
+  await expect(archive.getByRole("link", { name: "Descubriendo perfumes gourmand" })).toHaveCount(0);
   await expect(archive.getByRole("link", { name: "Descubriendo perfumes nicho" }))
     .toHaveAttribute("href", "/eventos/descubriendo-perfumes-nicho/");
   await expect(archive.getByRole("img")).toHaveCount(1);

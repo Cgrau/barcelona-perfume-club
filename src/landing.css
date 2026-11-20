@@ -378,15 +378,33 @@ p {
   padding: 52px 0 64px;
   border-top: 1px solid var(--line);
 }
+.events-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+.events-navigation a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding-inline: 14px;
+  border: 1px solid var(--line);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
 .events-copy {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 60px;
   align-items: center;
 }
-.events-copy h2 {
+.events-copy h2,
+.events-archive h2 {
   font: 400 clamp(36px, 4.2vw, 58px) / 1.08 var(--display);
   letter-spacing: -0.04em;
+}
+.events-copy h2 {
   max-width: 11ch;
 }
 .events-copy > p {
@@ -505,7 +523,6 @@ p {
   padding-top: 28px;
   border-top: 1px solid var(--line);
 }
-.events-archive h3,
 .event-gallery h2,
 .event-page-about h2 {
   font: 400 clamp(26px, 3vw, 36px)/1.2 var(--display);
@@ -539,11 +556,11 @@ p {
   height: auto;
   aspect-ratio: 16 / 9;
 }
-.events-archive-card h4 {
+.events-archive-card h3 {
   margin: 6px 0;
   font: 400 clamp(22px, 3vw, 32px)/1.2 var(--display);
 }
-.events-archive-card h4 a {
+.events-archive-card h3 a {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 5px;
@@ -1059,9 +1076,12 @@ p {
     grid-template-columns: 1fr;
     gap: 28px;
   }
+  .events-copy h2,
+  .events-archive h2 {
+    font-size: 37px;
+  }
   .events-copy h2 {
     max-width: 100%;
-    font-size: 37px;
   }
   .events-copy > p {
     font-size: 17px;

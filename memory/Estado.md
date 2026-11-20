@@ -13,6 +13,8 @@ La portada y Próximos eventos anuncian [[eventos/2026-11-22-perfumes-gourmand]]
 
 Publicado y comprobado en `d57b246`. Las cuatro rutas, el sitemap y las imágenes nuevas verificadas responden 200 en el dominio público. [Publicación en GitHub Pages](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/44779484762) y [SEO y Lighthouse](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/44779484564) correctos.
 
+A petición de Carles, «Eventos» incluye dos apartados independientes con accesos directos, «Próximos eventos» y «Eventos pasados». El encuentro gourmand figura en Próximos y el primer encuentro y sus fotos se consultan en Pasados.
+
 ## Mejoras locales e indexación — continuación del 6 de noviembre
 
 Carles solicita mejorar la web para las tres consultas objetivo y que aparezca el dominio frente al repositorio. Se publica y comprueba un encabezado descriptivo «Un perfume club en Barcelona», introducción local del listado, FAQ sobre el lugar real del encuentro, enlaces contextuales entre portada, About y ficha, `og:site_name` y dominio como nombre alternativo de WebSite. Se conserva el H1 aprobado. README queda centrado en desarrollo y acceso al dominio; instrucciones completas en `docs/DEVELOPMENT.md`. Website y descripción del repositorio ya son correctos; se verifican y no se cambia su visibilidad. Compilación y control SEO correctos; 16/16 pruebas en serie. Publicado y comprobado en `710f282`: [GitHub Pages correcto](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/42270146431) y [SEO y Lighthouse correctos](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/42270146372). Las tres rutas sirven la identidad nueva y se verifican H2, enlaces, FAQ, email, canonical, evento y acceso obligatorio.

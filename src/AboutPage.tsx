@@ -147,7 +147,7 @@ export default function AboutPage() {
       <section className="about-invitation" aria-labelledby="about-invitation">
         <h2 id="about-invitation">Nos conocemos en el próximo encuentro.</h2>
         <div>
-          <a className="landing-luma" href="/#eventos">
+          <a className="landing-luma" href="/#proximos-eventos">
             <span>Ver próximos encuentros</span>
           </a>
           <p>

@@ -14,6 +14,8 @@ Calendario del club: https://luma.com/barcelonaperfumeclub
 
 Las fichas se mantienen en `events` de `src/content.ts`, en orden de fecha. Incluyen `path`, título, edición, estado (`upcoming` o `past`), texto propio, fecha, horario, lugar, cartel local y URL de Luma. Pueden incluir una galería. El prerender genera una página propia y la añade al sitemap. La portada destaca el primero de los próximos encuentros y muestra los anteriores en un apartado propio. Actualizar manualmente el estado después de celebrar cada encuentro.
 
+En «Eventos», los accesos `/#proximos-eventos` y `/#eventos-pasados` llevan a los listados independientes. La invitación de «Quiénes somos» enlaza directamente a Próximos eventos.
+
 No hay sincronización automática con el calendario. Publicar un evento en Luma no lo incorpora por sí solo a esta web. No prometer lo contrario.
 
 ## Condición de acceso

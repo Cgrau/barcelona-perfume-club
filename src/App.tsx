@@ -94,82 +94,86 @@ export default function App({ pathname = "/" }: { pathname?: string }) {
           </div>
         </section>
 
-        <section
-          className="landing-events"
-          id="eventos"
-          aria-labelledby="events-heading"
-        >
-          <div className="events-copy">
-            <h2 id="events-heading">Próximos eventos</h2>
-            <p>
-              Encuentros de perfumería en Barcelona para descubrir fragancias,
-              compartir impresiones y conocer a otros amantes del perfume.
-              {nextEvent ? " Consulta cada evento y solicita tu plaza en Luma." : " Sigue el calendario en Luma para conocer las próximas fechas."}
-            </p>
-          </div>
-          {nextEvent && <ul className="events-list">
-            {upcomingEvents.map((event) => (
-              <li key={event.id}>
-                <article className="event-card" aria-labelledby={`event-${event.id}`}>
-                  <a
-                    className="event-poster"
-                    href={event.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={`Ver ${event.title} en Luma`}
-                    data-umami-event="luma-event-poster"
-                  >
-                    <img
-                      src={event.image.src}
-                      srcSet={event.image.srcSet}
-                      sizes="(max-width: 700px) calc(100vw - 84px), (max-width: 1000px) 40vw, 420px"
-                      alt={event.image.alt}
-                      width={event.image.width}
-                      height={event.image.height}
-                      loading="lazy"
-                      decoding="async"
-                    />
-                  </a>
-                  <div className="event-copy">
-                    <p className="landing-eyebrow">Barcelona Perfume Club</p>
-                    <h3 id={`event-${event.id}`}>
-                      <a href={event.path} data-umami-event="event-page">{event.title}</a>
-                    </h3>
-                    <div className="event-details">
-                      <time dateTime={event.dateTime}>
-                        {event.dateLabel} · {event.timeLabel} h
-                      </time>
-                      <p>{event.venue}</p>
-                      <p>{event.address}</p>
-                    </div>
-                    <EventDescription event={event} />
-                    <RegistrationNotice />
+        <div className="landing-events" id="eventos">
+          <nav className="events-navigation" aria-label="Secciones de eventos">
+            <a href="#proximos-eventos">Próximos eventos</a>
+            {pastEvents.length > 0 && <a href="#eventos-pasados">Eventos pasados</a>}
+          </nav>
+
+          <section id="proximos-eventos" aria-labelledby="events-heading">
+            <div className="events-copy">
+              <h2 id="events-heading">Próximos eventos</h2>
+              <p>
+                Encuentros de perfumería en Barcelona para descubrir fragancias,
+                compartir impresiones y conocer a otros amantes del perfume.
+                {nextEvent ? " Consulta cada evento y solicita tu plaza en Luma." : " Sigue el calendario en Luma para conocer las próximas fechas."}
+              </p>
+            </div>
+            {nextEvent && <ul className="events-list">
+              {upcomingEvents.map((event) => (
+                <li key={event.id}>
+                  <article className="event-card" aria-labelledby={`event-${event.id}`}>
                     <a
-                      className="landing-luma"
+                      className="event-poster"
                       href={event.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      data-umami-event="luma-event"
+                      aria-label={`Ver ${event.title} en Luma`}
+                      data-umami-event="luma-event-poster"
                     >
-                      <span>Ver evento en Luma</span>
+                      <img
+                        src={event.image.src}
+                        srcSet={event.image.srcSet}
+                        sizes="(max-width: 700px) calc(100vw - 84px), (max-width: 1000px) 40vw, 420px"
+                        alt={event.image.alt}
+                        width={event.image.width}
+                        height={event.image.height}
+                        loading="lazy"
+                        decoding="async"
+                      />
                     </a>
-                  </div>
-                </article>
-              </li>
-            ))}
-          </ul>}
-          <a
-            className="events-calendar"
-            href={club.links.calendar}
-            target="_blank"
-            rel="noopener noreferrer"
-            data-umami-event="luma-calendar"
-          >
-            Ver calendario
-          </a>
+                    <div className="event-copy">
+                      <p className="landing-eyebrow">Barcelona Perfume Club</p>
+                      <h3 id={`event-${event.id}`}>
+                        <a href={event.path} data-umami-event="event-page">{event.title}</a>
+                      </h3>
+                      <div className="event-details">
+                        <time dateTime={event.dateTime}>
+                          {event.dateLabel} · {event.timeLabel} h
+                        </time>
+                        <p>{event.venue}</p>
+                        <p>{event.address}</p>
+                      </div>
+                      <EventDescription event={event} />
+                      <RegistrationNotice />
+                      <a
+                        className="landing-luma"
+                        href={event.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        data-umami-event="luma-event"
+                      >
+                        <span>Ver evento en Luma</span>
+                      </a>
+                    </div>
+                  </article>
+                </li>
+              ))}
+            </ul>}
+            <a
+              className="events-calendar"
+              href={club.links.calendar}
+              target="_blank"
+              rel="noopener noreferrer"
+              data-umami-event="luma-calendar"
+            >
+              Ver calendario
+            </a>
+          </section>
+
           {pastEvents.length > 0 && (
-            <section className="events-archive" aria-labelledby="past-events-heading">
-              <h3 id="past-events-heading">Encuentros anteriores</h3>
+            <section className="events-archive" id="eventos-pasados" aria-labelledby="past-events-heading">
+              <h2 id="past-events-heading">Eventos pasados</h2>
               <ul className="events-archive-list">
                 {pastEvents.map((event) => {
                   const preview = event.gallery?.[0] ?? event.image;
@@ -188,7 +192,7 @@ export default function App({ pathname = "/" }: { pathname?: string }) {
                         />
                         <div>
                           <time dateTime={event.dateTime}>{event.dateLabel}</time>
-                          <h4><a href={event.path}>{event.title}</a></h4>
+                          <h3><a href={event.path}>{event.title}</a></h3>
                           <p>{event.venue}</p>
                         </div>
                       </article>
@@ -198,7 +202,7 @@ export default function App({ pathname = "/" }: { pathname?: string }) {
               </ul>
             </section>
           )}
-        </section>
+        </div>
 
         <section
           className="landing-about"
