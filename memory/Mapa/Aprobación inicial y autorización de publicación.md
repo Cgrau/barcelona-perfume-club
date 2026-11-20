@@ -19,7 +19,7 @@ Carles aprueba vista previa y pide subir todo a GitHub y guardar memoria como Ob
 
 ## Connections
 - [[Bóveda compartida de Obsidian]] - `references` [EXTRACTED]
-- [[Diseño aprobado burdeos, marfil y portada tipográfica]] - `references` [EXTRACTED]
+- [[Diseño aprobado en burdeos y marfil]] - `references` [EXTRACTED]
 - [[Graphify 0.9.97]] - `references` [EXTRACTED]
 - [[Publicación de main en GitHub Pages]] - `references` [EXTRACTED]
 - [[Quiénes somos de revisión local a publicación comprobada]] - `conceptually_related_to` [EXTRACTED]

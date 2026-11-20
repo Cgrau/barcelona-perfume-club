@@ -2,7 +2,7 @@
 source_file: "memory/Estado.md"
 type: "concept"
 community: "Memoria compartida"
-location: "L18"
+location: "L22"
 tags:
   - graphify/concept
   - graphify/EXTRACTED

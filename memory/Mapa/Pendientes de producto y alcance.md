@@ -2,7 +2,7 @@
 source_file: "memory/Estado.md"
 type: "concept"
 community: "Identidad del club y segundo encuentro"
-location: "L66"
+location: "L70"
 tags:
   - graphify/concept
   - graphify/EXTRACTED

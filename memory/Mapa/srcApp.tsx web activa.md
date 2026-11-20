@@ -12,7 +12,7 @@ tags:
 # src/App.tsx: web activa
 
 <!-- project-memory:start -->
-Portada, eventos, club, FAQ y contacto. Home conserva anuncio y evento, sin biografías de Carles y Laura. Menú Inicio · El club · Eventos · Quiénes somos · Contacto; los tres primeros enlazan a home#inicio, home#el-club y home#eventos; Quiénes somos abre /sobre-el-club/. El título del evento enlaza a su ficha. Texto visible de contacto derivado de club.links.contact, publicado en 566d09a. El 6 de noviembre se publica y verifica H2 «Un perfume club en Barcelona», introducción local del listado, FAQ de ubicación y enlaces contextuales, conservando el H1 aprobado.
+Portada, eventos, club, FAQ y contacto. H1 aprobado con fotografía de la primera cata, enlazada a su galería. El anuncio reúne fecha, lugar y acceso con plaza confirmada. El área de eventos ofrece accesos a próximos y pasados. Menú Inicio, El club, Eventos, Quiénes somos y Contacto; las biografías están en /sobre-el-club/.
 
 [Nota original](../Web.md)
 <!-- project-memory:end -->

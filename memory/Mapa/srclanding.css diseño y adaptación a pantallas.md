@@ -19,6 +19,6 @@ Estilos activos y comportamiento responsive de la web; conserva el scroll del co
 
 ## Connections
 - [[Arquitectura React, Vite y TypeScript con HTML prerenderizado]] - `references` [EXTRACTED]
-- [[Diseño aprobado burdeos, marfil y portada tipográfica]] - `conceptually_related_to` [INFERRED]
+- [[Diseño aprobado en burdeos y marfil]] - `conceptually_related_to` [INFERRED]
 
 #graphify/concept #graphify/EXTRACTED #community/Arquitectura_y_diseño_web

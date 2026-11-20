@@ -18,6 +18,6 @@ Carles consulta si la guía Scroll Craft encaja para rediseñar toda la web. Pro
 <!-- project-memory:end -->
 
 ## Connections
-- [[Diseño aprobado burdeos, marfil y portada tipográfica]] - `references` [EXTRACTED]
+- [[Diseño aprobado en burdeos y marfil]] - `references` [EXTRACTED]
 
 #graphify/concept #graphify/EXTRACTED #community/Arquitectura_y_diseño_web

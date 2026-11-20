@@ -1,7 +1,7 @@
 # Graph Report - memory  (2026-11-20)
 
 ## Corpus Check
-- Corpus is ~9,253 words.
+- Corpus is ~9,714 words.
 
 ## Summary
 - 67 nodes · 124 edges · 7 communities

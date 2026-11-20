@@ -2,7 +2,7 @@
 source_file: "memory/Estado.md"
 type: "concept"
 community: "Indexación y fichas del club"
-location: "L48"
+location: "L52"
 tags:
   - graphify/concept
   - graphify/EXTRACTED

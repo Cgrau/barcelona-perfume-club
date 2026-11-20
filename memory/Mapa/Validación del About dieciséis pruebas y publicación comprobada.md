@@ -2,7 +2,7 @@
 source_file: "memory/Estado.md"
 type: "concept"
 community: "Auditoría, verificación y publicaciones"
-location: "L44"
+location: "L48"
 tags:
   - graphify/concept
   - graphify/EXTRACTED

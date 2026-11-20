@@ -1,6 +1,6 @@
 # Mapa de la memoria del club
 
-Grafo actualizado con Graphify 0.9.97 a partir de catorce notas originales de `memory/` el 20 de noviembre de 2026. Contiene 67 conceptos, 124 relaciones y siete comunidades. Esta actualización añade el encuentro gourmand, la galería del primer encuentro, el retrato conjunto y la publicación comprobada en `d57b246`. Se conservan las decisiones, las publicaciones y las comprobaciones de Search Console anteriores. Los nodos y enlaces remiten a sus notas de origen.
+Grafo actualizado con Graphify 0.9.97 a partir de catorce notas originales de `memory/` el 20 de noviembre de 2026. Contiene 67 conceptos, 124 relaciones y siete comunidades. Recoge el encuentro gourmand, la galería del primer encuentro, el retrato conjunto y la portada con una foto de la primera cata. Se conservan las decisiones, las publicaciones y las comprobaciones de Search Console anteriores. Los nodos y enlaces remiten a sus notas de origen.
 
 - `graph.json`: grafo portable para consultas.
 - `graph.html`: visor interactivo generado por Graphify.

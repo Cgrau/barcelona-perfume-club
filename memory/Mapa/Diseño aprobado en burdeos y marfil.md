@@ -9,10 +9,10 @@ tags:
   - community/Arquitectura_y_diseño_web
 ---
 
-# Diseño aprobado: burdeos, marfil y portada tipográfica
+# Diseño aprobado en burdeos y marfil
 
 <!-- project-memory:start -->
-Burdeos #640817 y marfil #f3eee0; logo original con lettering en public/media/logo-vector.svg; fuentes locales Playfair Display y Jost. Titular: «El perfume se disfruta más en compañía.» Portada tipográfica de altura natural sin stock; cabecera y redes fijas, solo desplaza el contenido central. Sin animaciones de entrada o movimiento continuo; cartel completo sin recortes.
+Burdeos #640817 y marfil #f3eee0; logo original con lettering en public/media/logo-vector.svg; fuentes Playfair Display y Jost. H1 «El perfume se disfruta más en compañía.» El 20 de noviembre la portada añade una foto real del primer encuentro y un anuncio marfil con la fecha, el lugar y el acceso a Luma. Altura natural, cabecera y redes fijas; solo se desplaza el contenido central. Sin stock ni animaciones de entrada.
 
 [Nota original](../Decisiones.md)
 <!-- project-memory:end -->

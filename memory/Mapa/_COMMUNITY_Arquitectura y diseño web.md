@@ -12,7 +12,7 @@ members: 10
 ## Members
 - [[Arquitectura React, Vite y TypeScript con HTML prerenderizado]] - rationale - memory/Web.md
 - [[Autorización expresa del 6 de noviembre para publicar esta versión]] - rationale - memory/Decisiones.md
-- [[Diseño aprobado burdeos, marfil y portada tipográfica]] - rationale - memory/Decisiones.md
+- [[Diseño aprobado en burdeos y marfil]] - rationale - memory/Decisiones.md
 - [[Mejoras del 6 de noviembre relevancia, enlaces e identidad]] - concept - memory/sesiones/2026-11-06.md
 - [[Propuesta de rediseño con Scroll Craft]] - concept - memory/sesiones/2026-11-20.md
 - [[SEO del 6 de noviembre publicado y comprobado 710f282]] - concept - memory/sesiones/2026-11-06.md
@@ -39,5 +39,5 @@ SORT file.name ASC
 - [[Mejoras del 6 de noviembre relevancia, enlaces e identidad]] - degree 8, connects to 4 communities
 - [[srcApp.tsx web activa]] - degree 6, connects to 3 communities
 - [[scriptsprerender.mjs generación estática]] - degree 4, connects to 2 communities
-- [[Diseño aprobado burdeos, marfil y portada tipográfica]] - degree 4, connects to 1 community
+- [[Diseño aprobado en burdeos y marfil]] - degree 4, connects to 1 community
 - [[Arquitectura React, Vite y TypeScript con HTML prerenderizado]] - degree 4, connects to 1 community

@@ -20,7 +20,7 @@ Implementados y publicados H2 «Un perfume club en Barcelona», introducción lo
 ## Connections
 - [[Alcance SEO aprobado página propia e identidad]] - `references` [EXTRACTED]
 - [[Autorización expresa del 6 de noviembre para publicar esta versión]] - `references` [EXTRACTED]
-- [[Diseño aprobado burdeos, marfil y portada tipográfica]] - `references` [EXTRACTED]
+- [[Diseño aprobado en burdeos y marfil]] - `references` [EXTRACTED]
 - [[Repositorio compartido en GitHub]] - `references` [EXTRACTED]
 - [[SEO del 6 de noviembre publicado y comprobado 710f282]] - `references` [EXTRACTED]
 - [[Verificar compilación, SEO y Playwright]] - `references` [EXTRACTED]
