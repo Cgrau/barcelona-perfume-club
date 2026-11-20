@@ -1,5 +1,5 @@
 import { Brand } from "./components/Brand";
-import { about, club, clubPurpose, events } from "./content";
+import { about, club, clubPurpose, events, firstEncounterPath, firstEncounterPhoto } from "./content";
 import { EventDescription, RegistrationNotice } from "./components/EventContent";
 import EventPage from "./EventPage";
 import AboutPage from "./AboutPage";
@@ -50,45 +50,63 @@ export default function App({ pathname = "/" }: { pathname?: string }) {
           aria-labelledby="landing-title"
         >
           <div className="landing-hero-copy">
-            <p className="landing-eyebrow hero-eyebrow">
-              <span>Perfume, conversación y comunidad</span>
-              <span className="hero-location">Barcelona</span>
-            </p>
-            <h1 id="landing-title">
-              El perfume se disfruta más <em>en compañía.</em>
-            </h1>
-            <div className="hero-invitation">
-              <div className="hero-message">
-                <p className="landing-intro">
-                  {club.name} es un club de perfumería en Barcelona.
-                  Descubre marcas, comparte tu afición
-                  y conoce gente con tu misma pasión.
+            <div className="hero-message">
+              <p className="landing-eyebrow hero-eyebrow">Perfume, conversación y comunidad</p>
+              <h1 id="landing-title">
+                El perfume se disfruta más <em>en compañía.</em>
+              </h1>
+              <p className="landing-intro">
+                Un club de perfumería en Barcelona para descubrir fragancias y compartir impresiones.
+              </p>
+            </div>
+            <figure className="hero-photo">
+              <img
+                src={firstEncounterPhoto.src}
+                srcSet={firstEncounterPhoto.srcSet}
+                sizes="(max-width: 700px) calc(100vw - 42px), (max-width: 1376px) 45vw, 600px"
+                alt={firstEncounterPhoto.alt}
+                width={firstEncounterPhoto.width}
+                height={firstEncounterPhoto.height}
+                fetchPriority="high"
+                decoding="async"
+              />
+              <figcaption>
+                <span>Primer encuentro · Volta, Barcelona</span>
+                <a href={`${firstEncounterPath}#event-gallery-heading`}>Ver fotos <span aria-hidden="true">→</span></a>
+              </figcaption>
+            </figure>
+            <div className="hero-action">
+              <div className="landing-status">
+                <p className="landing-eyebrow">
+                  {nextEvent ? "Próximo encuentro" : "Calendario del club"}
                 </p>
-                <div className="hero-action">
-                  <a
-                    className="landing-luma"
-                    href={nextEvent?.url ?? club.links.calendar}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    data-umami-event="luma-hero"
-                  >
-                    <span>{nextEvent ? "Apúntate al próximo encuentro" : "Ver calendario en Luma"}</span>
-                  </a>
-                  {nextEvent && (
-                  <div className="landing-status">
-                    <p className="landing-status-title">
-                      {nextEvent.title}
-                    </p>
+                {nextEvent ? (
+                  <>
+                    <p className="landing-status-title">{nextEvent.title}</p>
                     <p>
-                      {nextEvent.dateLabel} · {nextEvent.timeLabel} h · Barcelona
+                      <time dateTime={nextEvent.dateTime}>{nextEvent.dateLabel} · {nextEvent.timeLabel} h</time>
+                      {" · "}{nextEvent.venue}
                     </p>
-                    <p className="landing-access-summary">
-                      Plazas limitadas. Acceso solo con registro y plaza confirmada
-                      en Luma. Sin registro y confirmación no se podrá acceder.
-                    </p>
-                  </div>
-                  )}
-                </div>
+                  </>
+                ) : (
+                  <p className="landing-status-title">Sigue los próximos encuentros</p>
+                )}
+              </div>
+              <div className="hero-action-links">
+                <a
+                  className="landing-luma"
+                  href={nextEvent?.url ?? club.links.calendar}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-umami-event="luma-hero"
+                >
+                  <span>{nextEvent ? "Apúntate al próximo encuentro" : "Ver calendario en Luma"}</span>
+                </a>
+                {nextEvent && (
+                  <p className="landing-access-summary">
+                    Acceso solo con registro y plaza confirmada en Luma.
+                  </p>
+                )}
               </div>
             </div>
           </div>

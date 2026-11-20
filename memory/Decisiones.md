@@ -17,7 +17,7 @@ Barcelona Perfume Club reúne en Barcelona a personas que disfrutan del perfume 
 - Logo original, con lettering conservado, en SVG transparente: `public/media/logo-vector.svg`.
 - Fuentes locales Playfair Display y Jost.
 - Titular aprobado: «El perfume se disfruta más en compañía.»
-- Portada tipográfica, sin fotografía de stock. Altura natural, sin grandes huecos ni centrado a pantalla completa.
+- Portada de altura natural, sin grandes huecos ni centrado a pantalla completa. A petición de Carles de hacerla más visual, desde el 20 de noviembre el titular se acompaña de una foto real del primer encuentro, sin fotografía de stock.
 - Cabecera y redes sociales fijas; solo se desplaza el contenido central.
 - Sin animaciones de entrada o movimiento continuo.
 

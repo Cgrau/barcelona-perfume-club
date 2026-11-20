@@ -71,6 +71,15 @@ export const manifesto =
 export const clubPurpose =
   "Nuestro objetivo es reunir en Barcelona a quienes aman el perfume. Queremos descubrir marcas, compartir fragancias y aprender juntos, en eventos donde lo primero sea oler y disfrutar en compañía.";
 export type EventImage = Photo & { width: number; height: number };
+export const firstEncounterPath = "/eventos/descubriendo-perfumes-nicho/";
+export const firstEncounterPhoto: EventImage = {
+  src: "/media/encuentro-nicho-cata-640.webp",
+  srcSet: "/media/encuentro-nicho-cata-320.webp 320w, /media/encuentro-nicho-cata-640.webp 640w",
+  alt: "Carles conversa con los asistentes durante la cata de perfumes",
+  width: 640,
+  height: 1139,
+};
+
 export type ClubEvent = {
   id: string;
   path: string;
@@ -95,7 +104,7 @@ export type ClubEvent = {
 export const events: ClubEvent[] = [
   {
     id: "tdhs6lr0",
-    path: "/eventos/descubriendo-perfumes-nicho/",
+    path: firstEncounterPath,
     title: "Descubriendo perfumes nicho",
     edition: "Primer encuentro",
     status: "past",
@@ -132,13 +141,7 @@ export const events: ClubEvent[] = [
         width: 960,
         height: 540,
       },
-      {
-        src: "/media/encuentro-nicho-cata-640.webp",
-        srcSet: "/media/encuentro-nicho-cata-320.webp 320w, /media/encuentro-nicho-cata-640.webp 640w",
-        alt: "Carles conversa con los asistentes durante la cata de perfumes",
-        width: 640,
-        height: 1139,
-      },
+      firstEncounterPhoto,
       {
         src: "/media/encuentro-nicho-mesa-640.webp",
         srcSet: "/media/encuentro-nicho-mesa-320.webp 320w, /media/encuentro-nicho-mesa-640.webp 640w",

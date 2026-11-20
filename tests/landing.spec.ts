@@ -15,6 +15,11 @@ test("anuncia el próximo encuentro y enlaza el archivo, el club y los contactos
     page.getByRole("link", { name: "Apúntate al próximo encuentro", exact: true }),
   ).toHaveAttribute("href", "https://luma.com/7qk1bbin");
   await expect(page.locator("#inicio")).toContainText("Descubriendo perfumes gourmand");
+  const hero = page.getByRole("region", { name: "El perfume se disfruta más en compañía." });
+  await expect(hero.getByRole("link", { name: "Ver fotos" })).toHaveAttribute(
+    "href", "/eventos/descubriendo-perfumes-nicho/#event-gallery-heading",
+  );
+  await expect(hero).toContainText("Acceso solo con registro y plaza confirmada en Luma.");
   await page.getByRole("navigation", { name: "Principal" }).getByRole("link", { name: "El club", exact: true }).click();
   const about = page.getByRole("region", { name: "Un perfume club en Barcelona", exact: true });
   await expect(about).toBeVisible();
@@ -160,7 +165,10 @@ test("el logo carga y la landing es accesible y estática también en móvil", a
     ].map(([x, y]) => context.getImageData(x, y, 1, 1).data[3]);
   });
   expect(logoCornerAlpha).toEqual([0, 0, 0, 0]);
-  await expect(page.getByRole("main").locator("img")).toHaveCount(2);
+  const heroPhoto = page.getByRole("img", { name: "Carles conversa con los asistentes durante la cata de perfumes" });
+  await expect(heroPhoto).toBeInViewport();
+  await expect.poll(() => heroPhoto.evaluate((img: HTMLImageElement) => img.complete && img.naturalWidth > 0)).toBe(true);
+  await expect(page.getByRole("main").locator("img")).toHaveCount(3);
   expect(
     await page.evaluate(
       () => document.documentElement.scrollWidth <= innerWidth,
