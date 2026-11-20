@@ -70,41 +70,115 @@ export const manifesto =
   "Nuestro objetivo es crear un punto de encuentro en Barcelona para quienes aman el perfume. Queremos descubrir marcas, compartir fragancias y aprender juntos. Estamos preparando encuentros para oler, conversar y conocer a personas que sienten lo mismo.";
 export const clubPurpose =
   "Nuestro objetivo es reunir en Barcelona a quienes aman el perfume. Queremos descubrir marcas, compartir fragancias y aprender juntos, en eventos donde lo primero sea oler y disfrutar en compañía.";
-// Añadir aquí cada nuevo encuentro publicado en Luma, con su cartel local.
-export const events = [
+export type EventImage = Photo & { width: number; height: number };
+export type ClubEvent = {
+  id: string;
+  path: string;
+  title: string;
+  edition: string;
+  status: "upcoming" | "past";
+  introduction: string;
+  detail: string;
+  dateTime: string;
+  dateLabel: string;
+  timeLabel: string;
+  endTimeLabel: string;
+  venue: string;
+  address: string;
+  description: (string | { text: string; url: string })[];
+  image: EventImage;
+  gallery?: EventImage[];
+  url: string;
+};
+
+// Añadir los encuentros de Luma con su cartel local, en orden de fecha.
+export const events: ClubEvent[] = [
   {
     id: "tdhs6lr0",
     path: "/eventos/descubriendo-perfumes-nicho/",
     title: "Descubriendo perfumes nicho",
     edition: "Primer encuentro",
+    status: "past",
     introduction:
       "Una sesión de perfumería en Barcelona para descubrir fragancias de Sasva y Gparfums, compartir impresiones y conocer al club.",
     detail:
-      "Es nuestro primer encuentro: Carles Grau nos acompañará durante la sesión para explorar las fragancias y conversar sobre lo que vamos oliendo. Puedes venir aunque estés empezando a descubrir el mundo del perfume.",
+      "Así fue el primer encuentro del club: Carles Grau guio la sesión y compartimos lo que nos sugería cada fragancia.",
     dateTime: "2026-11-08T12:00:00+01:00",
-    endDateTime: "2026-11-08T13:30:00+01:00",
     dateLabel: "8 de noviembre de 2026",
     timeLabel: "12:00",
     endTimeLabel: "13:30",
     venue: "Volta Restaurant & Bar",
     address: "Passeig de Picasso, 26, Barcelona",
     description: [
-      "Descubriremos los 6 perfumes de ",
+      "Descubrimos los 6 perfumes de ",
       { text: "Sasva", url: "https://www.instagram.com/sasvaparfums/" },
       " y los 10 de ",
       { text: "Gparfums", url: "https://www.instagram.com/gparfums/" },
-      " junto a Carles Grau. Una sesión para oler, compartir impresiones y explorar la perfumería nicho en compañía. No necesitas conocimientos previos: solo curiosidad.",
+      " junto a Carles Grau. Una sesión para oler, compartir impresiones y explorar la perfumería nicho en compañía.",
     ],
     image: {
       src: "/media/descubriendo-perfumes-nicho-960.webp",
       srcSet:
         "/media/descubriendo-perfumes-nicho-480.webp 480w, /media/descubriendo-perfumes-nicho-960.webp 960w",
       alt: "Cartel de Descubriendo perfumes nicho, primer encuentro de Barcelona Perfume Club",
+      width: 960,
+      height: 1200,
     },
+    gallery: [
+      {
+        src: "/media/encuentro-nicho-muestras-960.webp",
+        srcSet: "/media/encuentro-nicho-muestras-480.webp 480w, /media/encuentro-nicho-muestras-960.webp 960w",
+        alt: "Estuches de muestras y tiras olfativas sobre una mesa verde",
+        width: 960,
+        height: 540,
+      },
+      {
+        src: "/media/encuentro-nicho-cata-640.webp",
+        srcSet: "/media/encuentro-nicho-cata-320.webp 320w, /media/encuentro-nicho-cata-640.webp 640w",
+        alt: "Carles conversa con los asistentes durante la cata de perfumes",
+        width: 640,
+        height: 1139,
+      },
+      {
+        src: "/media/encuentro-nicho-mesa-640.webp",
+        srcSet: "/media/encuentro-nicho-mesa-320.webp 320w, /media/encuentro-nicho-mesa-640.webp 640w",
+        alt: "Asistentes a la cata sentados alrededor de las mesas del Volta",
+        width: 640,
+        height: 1139,
+      },
+    ],
     url: "https://luma.com/tdhs6lr0",
   },
+  {
+    id: "7qk1bbin",
+    path: "/eventos/descubriendo-perfumes-gourmand/",
+    title: "Descubriendo perfumes gourmand",
+    edition: "Segundo encuentro",
+    status: "upcoming",
+    introduction:
+      "Una cata a ciegas en Barcelona para descubrir perfumes que recuerdan a postres y dulces.",
+    detail:
+      "Carles Grau guiará la cata. Iremos oliendo los perfumes a ciegas para comentar qué nos recuerda cada uno. Puedes venir aunque estés empezando a explorar la perfumería.",
+    dateTime: "2026-11-22T11:30:00+01:00",
+    dateLabel: "22 de noviembre de 2026",
+    timeLabel: "11:30",
+    endTimeLabel: "13:30",
+    venue: "Saisei",
+    address: "Av. Diagonal, 593, Les Corts, 08014 Barcelona",
+    description: [
+      "Vainilla, chocolate, caramelo, almendra o frutas. Exploraremos cómo se traducen esos aromas en perfume y compartiremos qué postres y recuerdos nos evocan.",
+    ],
+    image: {
+      src: "/media/descubriendo-perfumes-gourmand-960.webp",
+      srcSet:
+        "/media/descubriendo-perfumes-gourmand-480.webp 480w, /media/descubriendo-perfumes-gourmand-960.webp 960w",
+      alt: "Cartel de Perfumes Gourmand con una copa de helado y los logotipos de Barcelona Perfume Club y Saisei",
+      width: 960,
+      height: 1101,
+    },
+    url: "https://luma.com/7qk1bbin",
+  },
 ];
-export type ClubEvent = (typeof events)[number];
 export const experiences = [
   {
     title: "Encuentros",

@@ -22,7 +22,7 @@ export function getPageMetadata(pathname: string) {
   const description = isAbout
     ? "Conoce a Carles y Laura y por qué organizamos Barcelona Perfume Club: una comunidad para descubrir fragancias y disfrutar del perfume en compañía en Barcelona."
     : event
-    ? `Descubre perfumes nicho en Barcelona el ${event.dateLabel} en ${event.venue}. Acceso con registro y plaza confirmada en Luma.`
+    ? `${event.introduction} ${event.dateLabel} en ${event.venue}. ${event.status === "past" ? "Así fue el encuentro." : "Acceso con registro y plaza confirmada en Luma."}`
     : "Un perfume club en Barcelona para descubrir fragancias y conocer a otros amantes de la perfumería. Consulta nuestros encuentros y solicita tu plaza en Luma.";
   const organization = {
     "@context": "https://schema.org",
@@ -87,5 +87,13 @@ export function getPageMetadata(pathname: string) {
       ],
     });
   }
-  return { path, canonical, title, description, structuredData, registrationUrl: event?.url };
+  return {
+    path,
+    canonical,
+    title,
+    description,
+    structuredData,
+    eventUrl: event?.url,
+    registrationOpen: event?.status === "upcoming",
+  };
 }

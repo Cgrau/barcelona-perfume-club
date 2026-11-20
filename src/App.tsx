@@ -5,6 +5,10 @@ import EventPage from "./EventPage";
 import AboutPage from "./AboutPage";
 import { normalizePathname } from "./seo";
 
+const upcomingEvents = events.filter((event) => event.status === "upcoming");
+const pastEvents = events.filter((event) => event.status === "past").reverse();
+const nextEvent = upcomingEvents[0];
+
 export default function App({ pathname = "/" }: { pathname?: string }) {
   const eventDetail = events.find((event) => event.path === normalizePathname(pathname));
   const isAbout = normalizePathname(pathname) === about.path;
@@ -63,25 +67,27 @@ export default function App({ pathname = "/" }: { pathname?: string }) {
                 <div className="hero-action">
                   <a
                     className="landing-luma"
-                    href={events[0].url}
+                    href={nextEvent?.url ?? club.links.calendar}
                     target="_blank"
                     rel="noopener noreferrer"
                     data-umami-event="luma-hero"
                   >
-                    <span>Apúntate al primer evento</span>
+                    <span>{nextEvent ? "Apúntate al próximo encuentro" : "Ver calendario en Luma"}</span>
                   </a>
+                  {nextEvent && (
                   <div className="landing-status">
                     <p className="landing-status-title">
-                      Nuestro primer evento ya tiene fecha.
+                      {nextEvent.title}
                     </p>
                     <p>
-                      {events[0].dateLabel} · {events[0].timeLabel} h · Barcelona
+                      {nextEvent.dateLabel} · {nextEvent.timeLabel} h · Barcelona
                     </p>
                     <p className="landing-access-summary">
                       Plazas limitadas. Acceso solo con registro y plaza confirmada
                       en Luma. Sin registro y confirmación no se podrá acceder.
                     </p>
                   </div>
+                  )}
                 </div>
               </div>
             </div>
@@ -98,11 +104,11 @@ export default function App({ pathname = "/" }: { pathname?: string }) {
             <p>
               Encuentros de perfumería en Barcelona para descubrir fragancias,
               compartir impresiones y conocer a otros amantes del perfume.
-              Consulta cada evento y solicita tu plaza en Luma.
+              {nextEvent ? " Consulta cada evento y solicita tu plaza en Luma." : " Sigue el calendario en Luma para conocer las próximas fechas."}
             </p>
           </div>
-          <ul className="events-list">
-            {events.map((event) => (
+          {nextEvent && <ul className="events-list">
+            {upcomingEvents.map((event) => (
               <li key={event.id}>
                 <article className="event-card" aria-labelledby={`event-${event.id}`}>
                   <a
@@ -118,8 +124,8 @@ export default function App({ pathname = "/" }: { pathname?: string }) {
                       srcSet={event.image.srcSet}
                       sizes="(max-width: 700px) calc(100vw - 84px), (max-width: 1000px) 40vw, 420px"
                       alt={event.image.alt}
-                      width="960"
-                      height="1200"
+                      width={event.image.width}
+                      height={event.image.height}
                       loading="lazy"
                       decoding="async"
                     />
@@ -151,7 +157,7 @@ export default function App({ pathname = "/" }: { pathname?: string }) {
                 </article>
               </li>
             ))}
-          </ul>
+          </ul>}
           <a
             className="events-calendar"
             href={club.links.calendar}
@@ -161,6 +167,37 @@ export default function App({ pathname = "/" }: { pathname?: string }) {
           >
             Ver calendario
           </a>
+          {pastEvents.length > 0 && (
+            <section className="events-archive" aria-labelledby="past-events-heading">
+              <h3 id="past-events-heading">Encuentros anteriores</h3>
+              <ul className="events-archive-list">
+                {pastEvents.map((event) => {
+                  const preview = event.gallery?.[0] ?? event.image;
+                  return (
+                    <li key={event.id}>
+                      <article className="events-archive-card">
+                        <img
+                          src={preview.src}
+                          srcSet={preview.srcSet}
+                          sizes="(max-width: 700px) calc(100vw - 42px), 280px"
+                          alt={preview.alt}
+                          width={preview.width}
+                          height={preview.height}
+                          loading="lazy"
+                          decoding="async"
+                        />
+                        <div>
+                          <time dateTime={event.dateTime}>{event.dateLabel}</time>
+                          <h4><a href={event.path}>{event.title}</a></h4>
+                          <p>{event.venue}</p>
+                        </div>
+                      </article>
+                    </li>
+                  );
+                })}
+              </ul>
+            </section>
+          )}
         </section>
 
         <section
@@ -255,12 +292,10 @@ export default function App({ pathname = "/" }: { pathname?: string }) {
               <details>
                 <summary>¿Dónde se celebran los encuentros del club?</summary>
                 <p>
-                  Anunciamos el lugar de cada encuentro en su ficha. El{" "}
-                  <a href={events[0].path}>primer encuentro de perfumería</a>
-                  {" se celebra en "}{events[0].venue}, {events[0].address},
-                  {" el "}{events[0].dateLabel}. Consulta siempre los detalles
-                  del evento y recuerda que necesitas registro y plaza confirmada
-                  en Luma para asistir.
+                  Organizamos los encuentros en Barcelona y publicamos los
+                  detalles en el <a href="#eventos">apartado de eventos</a>.
+                  Para asistir necesitas registrarte en Luma y recibir la
+                  confirmación de la plaza.
                 </p>
               </details>
             </div>

@@ -2,7 +2,7 @@
 title: Descubriendo perfumes nicho
 type: event
 date: 2026-11-08
-updated: 2026-10-29
+updated: 2026-11-20
 tags: [evento, luma, sasva, gparfums]
 ---
 
@@ -24,5 +24,7 @@ Se descubrirán los seis perfumes del discovery set de [Sasva](https://www.insta
 Al comprobar Luma el 29 de octubre, los datos y horario siguen iguales y la inscripción figura como lista de espera. La disponibilidad se consulta en Luma; estar en lista de espera no confirma una plaza.
 
 Carles entrega el cartel `barcelona_perfume_club_event1.png`, de 1122 × 1402 px. La web usa versiones WebP de 480 × 600 y 960 × 1200 px en `public/media/descubriendo-perfumes-nicho-*.webp`, sin recortes. Los originales de Downloads no están garantizados en otro equipo; las copias necesarias para la web sí están versionadas.
+
+El 20 de noviembre pasa a «Encuentros anteriores», con su ficha y cartel. Carles proporciona once fotos y delega la selección. La galería muestra el material de la cata, un momento de la conversación y una vista de las mesas. La primera imagen aparece también en la portada como vista previa de la ficha. Se publican copias WebP sin metadatos.
 
 Relaciones: [[Eventos]], [[Decisiones]], [[Web]] y [[sesiones/2026-10-27]].

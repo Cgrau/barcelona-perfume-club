@@ -1,11 +1,15 @@
 ---
 title: Estado actual del proyecto
 type: status
-updated: 2026-11-06
+updated: 2026-11-20
 tags: [estado, web]
 ---
 
 # Estado actual
+
+## Segundo encuentro, fotos y retrato conjunto — 20 de noviembre
+
+La portada y Próximos eventos anuncian [[eventos/2026-11-22-perfumes-gourmand]], el 22 de noviembre de 11:30 a 13:30 en Saisei, con cartel de Carles y enlace directo a Luma. El texto mantiene el requisito de registro y plaza confirmada. El [[eventos/2026-11-08-perfumes-nicho|primer encuentro]] figura en Encuentros anteriores. Su ficha conserva el cartel y añade tres fotos reales; una sirve de vista previa en portada. «Quiénes somos» muestra un retrato en blanco y negro centrado en Laura y Carles. Compilación y comprobación SEO de cuatro rutas correctas. Playwright: 18/18 en móvil y escritorio. Contexto en [[sesiones/2026-11-20]].
 
 ## Mejoras locales e indexación — continuación del 6 de noviembre
 

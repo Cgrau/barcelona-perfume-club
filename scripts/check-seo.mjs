@@ -92,9 +92,11 @@ for (const path of paths) {
     assert.ok(entities.some((value) => value["@type"] === "BreadcrumbList"), `Faltan migas en ${path}`);
     assert.ok(html.includes(`href="${path}"`), `La portada no enlaza ${path}`);
   }
-  if (page.registrationUrl) {
+  if (page.eventUrl) {
+    assert.ok(pageHtml.includes(page.eventUrl), `Falta el enlace propio del evento en ${path}`);
+  }
+  if (page.registrationOpen) {
     assert.ok(pageHtml.includes("Sin registro y confirmación no se podrá acceder."));
-    assert.ok(page.registrationUrl && pageHtml.includes(page.registrationUrl), `Falta el enlace propio de inscripción en ${path}`);
   }
   for (const match of pageHtml.matchAll(/<img\b[^>]*src="(\/[^\"]+)"/g)) {
     assert.ok((await stat(`dist${match[1]}`)).isFile(), `Imagen ausente: ${match[1]}`);

@@ -41,17 +41,19 @@ export default function AboutPage() {
           <p className="landing-eyebrow">Quién lo organiza</p>
           <h2 id="about-organizers">Carles y Laura.</h2>
           <figure className="about-portrait">
-            <img
-              src="/media/carles-grau-640.webp"
-              srcSet="/media/carles-grau-320.webp 320w, /media/carles-grau-640.webp 640w"
-              sizes="(max-width: 700px) 240px, (max-width: 1000px) 28vw, 300px"
-              width="640"
-              height="640"
-              alt="Carles Grau, de Carles Grau Perfume"
-              loading="lazy"
-              decoding="async"
-            />
-            <figcaption>Carles Grau · Carles Grau Perfume</figcaption>
+            <div className="about-portrait-crop">
+              <img
+                src="/media/carles-laura-720.webp"
+                srcSet="/media/carles-laura-360.webp 360w, /media/carles-laura-720.webp 720w"
+                sizes="(max-width: 700px) 328px, 410px"
+                width="720"
+                height="1280"
+                alt="Laura y Carles Grau, organizadores de Barcelona Perfume Club"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <figcaption>Carles y Laura · Barcelona Perfume Club</figcaption>
           </figure>
         </div>
         <div className="about-copy">

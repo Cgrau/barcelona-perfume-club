@@ -2,6 +2,7 @@ import { club, type ClubEvent } from "./content";
 import { EventDescription, RegistrationNotice } from "./components/EventContent";
 
 export default function EventPage({ event }: { event: ClubEvent }) {
+  const isPast = event.status === "past";
   return (
     <article className="event-page" aria-labelledby="event-title">
       <nav className="event-breadcrumbs" aria-label="Migas de pan">
@@ -21,8 +22,8 @@ export default function EventPage({ event }: { event: ClubEvent }) {
           srcSet={event.image.srcSet}
           sizes="(max-width: 700px) calc(100vw - 84px), (max-width: 1000px) 40vw, 420px"
           alt={event.image.alt}
-          width="960"
-          height="1200"
+          width={event.image.width}
+          height={event.image.height}
           fetchPriority="high"
           decoding="async"
         />
@@ -36,7 +37,7 @@ export default function EventPage({ event }: { event: ClubEvent }) {
           </div>
           <EventDescription event={event} />
           <p className="event-description">{event.detail}</p>
-          <RegistrationNotice heading="h2" />
+          {!isPast && <RegistrationNotice heading="h2" />}
           <a
             className="landing-luma"
             href={event.url}
@@ -44,14 +45,37 @@ export default function EventPage({ event }: { event: ClubEvent }) {
             rel="noopener noreferrer"
             data-umami-event="luma-event-detail"
           >
-            <span>Solicitar plaza en Luma</span>
+            <span>{isPast ? "Ver ficha en Luma" : "Solicitar plaza en Luma"}</span>
           </a>
-          <p className="event-availability">
+          {!isPast && <p className="event-availability">
             Consulta la disponibilidad y, cuando corresponda, la lista de espera
             en Luma. Estar en lista de espera no confirma tu plaza.
-          </p>
+          </p>}
         </div>
       </div>
+      {event.gallery && (
+        <section className="event-gallery" aria-labelledby="event-gallery-heading">
+          <h2 id="event-gallery-heading">Fotos del encuentro</h2>
+          <ul className="event-gallery-grid">
+            {event.gallery.map((image, index) => (
+              <li key={image.src}>
+                <img
+                  src={image.src}
+                  srcSet={image.srcSet}
+                  sizes={index === 0
+                    ? "(max-width: 700px) calc(100vw - 42px), (max-width: 1000px) 55vw, 710px"
+                    : "(max-width: 700px) calc(50vw - 30px), 270px"}
+                  alt={image.alt}
+                  width={image.width}
+                  height={image.height}
+                  loading="lazy"
+                  decoding="async"
+                />
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
       <div className="event-page-about">
         <h2>Organiza {club.name}</h2>
         <p>

@@ -36,7 +36,7 @@ test.describe("About estático", () => {
     await menu.getByRole("link", { name: "Inicio", exact: true }).click();
     await expect(page).toHaveURL(/\/#inicio$/);
     await expect(page.getByRole("heading", { level: 1 })).toHaveText("El perfume se disfruta más en compañía.");
-    await expect(page.getByRole("link", { name: "Apúntate al primer evento", exact: true })).toHaveAttribute("href", "https://luma.com/tdhs6lr0");
+    await expect(page.getByRole("link", { name: "Apúntate al próximo encuentro", exact: true })).toHaveAttribute("href", "https://luma.com/7qk1bbin");
     await aboutLink.click();
     await page.getByRole("navigation", { name: "Principal" }).getByRole("link", { name: "Eventos", exact: true }).click();
     await expect(page).toHaveURL(/\/#eventos$/);
@@ -48,9 +48,10 @@ test("el About es accesible y mantiene la cabecera y redes en móvil y escritori
   await page.goto(aboutPath);
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("El perfume nos reúne.");
   const main = page.getByRole("main");
-  const portrait = main.getByRole("img", { name: "Carles Grau, de Carles Grau Perfume" });
+  const portrait = main.getByRole("img", { name: "Laura y Carles Grau, organizadores de Barcelona Perfume Club" });
   await portrait.scrollIntoViewIfNeeded();
   await expect.poll(() => portrait.evaluate((img: HTMLImageElement) => img.complete && img.naturalWidth > 0)).toBe(true);
+  await expect(portrait).toHaveCSS("filter", "grayscale(1)");
   const header = page.getByRole("banner");
   const footer = page.getByRole("contentinfo");
   const beforeHeader = await header.boundingBox();
