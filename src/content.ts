@@ -72,6 +72,7 @@ export const clubPurpose =
   "Nuestro objetivo es reunir en Barcelona a quienes aman el perfume. Queremos descubrir marcas, compartir fragancias y aprender juntos, en eventos donde lo primero sea oler y disfrutar en compañía.";
 export type EventImage = Photo & { width: number; height: number };
 export const firstEncounterPath = "/eventos/descubriendo-perfumes-nicho/";
+export const gourmandEventPath = "/eventos/descubriendo-perfumes-gourmand/";
 export const firstEncounterPhoto: EventImage = {
   src: "/media/encuentro-nicho-cata-640.webp",
   srcSet: "/media/encuentro-nicho-cata-320.webp 320w, /media/encuentro-nicho-cata-640.webp 640w",
@@ -154,7 +155,7 @@ export const events: ClubEvent[] = [
   },
   {
     id: "7qk1bbin",
-    path: "/eventos/descubriendo-perfumes-gourmand/",
+    path: gourmandEventPath,
     title: "Descubriendo perfumes gourmand",
     edition: "Segundo encuentro",
     status: "upcoming",

@@ -9,7 +9,7 @@ tags: [club, memoria]
 
 Esta bóveda conserva el contexto necesario para continuar el proyecto desde otro equipo o conversación. Las notas resumen hechos y decisiones; no son una copia literal del chat.
 
-Empieza por [[Estado]] y la última nota de [[sesiones/2026-11-20]]. Después consulta:
+Empieza por [[Estado]] y la última nota de [[sesiones/2026-11-21]]. Después consulta:
 
 - [[Decisiones]]: identidad visual, tono y preferencias aprobadas.
 - [[Web]]: arquitectura, archivos y publicación.

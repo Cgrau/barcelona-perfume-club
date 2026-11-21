@@ -5,6 +5,7 @@ import GourmandTastingPage from "./GourmandTastingPage";
 import gourmand from "./tastings/gourmand.json";
 
 export { getStaticPages, getPageMetadata } from "./seo";
+export { gourmandEventPath } from "./content";
 
 export function render(pathname = "/") {
   return renderToString(<App pathname={pathname} />);

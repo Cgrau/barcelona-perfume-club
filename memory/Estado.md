@@ -9,7 +9,9 @@ tags: [estado, web]
 
 ## Material de cata del segundo encuentro
 
-Preparado el [documento A4 de la cata gourmand](../eventos/evento2/Descubriendo%20perfumes%20gourmand.docx). La guía de organización tiene las diez filas numeradas y queda pendiente de la selección de perfumes. La ficha de asistentes está lista para imprimir con diez espacios para las primeras impresiones y una explicación de las notas gourmand para leer después de la cata. Contexto en [[sesiones/2026-11-20]].
+El [documento editable de la cata gourmand](../eventos/evento2/Descubriendo%20perfumes%20gourmand.docx) y el [PDF de dos páginas A4](../eventos/evento2/Descubriendo%20perfumes%20gourmand.pdf) recogen los once perfumes que enumeró Carles, desde Mochi Musk hasta Poka, en el orden indicado de más suave a más intenso. La página 1 es la guía con los nombres, marcas y notas. La página 2 es la ficha a ciegas, con once espacios para impresiones y el apartado «Qué caracteriza a un gourmand». La columna de notas llega hasta el margen derecho de impresión. Ambas páginas indican el descuento del 10 % facilitado por Carles para superz.com y carnerbarcelona.com con el código CARLES10. Contexto en [[sesiones/2026-11-20]].
+
+La ficha pública del encuentro enlaza directamente la guía digital con los nombres, marcas y notas para quien pierda el papel. La guía no se indexa ni figura en el sitemap; se accede desde el enlace de la ficha o el QR impreso. Contexto en [[sesiones/2026-11-21]].
 
 ## Segundo encuentro, fotos y retrato conjunto — 20 de noviembre
 

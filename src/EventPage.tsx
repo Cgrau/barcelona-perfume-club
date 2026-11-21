@@ -1,4 +1,5 @@
-import { club, type ClubEvent } from "./content";
+import { club, gourmandEventPath, type ClubEvent } from "./content";
+import gourmand from "./tastings/gourmand.json";
 import { EventDescription, RegistrationNotice } from "./components/EventContent";
 
 export default function EventPage({ event }: { event: ClubEvent }) {
@@ -37,6 +38,13 @@ export default function EventPage({ event }: { event: ClubEvent }) {
           </div>
           <EventDescription event={event} />
           <p className="event-description">{event.detail}</p>
+          {event.path === gourmandEventPath && (
+            <p>
+              <a className="event-tasting-link" href={gourmand.path}>
+                Consulta los perfumes y sus notas olfativas
+              </a>
+            </p>
+          )}
           {!isPast && <RegistrationNotice heading="h2" />}
           <a
             className="landing-luma"

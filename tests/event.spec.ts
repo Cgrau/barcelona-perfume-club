@@ -20,6 +20,8 @@ test("abre la ficha desde la portada y vuelve a las secciones del club", async (
   await expect(page.getByRole("main")).toContainText("Saisei");
   await expect(page.getByRole("link", { name: "Solicitar plaza en Luma", exact: true }))
     .toHaveAttribute("href", "https://luma.com/7qk1bbin");
+  await expect(page.getByRole("link", { name: "Consulta los perfumes y sus notas olfativas" }))
+    .toHaveAttribute("href", "/cata/gourmand-8m4k/");
   await page.getByRole("navigation", { name: "Principal" }).getByRole("link", { name: "El club", exact: true }).click();
   await expect(page).toHaveURL(/\/#el-club$/);
   await expect(page.getByRole("heading", { name: "Un perfume club en Barcelona", exact: true })).toBeInViewport();
