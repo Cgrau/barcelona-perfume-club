@@ -11,6 +11,8 @@ tags: [estado, web]
 
 Carles confirma que el [[eventos/2026-11-22-perfumes-gourmand|encuentro gourmand]] ya se celebró y que todavía no hay próximas fechas. La portada remite al calendario de Luma y «Próximos eventos» indica que por ahora no hay eventos anunciados. El encuentro de Saisei pasa a «Eventos pasados», con tres fotos y el enlace a la guía digital. Detalle en [[sesiones/2026-11-25]].
 
+Publicado en `250c9a0`. Verificados en el dominio público la portada, el listado, la ficha, la guía y las seis variantes WebP de las tres fotos. [GitHub Pages](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/45566932498) y [SEO y Lighthouse](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/45566932475) correctos.
+
 ## Material de cata del segundo encuentro
 
 El [documento editable de la cata gourmand](../eventos/evento2/Descubriendo%20perfumes%20gourmand.docx) y el [PDF de dos páginas A4](../eventos/evento2/Descubriendo%20perfumes%20gourmand.pdf) recogen los once perfumes que enumeró Carles, desde Mochi Musk hasta Poka, en el orden indicado de más suave a más intenso. La página 1 es la guía con los nombres, marcas y notas. La página 2 es la ficha a ciegas, con once espacios para impresiones y el apartado «Qué caracteriza a un gourmand». La columna de notas llega hasta el margen derecho de impresión. Ambas páginas indican el descuento del 10 % facilitado por Carles para superz.com y carnerbarcelona.com con el código CARLES10. Contexto en [[sesiones/2026-11-20]].
