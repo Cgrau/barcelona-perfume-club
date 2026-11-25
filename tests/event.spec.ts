@@ -7,18 +7,20 @@ const pastEventPath = "/eventos/descubriendo-perfumes-nicho/";
 test.describe("HTML estático", () => {
 test.use({ javaScriptEnabled: false });
 
-test("abre la ficha desde la portada y vuelve a las secciones del club", async ({ page }) => {
+test("abre la ficha desde eventos pasados y vuelve a las secciones del club", async ({ page }) => {
   await page.goto("/");
   await page.getByRole("link", { name: "Eventos", exact: true }).click();
-  await expect(page.getByRole("link", { name: "Descubriendo perfumes gourmand", exact: true })).toHaveAttribute("href", eventPath);
-  await page.getByRole("link", { name: "Descubriendo perfumes gourmand", exact: true }).click();
+  const archive = page.getByRole("region", { name: "Eventos pasados" });
+  const gourmand = archive.getByRole("link", { name: "Descubriendo perfumes gourmand", exact: true });
+  await expect(gourmand).toHaveAttribute("href", eventPath);
+  await gourmand.click();
   await expect(page).toHaveURL(new RegExp(`${eventPath}$`));
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("Descubriendo perfumes gourmand");
   await expect(page.getByRole("main")).toContainText("Barcelona Perfume Club");
   await expect(page.getByRole("main")).toContainText("22 de noviembre de 2026");
   await expect(page.getByRole("main")).toContainText("11:30–13:30 h");
   await expect(page.getByRole("main")).toContainText("Saisei");
-  await expect(page.getByRole("link", { name: "Solicitar plaza en Luma", exact: true }))
+  await expect(page.getByRole("link", { name: "Ver ficha en Luma", exact: true }))
     .toHaveAttribute("href", "https://luma.com/7qk1bbin");
   await expect(page.getByRole("link", { name: "Consulta los perfumes y sus notas olfativas" }))
     .toHaveAttribute("href", "/cata/gourmand-8m4k/");
@@ -51,17 +53,20 @@ test("sirve la ficha y su SEO sin JavaScript con una identidad común", async ({
 });
 });
 
-test("mantiene el cartel, las condiciones de acceso y la accesibilidad de la ficha", async ({ page }) => {
+test("muestra el cartel y las fotos de la cata gourmand sin ofrecer inscripción", async ({ page }) => {
   await page.goto(eventPath);
-  const poster = page.getByRole("main").getByRole("img");
+  const poster = page.getByRole("img", { name: /^Cartel de Perfumes Gourmand/ });
   await poster.scrollIntoViewIfNeeded();
   await expect(poster).toHaveJSProperty("complete", true);
   expect(await poster.evaluate((img: HTMLImageElement) => img.naturalWidth)).toBeGreaterThan(0);
-  const access = page.getByRole("complementary", { name: "Requisitos de acceso" });
-  await access.scrollIntoViewIfNeeded();
-  await expect(access).toContainText("Registro obligatorio en Luma");
-  await expect(access).toContainText("Sin registro y confirmación no se podrá acceder.");
-  await expect(access).toHaveCSS("background-color", "rgb(243, 238, 224)");
+  await expect(page.getByRole("link", { name: "Solicitar plaza en Luma", exact: true })).toHaveCount(0);
+  await expect(page.getByRole("complementary", { name: "Requisitos de acceso" })).toHaveCount(0);
+  const photos = page.getByRole("region", { name: "Fotos del encuentro" }).getByRole("img");
+  await expect(photos).toHaveCount(3);
+  for (const photo of await photos.all()) {
+    await photo.scrollIntoViewIfNeeded();
+    await expect.poll(() => photo.evaluate((img: HTMLImageElement) => img.complete && img.naturalWidth > 0)).toBe(true);
+  }
   expect(await page.evaluate(() => document.querySelector("main")!.scrollWidth <= document.querySelector("main")!.clientWidth)).toBe(true);
   const results = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa", "wcag21aa"]).analyze();
   expect(results.violations).toEqual([]);

@@ -122,9 +122,9 @@ export default function App({ pathname = "/" }: { pathname?: string }) {
             <div className="events-copy">
               <h2 id="events-heading">Próximos eventos</h2>
               <p>
-                Encuentros de perfumería en Barcelona para descubrir fragancias,
-                compartir impresiones y conocer a otros amantes del perfume.
-                {nextEvent ? " Consulta cada evento y solicita tu plaza en Luma." : " Sigue el calendario en Luma para conocer las próximas fechas."}
+                {nextEvent
+                  ? "Encuentros de perfumería en Barcelona para descubrir fragancias, compartir impresiones y conocer a otros amantes del perfume. Consulta cada evento y solicita tu plaza en Luma."
+                  : "Por ahora no hay eventos anunciados. Sigue el calendario en Luma para conocer las próximas fechas."}
               </p>
             </div>
             {nextEvent && <ul className="events-list">

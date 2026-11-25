@@ -23,7 +23,7 @@ export function getPageMetadata(pathname: string) {
     ? "Conoce a Carles y Laura y por qué organizamos Barcelona Perfume Club: una comunidad para descubrir fragancias y disfrutar del perfume en compañía en Barcelona."
     : event
     ? `${event.introduction} ${event.dateLabel} en ${event.venue}. ${event.status === "past" ? "Así fue el encuentro." : "Acceso con registro y plaza confirmada en Luma."}`
-    : "Un perfume club en Barcelona para descubrir fragancias y conocer a otros amantes de la perfumería. Consulta nuestros encuentros y solicita tu plaza en Luma.";
+    : "Un perfume club en Barcelona para descubrir fragancias y conocer a otros amantes de la perfumería. Consulta nuestro calendario de encuentros en Luma.";
   const organization = {
     "@context": "https://schema.org",
     "@type": "Organization",

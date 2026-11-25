@@ -1,11 +1,15 @@
 ---
 title: Estado actual del proyecto
 type: status
-updated: 2026-11-20
+updated: 2026-11-25
 tags: [estado, web]
 ---
 
 # Estado actual
+
+## Programación actual del club, 25 de noviembre
+
+Carles confirma que el [[eventos/2026-11-22-perfumes-gourmand|encuentro gourmand]] ya se celebró y que todavía no hay próximas fechas. La portada remite al calendario de Luma y «Próximos eventos» indica que por ahora no hay eventos anunciados. El encuentro de Saisei pasa a «Eventos pasados», con tres fotos y el enlace a la guía digital. Detalle en [[sesiones/2026-11-25]].
 
 ## Material de cata del segundo encuentro
 
@@ -15,11 +19,11 @@ La ficha pública del encuentro enlaza directamente la guía digital con los nom
 
 ## Segundo encuentro, fotos y retrato conjunto — 20 de noviembre
 
-La portada y Próximos eventos anuncian [[eventos/2026-11-22-perfumes-gourmand]], el 22 de noviembre de 11:30 a 13:30 en Saisei, con cartel de Carles y enlace directo a Luma. El texto mantiene el requisito de registro y plaza confirmada. El [[eventos/2026-11-08-perfumes-nicho|primer encuentro]] figura en Encuentros anteriores. Su ficha conserva el cartel y añade tres fotos reales; una sirve de vista previa en portada. «Quiénes somos» muestra un retrato en blanco y negro centrado en Laura y Carles. Compilación y comprobación SEO de cuatro rutas correctas. Playwright: 18/18 en móvil y escritorio. Contexto en [[sesiones/2026-11-20]].
+El 20 de noviembre la portada y Próximos eventos anunciaron [[eventos/2026-11-22-perfumes-gourmand]], el 22 de noviembre de 11:30 a 13:30 en Saisei, con cartel de Carles y enlace directo a Luma. El texto mantenía el requisito de registro y plaza confirmada. El [[eventos/2026-11-08-perfumes-nicho|primer encuentro]] figuraba en Encuentros anteriores. Su ficha conservó el cartel y añadió tres fotos reales, una como vista previa en portada. «Quiénes somos» pasó a mostrar un retrato en blanco y negro centrado en Laura y Carles. Compilación y comprobación SEO de cuatro rutas correctas. Playwright: 18/18 en móvil y escritorio. Contexto en [[sesiones/2026-11-20]].
 
 Publicado y comprobado en `d57b246`. Las cuatro rutas, el sitemap y las imágenes nuevas verificadas responden 200 en el dominio público. [Publicación en GitHub Pages](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/44779484762) y [SEO y Lighthouse](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/44779484564) correctos.
 
-A petición de Carles, «Eventos» incluye dos apartados independientes con accesos directos, «Próximos eventos» y «Eventos pasados». El encuentro gourmand figura en Próximos y el primer encuentro y sus fotos se consultan en Pasados. Publicado y verificado en el dominio público con `59b33e8`. [Publicación en GitHub Pages](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/44780227743) y [SEO y Lighthouse](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/44780227645) correctos.
+A petición de Carles, «Eventos» incorporó dos apartados independientes con accesos directos, «Próximos eventos» y «Eventos pasados». En esa versión el encuentro gourmand figuraba en Próximos y el primer encuentro y sus fotos se consultaban en Pasados. Publicado y verificado en el dominio público con `59b33e8`. [Publicación en GitHub Pages](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/44780227743) y [SEO y Lighthouse](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/44780227645) correctos.
 
 Carles pide dar más peso visual al inicio. La portada combina el H1 aprobado con una foto de la primera cata y su enlace a la galería. Un bloque marfil reúne la fecha y el lugar del próximo encuentro y la inscripción en Luma con plaza confirmada. Verificación local de cinco tamaños, incluidos 1440 × 720 y 375 × 812 con el aviso a la vista, y 18 pruebas Playwright correctas. Publicado en `803515e` y comprobado directamente en el dominio. [Publicación en GitHub Pages](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/44829032811) y [SEO y Lighthouse](https://github.com/Cgrau/barcelona-perfume-club/actions/runs/44829032524) correctos.
 

@@ -158,11 +158,11 @@ export const events: ClubEvent[] = [
     path: gourmandEventPath,
     title: "Descubriendo perfumes gourmand",
     edition: "Segundo encuentro",
-    status: "upcoming",
+    status: "past",
     introduction:
       "Una cata a ciegas en Barcelona para descubrir perfumes que recuerdan a postres y dulces.",
     detail:
-      "Carles Grau guiará la cata. Iremos oliendo los perfumes a ciegas para comentar qué nos recuerda cada uno. Puedes venir aunque estés empezando a explorar la perfumería.",
+      "Carles Grau guio la cata. Olfateamos once perfumes a ciegas y comentamos qué nos recordaba cada uno.",
     dateTime: "2026-11-22T11:30:00+01:00",
     dateLabel: "22 de noviembre de 2026",
     timeLabel: "11:30",
@@ -170,7 +170,7 @@ export const events: ClubEvent[] = [
     venue: "Saisei",
     address: "Av. Diagonal, 593, Les Corts, 08014 Barcelona",
     description: [
-      "Vainilla, chocolate, caramelo, almendra o frutas. Exploraremos cómo se traducen esos aromas en perfume y compartiremos qué postres y recuerdos nos evocan.",
+      "Vainilla, chocolate, caramelo, almendra y frutas. Exploramos cómo se traducen esos aromas en perfume y compartimos qué postres y recuerdos nos evocaban.",
     ],
     image: {
       src: "/media/descubriendo-perfumes-gourmand-960.webp",
@@ -180,6 +180,29 @@ export const events: ClubEvent[] = [
       width: 960,
       height: 1101,
     },
+    gallery: [
+      {
+        src: "/media/encuentro-gourmand-grupo-960.webp",
+        srcSet: "/media/encuentro-gourmand-grupo-480.webp 480w, /media/encuentro-gourmand-grupo-960.webp 960w",
+        alt: "El grupo de la cata en Saisei, con los perfumes gourmand en primer plano",
+        width: 960,
+        height: 540,
+      },
+      {
+        src: "/media/encuentro-gourmand-muestras-640.webp",
+        srcSet: "/media/encuentro-gourmand-muestras-320.webp 320w, /media/encuentro-gourmand-muestras-640.webp 640w",
+        alt: "Frascos de perfume alineados sobre la barra de Saisei",
+        width: 640,
+        height: 1139,
+      },
+      {
+        src: "/media/encuentro-gourmand-cata-640.webp",
+        srcSet: "/media/encuentro-gourmand-cata-320.webp 320w, /media/encuentro-gourmand-cata-640.webp 640w",
+        alt: "Participantes de la cata a ciegas con sus fichas sobre las mesas",
+        width: 640,
+        height: 1139,
+      },
+    ],
     url: "https://luma.com/7qk1bbin",
   },
 ];

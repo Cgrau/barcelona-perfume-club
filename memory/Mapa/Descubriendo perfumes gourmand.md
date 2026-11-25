@@ -12,7 +12,7 @@ tags:
 # Descubriendo perfumes gourmand
 
 <!-- project-memory:start -->
-Segundo encuentro del club. Cata a ciegas guiada por Carles Grau el 22 de noviembre, de 11:30 a 13:30. Luma https://luma.com/7qk1bbin. Cartel completo y acceso con registro y plaza confirmada.
+Segundo encuentro del club, celebrado el 22 de noviembre de 11:30 a 13:30 en Saisei. Cata a ciegas guiada por Carles Grau. El 25 de noviembre pasa a Eventos pasados con el cartel, tres fotos, la guía digital y la ficha histórica en Luma https://luma.com/7qk1bbin. La foto del grupo sirve de vista previa en el listado.
 
 [Nota original](../eventos/2026-11-22-perfumes-gourmand.md)
 <!-- project-memory:end -->

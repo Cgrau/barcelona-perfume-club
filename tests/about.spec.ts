@@ -36,7 +36,7 @@ test.describe("About estático", () => {
     await menu.getByRole("link", { name: "Inicio", exact: true }).click();
     await expect(page).toHaveURL(/\/#inicio$/);
     await expect(page.getByRole("heading", { level: 1 })).toHaveText("El perfume se disfruta más en compañía.");
-    await expect(page.getByRole("link", { name: "Apúntate al próximo encuentro", exact: true })).toHaveAttribute("href", "https://luma.com/7qk1bbin");
+    await expect(page.getByRole("link", { name: "Ver calendario en Luma", exact: true })).toHaveAttribute("href", "https://luma.com/barcelonaperfumeclub");
     await aboutLink.click();
     await page.getByRole("navigation", { name: "Principal" }).getByRole("link", { name: "Eventos", exact: true }).click();
     await expect(page).toHaveURL(/\/#eventos$/);

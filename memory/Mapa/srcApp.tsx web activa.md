@@ -12,7 +12,7 @@ tags:
 # src/App.tsx: web activa
 
 <!-- project-memory:start -->
-Portada, eventos, club, FAQ y contacto. H1 aprobado con fotografía de la primera cata, enlazada a su galería. El anuncio reúne fecha, lugar y acceso con plaza confirmada. El área de eventos ofrece accesos a próximos y pasados. Menú Inicio, El club, Eventos, Quiénes somos y Contacto; las biografías están en /sobre-el-club/.
+Portada, eventos, club, FAQ y contacto. H1 aprobado con fotografía de la primera cata, enlazada a su galería. La portada anuncia fecha, lugar y acceso con plaza confirmada cuando hay un próximo encuentro. El 25 de noviembre muestra el calendario de Luma y comunica que todavía no hay fechas anunciadas. El área de eventos ofrece accesos a próximos y pasados. Menú Inicio, El club, Eventos, Quiénes somos y Contacto; las biografías están en /sobre-el-club/.
 
 [Nota original](../Web.md)
 <!-- project-memory:end -->
